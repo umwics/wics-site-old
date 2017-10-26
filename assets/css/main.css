@@ -1,0 +1,17 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #475d68;
+}
+.navbar-default .navbar-toggle {
+    border-color: #888 !important;
+}
