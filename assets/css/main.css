@@ -15,3 +15,17 @@ body {
 .navbar-default .navbar-toggle {
     border-color: #888;
 }
+
+.black-link {
+    color: black;
+}
+
+.black-link:hover {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.breadcrumb {
+    background: transparent;
+}

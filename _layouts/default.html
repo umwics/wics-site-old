@@ -3,6 +3,12 @@
 {% include head.html %}
     <body>
         {% include header.html %}
+        <div class="row">
+            <nav class="breadcrumb">
+                <a class="breadcrumb-item black-link" href="{{ site.baseurl }}/">Home</a> >
+                <span class="breadcrumb-item active">{{ page.title }}</span>
+            </nav>
+        </div>
         {{ content }}
         {% include footer.html %}
     </body>
