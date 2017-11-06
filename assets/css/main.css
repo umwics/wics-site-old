@@ -29,3 +29,17 @@ body {
 .breadcrumb {
     background: transparent;
 }
+
+/*****co-op page*****/
+.darkened{
+  filter: brightness(70%);
+}
+
+.middleText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 45px;
+}
