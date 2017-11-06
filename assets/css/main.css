@@ -1,5 +1,25 @@
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+.black-link {
+    color: black;
+}
+
+.black-link:hover {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.black-link:focus {
+    text-decoration: none;
+    color: black;
 }
 
 .navbar-default {
@@ -42,4 +62,8 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 45px;
+}
+
+footer {
+    bottom: 0;
 }
