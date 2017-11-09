@@ -8,3 +8,6 @@ We want to include links to all companies UMWICS members have worked at on our s
   - The Hu Lab
   - Invenia
   - iQmetrix
+- Rebecca
+  - Payworks
+  - Johnston Group
