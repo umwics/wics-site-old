@@ -11,3 +11,6 @@ We want to include links to all companies UMWICS members have worked at on our s
 - Rebecca
   - Payworks
   - Johnston Group
+- Tiffany
+  - Agriculture and Agri-Food Canada
+  - D2L
