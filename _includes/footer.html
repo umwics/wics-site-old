@@ -1,6 +1,38 @@
-<footer>
-    <div class="navbar navbar-fixed-bottom">
+<style>
+    .navbar {
+        margin-bottom: 0;
+    }
 
+    .navbar-brand {
+        font-size: inherit;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
+
+<footer>
+    <div class="navbar">
+        <div class="container">
+            <div class="footer-container">
+            <div class="nav navbar-nav navbar-left">
+                <p class="navbar-brand">© University of Manitoba Women in Computer Science</p>
+            </div>
+
+            <img src="{{ site.baseurl }}/assets/img/favicon/favicon-57.png"/>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="mailto:example@gmail.com" class="black-link"><span aria-label="Email" class="fa fa-envelope fa-2x"></span></a></li>
+                <li><a href="https://wicsuofm.slack.com/" class="black-link" target="_blank"><span aria-label="Slack" class="fa fa-slack fa-2x"></span></a></li>
+                <li><a href="https://www.facebook.com/" class="black-link" target="_blank"><span aria-label="Facebook" class="fa fa-facebook-square fa-2x"></span></a></li>
+                <li><a href="https://www.instagram.com/" class="black-link" target="_blank"><span aria-label="Instagram" class="fa fa-instagram fa-2x"></span></a></li>
+            </ul>
+            </div>
+        </div>
     </div>
 </footer>
 
