@@ -1,0 +1,24 @@
+<header class="header">
+    <nav class="navbar navbar-default navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Dropdown menu button for smaller screens -->
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle collapsed">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+            </div>
+            <!-- Navigation Links -->
+
+            <div id="navbarCollapse" class="navbar-collapse collapse">
+                <div class="nav navbar-nav navbar-left">
+                    <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/favicon/favicon-60.png"/></a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    {% include nav-links.html %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
