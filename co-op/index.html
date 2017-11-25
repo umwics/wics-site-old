@@ -8,11 +8,13 @@ description: Highlighting WICS members who have/had done a co-op
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-                <a style="font-size: 45px;" href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank"><b>Computer Science Co-op</b></a>
+            <a style="font-size: 45px;" href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank"><b>Computer Science Co-op</b></a>
         </div>
     </div>
 </div>
-<div class="parallax img-1"></div>
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/photoHolder.JPG" data-speed="0.0"></div>
+
 <div class="background">
     <div class="container">
         <p class="text-justify">
@@ -66,22 +68,14 @@ description: Highlighting WICS members who have/had done a co-op
     </div>
 </div>
 
-<div class="parallax img-1"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/photoHolder.JPG" data-speed="0.0"></div>
 
 <style>
-    .parallax {
-        /* Full height */
-        height: 60%;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .img-1 {
-        /* The image used */
-        background-image: url('{{ site.baseurl }}/assets/img/photoHolder.JPG');
+    .parallax-window {
+        min-height: 60%;
+        background: transparent;
     }
 </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/parallax.js"></script>
