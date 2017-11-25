@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+.black-link {
+    color: black;
+}
+
+.black-link:hover {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.black-link:focus {
+    text-decoration: none;
+    color: black;
+}
+
+.white-link {
+    color: white;
+}
+
+.white-link:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+.white-link:focus {
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none;
+    background-image: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #475d68;
+}
+.navbar-default .navbar-toggle {
+    border-color: #888;
+}
+
+.breadcrumb {
+    background: transparent !important;
+}
+
+/*****co-op page*****/
+.darkened{
+  filter: brightness(70%);
+}
+
+.middleText {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+}
+
+.carousel-caption {
+    background: rgba(143, 145, 147, 0.9);
+    border-radius: 20%;
+}
