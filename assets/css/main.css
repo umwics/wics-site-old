@@ -55,22 +55,3 @@ body {
 .breadcrumb {
     background: transparent !important;
 }
-
-/*****co-op page*****/
-.darkened{
-  filter: brightness(70%);
-}
-
-.middleText {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 45px;
-}
-
-.carousel-caption {
-    background: rgba(143, 145, 147, 0.9);
-    border-radius: 20%;
-}
