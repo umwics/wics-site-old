@@ -55,3 +55,50 @@ body {
 .breadcrumb {
     background: transparent !important;
 }
+
+/*****co-op page*****/
+.darkened{
+  filter: brightness(70%);
+}
+
+.middleText {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+}
+
+.carousel-caption {
+    background: rgba(143, 145, 147, 0.9);
+    border-radius: 20%;
+}
+
+/* home and co-op pages */
+.home-hdr {
+    color: white;
+    font-weight: bold;
+}
+
+.parallax-window {
+    min-height: 650px;
+    background: transparent;
+}
+
+.btn-outline-white {
+    background-color: transparent;
+    border-color: #ccc;
+    padding: 30px 60px;
+    font-size: 30px;
+    color: white;
+}
+
+.row-center {
+    text-align: center;
+}
+
+.text-lg {
+    font-size: 30px;
+}
+
