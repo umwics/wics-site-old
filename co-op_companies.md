@@ -14,3 +14,15 @@ We want to include links to all companies UMWICS members have worked at on our s
 - Tiffany
   - Agriculture and Agri-Food Canada
   - D2L
+  - Amazon
+- Caitlin
+  - Shopify
+- Laura
+  - Google
+- Nedege
+  - Triumf
+- Elizabeth
+  - Bold
+- Kaleigh
+  - Public Health Service
+  - MHI
