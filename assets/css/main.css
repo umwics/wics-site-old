@@ -102,10 +102,6 @@ body {
     font-size: 30px;
 }
 
-#group-shot {
-    width: 100%;
-}
-
 /* Container holding the image and the text */
 .img-container {
     position: relative;
