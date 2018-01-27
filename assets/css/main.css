@@ -102,3 +102,23 @@ body {
     font-size: 30px;
 }
 
+#group-shot {
+    width: 100%;
+}
+
+/* Container holding the image and the text */
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.bottom-left {
+    position: absolute;
+    background: rgba(116, 123, 124, 0.85);
+    padding: 10px;
+    bottom: 30%;
+    width: 50%;
+    text-align: right;
+}
