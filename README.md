@@ -32,4 +32,4 @@ https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-
 https://try.github.io/levels/1/challenges/1
 
 **Just remember to not push onto master branch!**
-**push your changes to your local branch and we will review the changes before we merge to master**
+**Push your changes to your local branch and we will review the changes before we merge to master**
