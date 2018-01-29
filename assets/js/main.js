@@ -6,3 +6,5 @@ function positionFooter() {
         $('#footer-navbar').addClass('navbar-fixed-bottom');
     }
 }
+
+
