@@ -112,6 +112,7 @@ body {
 
 
 .bottom-left {
+    display: none;
     position: absolute;
     background: rgba(116, 123, 124, 0.85);
     padding: 10px;
