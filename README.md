@@ -33,3 +33,22 @@ https://try.github.io/levels/1/challenges/1
 
 **Just remember to not push onto master branch!**
 **Push your changes to your local branch and we will review the changes before we merge to master**
+
+# HTML Tutorial
+
+https://www.w3schools.com/html/html_intro.asp
+
+We're using HTML to build our website! 
+
+# CSS Tutorial
+
+https://www.w3schools.com/css/css_intro.asp
+
+Creates the style of our website. 
+
+(For someone with basic HTML, CSS, JavaScript experience)
+# Bootstrap Tutorial
+
+https://www.w3schools.com/bootstrap/bootstrap_get_started.asp
+
+Bootstrap is a Front-End Framework that we're using to help build our website.
