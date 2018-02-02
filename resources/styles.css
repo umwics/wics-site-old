@@ -1,7 +1,10 @@
-h1{
+h1 {
     font-size: 30px;
 }
 .col-md-2 {
+    text-align: center;
+}
+.col-md-3 {
     text-align: center;
 }
 .col-md-4 {
