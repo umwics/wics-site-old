@@ -50,7 +50,7 @@ Creates the style of our website.
 
 # Bootstrap Tutorial 
 
-**(For someone with basic HTML, CSS, JavaScript experience)
+(For someone with basic HTML, CSS, JavaScript experience)
 
 https://www.w3schools.com/bootstrap/bootstrap_get_started.asp
 
