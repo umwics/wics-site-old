@@ -97,6 +97,26 @@ body {
     color: white;
 }
 
+.ui.modal {
+    bottom: 20%;
+    top: 10% !important;
+}
+
+.close.icon {
+    top: 0;
+    right: 0;
+}
+
+.ui.basic.modal {
+    z-index: 3000;
+    background: rgba(87, 90, 94, 0.85);
+}
+
+.modal-backdrop {
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.85);
+}
+
 .row-center {
     text-align: center;
 }
@@ -122,5 +142,4 @@ body {
     width: 50%;
     text-align: center;
     font-size: 25px;
-
 }

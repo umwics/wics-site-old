@@ -15,7 +15,70 @@ description: Highlighting WICS members who have/had done a co-op
     </div>
 </div>
 
+<div class="ui modal" id="bold-modal">
+    <div class="header">
+        Bold Commerce
+        <i id="bold-close" style="float:right;" class="close icon"></i>
+    </div>
+    <div class="image content">
+        <div class="ui small image">
+            <img src="{{ site.baseurl }}/assets/img/bold-icon.png">
+        </div>
+        <div class="description">
+            <div class="ui header">Bold is an eCommerce company.</div>
+            <a target="_blank" href="https://boldcommerce.com/"><button class="ui primary button">Read more about it</button></a>
+        </div>
+    </div>
+    <div class="image content">
+        <div class="ui small image">
+            <img src="{{site.baseurl}}/assets/img/co-op/elizabeth.jpg">
+        </div>
+        <div class="description">
+            <div class="ui header">Elizabeth worked at Bold.</div>
+            <p>She had a great time.</p>
+            <a href="{{site.baseurl}}/about-us"><button class="ui primary button">Read more about it</button></a>
+        </div>
+    </div>
+    <div class="image content">
+        <div class="ui small image">
+            <img src="{{site.baseurl}}/assets/img/co-op/julia.jpg">
+        </div>
+        <div class="description">
+            <div class="ui header">Julia worked at Bold.</div>
+            <p>She also had a great time.</p>
+            <a href="{{site.baseurl}}/about-us"><button class="ui primary button">Read more about it</button></a>
+        </div>
+    </div>
+</div>
+
+<div class="ui modal" id="google-modal">
+    <div class="header">
+        Google
+        <i id="google-close" style="float:right;" class="close icon"></i>
+    </div>
+    <div class="image content">
+        <div class="ui small image">
+            <img src="https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png">
+        </div>
+        <div class="description">
+            <div class="ui header">Google is hip and fresh.</div>
+            <a target="_blank" href="https://careers.google.com/students/"><button class="ui primary button">Read more about it</button></a>
+        </div>
+    </div>
+    <div class="image content">
+        <div class="ui small image">
+            <img src="{{site.baseurl}}/assets/img/co-op/laura.jpg">
+        </div>
+        <div class="description">
+            <div class="ui header">Laura will work at Google.</div>
+            <p>She should have a great time.</p>
+            <a href="{{site.baseurl}}/about-us"><button class="ui primary button">Read more about it</button></a>
+        </div>
+    </div>
+</div>
+
 <div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/co-op/wics-0554.jpg" data-speed="0.0"></div>
+
 
 <div class="background">
     <div class="container">
@@ -32,16 +95,21 @@ description: Highlighting WICS members who have/had done a co-op
             <!--Pictures of co-op students will be here.-->
             <!--Click on photo->popup of the student's co-op statement-->
         </p>
+
         <div class="row" style="margin-top:25px;">
             <h4>UMWICS members have worked at the following companies:</h4>
         </div>
         <div style="text-align: center;">
             <div class="row" style="margin-top:25px;">
                 <div class="col-md-2 company-icon">
-                    <a href="https://boldcommerce.com/" target="_blank"><img style="width: 100px;" src="{{ site.baseurl }}/assets/img/bold-icon.png"/></a>
+                    <!--<a href="https://boldcommerce.com/" target="_blank">-->
+                        <img id="bold-img" style="width: 100px;" src="{{ site.baseurl }}/assets/img/bold-icon.png"/>
+                    <!--</a>-->
                 </div>
                 <div class="col-md-2 company-icon">
-                    <a href="https://careers.google.com/students/" target="_blank"><img style="width: 100px;" src="https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png"/></a>
+                    <!--<a href="https://careers.google.com/students/" target="_blank">-->
+                        <img id="google-img" style="width: 100px;" src="https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png"/>
+                    <!--</a>-->
                 </div>
                 <div class="col-md-2 company-icon">
                     <a href="http://www.iqmetrix.com/" target="_blank"><img style="width: 100px;" src="https://media.licdn.com/media/AAEAAQAAAAAAAAfwAAAAJDBiODA1Yjk4LTEzMWMtNDdmMS05MDRhLWQ2NzI0YWU1NDdlZg.png"/></a>
@@ -87,6 +155,23 @@ description: Highlighting WICS members who have/had done a co-op
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/parallax.js"></script>
+
+<script>
+    $(document).ready(function() {
+       $("#bold-img").click(function() {
+           $("#bold-modal").modal("show");
+       });
+       $("#bold-close").click(function() {
+          $("#bold-modal").modal("hide");
+       });
+       $("#google-img").click(function() {
+          $("#google-modal").modal("show");
+       });
+       $("#google-close").click(function() {
+          $("#google-modal").modal("hide");
+       });
+    });
+</script>
 
 <style>
     .company-icon {
