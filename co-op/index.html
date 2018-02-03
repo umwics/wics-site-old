@@ -98,22 +98,20 @@ redirect_from:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/parallax.js"></script>
 
+
 <script>
     $(document).ready(function() {
-       $("#bold-img").click(function() {
-           $("#bold-modal").modal("show");
+        {% for item in site.co-op-companies %}
+       $("#{{ item.identification }}-img").click(function() {
+           $("#{{ item.identification }}-modal").modal("show");
        });
-       $("#bold-close").click(function() {
-          $("#bold-modal").modal("hide");
+       $("#{{ item.identification }}-close").click(function() {
+          $("#{{ item.identification }}-modal").modal("hide");
        });
-       $("#google-img").click(function() {
-          $("#google-modal").modal("show");
-       });
-       $("#google-close").click(function() {
-          $("#google-modal").modal("hide");
-       });
+         {% endfor %}
     });
 </script>
+
 
 <style>
     .company-icon {

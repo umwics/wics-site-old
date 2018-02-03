@@ -1,89 +1,29 @@
-<div class="ui modal" id="bold-modal">
-    <div class="header">
-        Bold Commerce
-        <i id="bold-close" style="float:right;" class="close icon"></i>
-    </div>
-    <div class="image content">
-        <div class="ui small image">
-            <img src="{{ site.baseurl }}/assets/img/bold-icon.png">
-        </div>
-        <div class="description">
-            <div class="ui header">Bold is an eCommerce company.</div>
-            <a target="_blank" href="https://boldcommerce.com/"><button class="ui primary button">Read more about it</button></a>
-        </div>
-    </div>
-    <div class="image content">
-        <div class="ui small image">
-            <img src="{{site.baseurl}}/assets/img/co-op/elizabeth.jpg">
-        </div>
-        <div class="description">
-            <div class="ui header">Elizabeth worked at Bold.</div>
-            <p>She had a great time.</p>
-            <a href="{{site.baseurl}}/about-us"><button class="ui primary button">Read more about it</button></a>
-        </div>
-    </div>
-    <div class="image content">
-        <div class="ui small image">
-            <img src="{{site.baseurl}}/assets/img/co-op/julia.jpg">
-        </div>
-        <div class="description">
-            <div class="ui header">Julia worked at Bold.</div>
-            <p>She also had a great time.</p>
-            <a href="{{site.baseurl}}/about-us"><button class="ui primary button">Read more about it</button></a>
-        </div>
-    </div>
-</div>
-
-<!--<div class="ui modal" id="google-modal">
-    <div class="header">
-        Google
-        <i id="google-close" style="float:right;" class="close icon"></i>
-    </div>
-    <div class="image content">
-        <div class="ui small image">
-            <img src="https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png">
-        </div>
-        <div class="description">
-            <div class="ui header">Google is hip and fresh.</div>
-            <a target="_blank" href="https://careers.google.com/students/"><button class="ui primary button">Read more about it</button></a>
-        </div>
-    </div>
-    <div class="image content">
-        <div class="ui small image">
-            <img src="{{site.baseurl}}/assets/img/co-op/laura.jpg">
-        </div>
-        <div class="description">
-            <div class="ui header">Laura will work at Google.</div>
-            <p>She should have a great time.</p>
-            <a href="{{site.baseurl}}/about-us"><button class="ui primary button">Read more about it</button></a>
-        </div>
-    </div>
-</div>-->
-
 {% for item in site.co-op-companies %}
-<div class="ui modal" id="{{ item.title }}-modal">
+<div class="ui modal" id="{{ item.identification }}-modal">
     <div class="header">
         {{ item.title }}
-        <i id="{{ item.title }}-close" style="float:right;" class="close icon"></i>
+        <i id="{{ item.identification }}-close" style="float:right;" class="close icon"></i>
     </div>
     <div class="image content">
         <div class="ui small image">
-            <img src="https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png">
+            <img src="{{ item.image }}">
         </div>
         <div class="description">
-            <div class="ui header">{{ item.title }} is hip and fresh.</div>
-            <a target="_blank" href="https://careers.google.com/students/"><button class="ui primary button">Read more about it</button></a>
+            <div class="ui header">{{ item.description }}</div>
+            <a target="_blank" href="{{ item.url }}"><button class="ui primary button">Read more about it</button></a>
         </div>
     </div>
+    {% for member in item.members %}
     <div class="image content">
         <div class="ui small image">
-            <img src="{{site.baseurl}}/assets/img/co-op/laura.jpg">
+            <img src="{{site.baseurl}}/{{ member.image }}">
         </div>
         <div class="description">
-            <div class="ui header">Laura will work at Google.</div>
-            <p>She should have a great time.</p>
+            <div class="ui header">{{ member.summary }}</div>
+            <p>{{ member.statement }}</p>
             <a href="{{site.baseurl}}/about-us"><button class="ui primary button">Read more about it</button></a>
         </div>
     </div>
+    {% endfor %}
 </div>
 {% endfor %}
