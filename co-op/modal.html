@@ -6,11 +6,11 @@
     </div>
     <div class="image content">
         <div class="ui small image">
-            <img src="{{ item.image }}">
+            <img src="{{ site.baseurl }}/{{ item.image }}">
         </div>
         <div class="description">
             <div class="ui header">{{ item.description }}</div>
-            <a target="_blank" href="{{ item.url }}"><button class="ui primary button">Read more about it</button></a>
+            <a target="_blank" href="{{ item.link }}"><button class="ui primary button">Read more about it</button></a>
         </div>
     </div>
     {% for member in item.members %}

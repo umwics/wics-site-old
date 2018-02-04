@@ -4,9 +4,3 @@ locale: "en-US"
 
 collections:
   - co-op-companies
-    
-plugins:
-  - jekyll-redirect-from
-  
-whitelist:
-  - jekyll-redirect-from
