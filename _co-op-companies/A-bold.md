@@ -11,7 +11,7 @@ members:
     statement: "She had a great time."
     image: "assets/img/co-op/elizabeth.jpg"
   - name: "Julia Stoyko"
-    summary: "Julia worked at Bold."
-    statement: "She also had a great time."
+    summary: "Julia did her first work term at Bold."
+    statement: "She worked on the Customer Pricing and Product Options applications, writing in PHP and React/Redux. She had an awesome time there."
     image: "assets/img/co-op/julia.jpg"
 ---
