@@ -9,5 +9,9 @@ members:
   - name: "Shenyun Wang"
     summary: "Shenyun currently works here."
     statement: "Shenyun is having fun."
-    image: "/assets/img/co-op/person.jpg"
+    image: "/assets/img/co-op/shenyun.jpg"
+  - name: "Tife Akinola"
+    summary: "Tife currently works here."
+    statement: "Tife is having fun."
+    image: "/assets/img/co-op/tife.jpg"
 ---
