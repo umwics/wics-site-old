@@ -54,13 +54,15 @@ description: Highlighting WICS members who have/had done a co-op
 <script>
     $(document).ready(function() {
         {% for item in site.co-op-companies %}
-       $("#{{ item.identification }}-modal").modal({detachable: true}).modal("hide");
        $("#{{ item.identification }}-img").click(function() {
            $("#{{ item.identification }}-modal").modal("show");
        });
        $("#{{ item.identification }}-close").click(function() {
           $("#{{ item.identification }}-modal").modal("hide");
-       });        
+       });
+       $('body').on('click', '.modal-backdrop.show', function(e) {  
+        $("#{{ item.identification }}-modal").modal("hide");
+       });
          {% endfor %}
     });
 </script>
