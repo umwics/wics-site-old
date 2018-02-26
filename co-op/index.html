@@ -37,10 +37,19 @@ description: Highlighting WICS members who have/had done a co-op
         <div style="text-align: center;">
             {% for item in site.co-op-companies %}
                 {% assign mod6 = forloop.index | modulo: 6 %}
-                {% if mod6 == 0 %}<div class="row" style="margin-top:25px;">{% endif %}
+                {% if mod6 == 1 %}<div class="row" style="margin-top:25px;">{% endif %}
                     <div class="col-md-2 company-icon">
-                        <img id="{{ item.identification }}-img" style="width: {{ item.width }};" src="{{ site.baseurl }}/{{ item.image }}"/>
+                        <div class="ui special cards">
+                          <div class="card">
+                            <div class="blurring dimmable image">
+                              <img id="{{ item.identification }}-img" src="{{ site.baseurl }}/{{ item.image }}">
+                            </div>
+                            <div class="content">
+                              <a id="{{ item.identification }}" class="header">{{ item.title }}</a>
+                            </div>
+                          </div>
                     </div>
+                </div>
                 {% if mod6 == 0 %}</div>{% endif %}
             {% endfor %}
         </div>
@@ -54,7 +63,7 @@ description: Highlighting WICS members who have/had done a co-op
 <script>
     $(document).ready(function() {
         {% for item in site.co-op-companies %}
-       $("#{{ item.identification }}-img").click(function() {
+       $("#{{ item.identification }}").click(function() {
            $("#{{ item.identification }}-modal").modal("show");
        });
        $("#{{ item.identification }}-close").click(function() {
