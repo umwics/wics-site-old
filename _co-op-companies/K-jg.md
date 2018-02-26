@@ -7,7 +7,7 @@ image: "assets/img/logos/johnston-group.jpg"
 width: "100px"
 members:
   - name: "Rebecca Tiessen"
-    summary: "Rebecca worked at Johnston Group."
+    summary: Rebecca did her second work term at Johnston Group."
     statement: "Rebecca had a swell time."
     image: "/assets/img/co-op/rebecca.jpg"
 ---

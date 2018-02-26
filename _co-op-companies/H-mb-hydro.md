@@ -7,7 +7,7 @@ image: "assets/img/logos/hydro.jpg"
 width: "200px"
 members:
   - name: "Katharine King"
-    summary: "Kat worked at Manitoba Hydro."
-    statement: "Kat had a good time."
+    summary: "Kat did her first and second work term at Manitoba Hydro."
+    statement: "She worked in ERP System Development, programming in SAP ABAP. It was such a great learning experience for her."
     image: "/assets/img/co-op/kat.jpg"
 ---
