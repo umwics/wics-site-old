@@ -10,7 +10,9 @@ description: Highlighting WICS members who have/had done a co-op
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-            <a style="font-size: 45px;" href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank"><b>Computer Science Co-op</b></a>
+            <a style="font-size: 45px;" href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank">
+                <b>Computer Science Co-op</b>
+            </a>
         </div>
     </div>
 </div>
@@ -24,33 +26,28 @@ description: Highlighting WICS members who have/had done a co-op
     <div class="container">
         <p class="text-justify">
             <br>
-            <br>
-            The <i><a href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank">Computer Science Co-op Program</a></i>
-            at the University of Manitoba provides students with a fantastic opportunity to transform academic
-            knowledge into real-world experience. The program has garnered much success over the last few years and has become one of the
-            university's largest co-op programs securing an average of 180 placements per year. The program focuses on matching students with
-            employers for three four-month work terms. The list of companies range from local Winnipeg-based start-ups to international corporations.
+            <br> The <i><a href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank">Computer Science Co-op Program</a></i> at the University of Manitoba provides students with a fantastic opportunity to transform academic knowledge into real-world experience. The program has garnered much success over the last few years and has become one of the university's largest co-op programs securing an average of 180 placements per year. The program focuses on matching students with employers for three four-month work terms. The list of companies range from local Winnipeg-based start-ups to international corporations.
             <br>
             <br>
         </p>
         Click the following companies to see which WICS members have worked there:
-        <div style="text-align: center;">
+        <div class="ui centered grid">
             {% for item in site.co-op-companies %}
-                {% assign mod6 = forloop.index | modulo: 6 %}
-                {% if mod6 == 1 %}<div class="row" style="margin-top:25px;">{% endif %}
-                    <div class="col-md-2 company-icon">
-                        <div class="ui special cards">
-                          <div class="card">
+            {% assign mod7 = forloop.index | modulo: 7 %}
+                {% if mod7 == 0 %}<div class="row" style="margin-top:25px;">{% endif %}
+                <div class="col-md-2 company-icon">
+                    <div class="ui link cards">
+                        <div class="card">
                             <div class="blurring dimmable image">
-                              <img id="{{ item.identification }}-img" src="{{ site.baseurl }}/{{ item.image }}">
+                                <img id="{{ item.identification }}-img" src="{{ site.baseurl }}/{{ item.image }}">
                             </div>
                             <div class="content">
-                              <a id="{{ item.identification }}" class="header">{{ item.title }}</a>
+                                <a id="{{ item.identification }}" class="header">{{ item.title }}</a>
                             </div>
-                          </div>
+                        </div>
                     </div>
                 </div>
-                {% if mod6 == 0 %}</div>{% endif %}
+                {% if mod6 == 7 %}</div>{% endif %}
             {% endfor %}
         </div>
     </div>
@@ -58,12 +55,13 @@ description: Highlighting WICS members who have/had done a co-op
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/parallax.js"></script>
-
-
 <script>
     $(document).ready(function() {
         {% for item in site.co-op-companies %}
        $("#{{ item.identification }}").click(function() {
+           $("#{{ item.identification }}-modal").modal("show");
+       });
+       $("#{{ item.identification }}-img").click(function() {
            $("#{{ item.identification }}-modal").modal("show");
        });
        $("#{{ item.identification }}-close").click(function() {
