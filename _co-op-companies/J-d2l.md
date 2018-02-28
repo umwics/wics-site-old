@@ -3,7 +3,7 @@ title: "D2L"
 identification: "d2l"
 description: "They make UMLearn, cool stuff."
 link: "https://www.d2l.com/careers/jobs/"
-image: "assets/img/logos/d2l.jpg"
+image: "assets/img/logos/d2l.png"
 width: "100px"
 members:
   - name: "Tiffany Jiang"

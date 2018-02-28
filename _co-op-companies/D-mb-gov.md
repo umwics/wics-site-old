@@ -3,7 +3,7 @@ title: "Manitoba Government"
 identification: "mb-gov"
 description: "Secret and important stuff probably, mostly important."
 link: "https://www.gov.mb.ca/"
-image: "assets/img/logos/MB_Buffalo.gif"
+image: "assets/img/logos/MB_Buffalo.png"
 width: "100px"
 members:
   - name: "UMWics Member"
