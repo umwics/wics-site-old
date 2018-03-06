@@ -2,19 +2,17 @@
     <nav class="navbar navbar-default navbar-custom">
         <div class="container">
             <div class="navbar-header">
+                <a href="{{ site.baseurl }}/"><img style=".img-fluid. max-width: 100%; height: 50px;" src="{{ site.baseurl }}/assets/img/favicon/favicon-310.png"/></a>
                 <!-- Dropdown menu button for smaller screens -->
                 <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle collapsed">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
+                </button>
             </div>
             <!-- Navigation Links -->
-
             <div id="navbarCollapse" class="navbar-collapse collapse">
-                <div class="nav navbar-nav navbar-left">
-                    <a href="{{ site.baseurl }}/"><img style="height: 50px;" src="{{ site.baseurl }}/assets/img/favicon/favicon-310.png"/></a>
-                </div>
                 <ul class="nav navbar-nav navbar-right">
                     {% include nav-links.html %}
                 </ul>
