@@ -1,7 +1,7 @@
 ---
 title: "Google"
 identification: "google"
-description: "Google is hip and fresh."
+description: "Google is an internet technology company."
 link: "https://careers.google.com/students/"
 image: "assets/img/logos/google.png"
 width: "100px"

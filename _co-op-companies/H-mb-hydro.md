@@ -1,7 +1,7 @@
 ---
 title: "Manitoba Hydro"
 identification: "hydro"
-description: "Guess what? This comapny is important! Water and electricity. Good stuff."
+description: "Manitoba Hydro handles all of the water and electricity in the province."
 link: "https://www.hydro.mb.ca/careers/index.shtml"
 image: "assets/img/logos/hydro.png"
 width: "200px"

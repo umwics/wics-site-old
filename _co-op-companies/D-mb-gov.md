@@ -1,13 +1,13 @@
 ---
 title: "Manitoba Government"
 identification: "mb-gov"
-description: "Secret and important stuff probably, mostly important."
+description: "The Manitoba government provides services for the entire province."
 link: "https://www.gov.mb.ca/"
 image: "assets/img/logos/MB_Buffalo.png"
 width: "100px"
 members:
-  - name: "UMWics Member"
-    summary: "UMWICS Member worked at the Manitoba Government."
-    statement: "UMWics Member had a [redacted] time."
-    image: "/assets/img/co-op/person.jpg"
+  - name: "Elizabeth Kenyon"
+    summary: "Elizabeth did her first work term at the Goverment of Manitoba."
+    statement: "She worked in Application Management department to create a ASP .Net application."
+    image: "/assets/img/co-op/elizabeth.jpg"
 ---

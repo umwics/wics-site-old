@@ -1,7 +1,7 @@
 ---
 title: "Invenia"
 identification: "inv"
-description: "Machine learning and stuff."
+description: "Invenia is advancing decision making utlizing machine learning."
 link: "https://www.invenia.ca/"
 image: "assets/img/logos/invenia-logo.png"
 width: "100px"

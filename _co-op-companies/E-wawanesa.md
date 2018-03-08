@@ -1,7 +1,7 @@
 ---
 title: "Wawanesa Insurance"
 identification: "waw"
-description: "Insurance stuff, probably pretty boring... lol jk"
+description: "Wawanesa Insurance provides insurance for homes, businesses, automobiles and more."
 link: "https://www.wawanesa.com/canada/index.html"
 image: "assets/img/logos/wawanesa.png"
 width: "100px"

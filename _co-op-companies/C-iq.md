@@ -1,7 +1,7 @@
 ---
 title: "iQmetrix"
 identification: "iq"
-description: "iQmetrix provides POS solutions and a fresh work enviroment."
+description: "iQmetrix provides modern payment solutions for the retail industry."
 link: "http://www.iqmetrix.com/"
 image: "assets/img/logos/iqmetrix.png"
 width: "100px"
