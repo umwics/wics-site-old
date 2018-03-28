@@ -5,7 +5,7 @@ description: "Payworks provides payroll services and more for workplaces."
 link: "https://www.payworks.ca/"
 image: "assets/img/logos/payworks.png"
 width: "100px"
-complete: false
+complete: true
 members:
   - name: "Rebecca Tiessen"
     summary: "Rebecca did her first work term at Payworks."
