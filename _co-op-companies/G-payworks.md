@@ -9,6 +9,6 @@ complete: false
 members:
   - name: "Rebecca Tiessen"
     summary: "Rebecca did her first work term at Payworks."
-    statement: ""
+    statement: "She worked on the absence management module, adding features and fixing bugs using JavaScript and .NET"
     image: "/assets/img/co-op/rebecca.jpg"
 ---
