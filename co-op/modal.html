@@ -1,0 +1,28 @@
+{% for item in site.co-op-companies %}
+<div class="ui modal" id="{{ item.identification }}-modal">
+    <div class="header">
+        {{ item.title }}
+        <i id="{{ item.identification }}-close" style="float:right;" class="close icon"></i>
+    </div>
+    <div class="image content">
+        <div class="ui small image">
+            <img src="{{ site.baseurl }}/{{ item.image }}">
+        </div>
+        <div class="description">
+            <div class="ui header">{{ item.description }}</div>
+            <a target="_blank" href="{{ item.link }}"><button class="ui primary button">Read more about it</button></a>
+        </div>
+    </div>
+    {% for member in item.members %}
+    <div class="image content">
+        <div class="ui small image">
+            <img src="{{site.baseurl}}/{{ member.image }}">
+        </div>
+        <div class="description">
+            <div class="ui header">{{ member.summary }}</div>
+            <p>{{ member.statement }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}

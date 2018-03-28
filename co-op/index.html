@@ -10,83 +10,79 @@ description: Highlighting WICS members who have/had done a co-op
     <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-            <a style="font-size: 45px;" href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank"><b>Computer Science Co-op</b></a>
+            <a style="font-size: 45px;" href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank">
+                <b>Computer Science Co-op</b>
+            </a>
         </div>
     </div>
 </div>
 
+{% include_relative modal.html %}
+
 <div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/co-op/wics-0554.jpg" data-speed="0.0"></div>
+
 
 <div class="background">
     <div class="container">
         <p class="text-justify">
             <br>
-            <br>
-            The <i><a href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank">Computer Science Co-op Program</a></i>
-            at the University of Manitoba provides students with a fantastic opportunity to transform academic
-            knowledge into real-world experience. The program has garnered much success over the last few years and has become one of the
-            university's largest co-op programs securing an average of 180 placements per year. The program focuses on matching students with
-            employers for three four-month work terms. The list of companies range from local Winnipeg-based start-ups to international corporations.
+            <br> The <i><a href="http://coop.cs.umanitoba.ca/" class="black-link" target="_blank">Computer Science Co-op Program</a></i> 
+            at the University of Manitoba provides students with a fantastic opportunity to transform academic knowledge into real-world 
+            experience. The program has garnered much success over the last few years and has become one of the university's largest
+            co-op programs securing an average of 180 placements per year. The program focuses on matching students with employers for 
+            three four-month work terms. The list of companies range from local Winnipeg-based start-ups to international corporations.
             <br>
             <br>
         </p>
-            Click the following companies to see which WICS members have worked there:
-
-        <div style="text-align: center;">
-            <div class="row" style="margin-top:25px;">
+        Click the following companies to see which WICS members have worked there:
+        <div class="ui centered grid">
+            {% for item in site.co-op-companies %}
+            {% assign mod7 = forloop.index | modulo: 7 %}
+                {% if mod7 == 0 %}<div class="row" style="margin-top:25px;">{% endif %}
                 <div class="col-md-2 company-icon">
-                    <a href="https://boldcommerce.com/" target="_blank"><img style="width: 100px;" src="{{ site.baseurl }}/assets/img/bold-icon.png"/></a>
+                    <div class="ui link cards">
+                        <div class="card">
+                            <div class="blurring dimmable image">
+                                {% if item.complete == true %}
+                                <img id="{{ item.identification }}-img" src="{{ site.baseurl }}/{{ item.image }}">
+                                {% endif %}
+                                {% if item.complete == false %}
+                                <a href="{{ item.link }}" target="_blank">
+                                    <img id="{{ item.identification }}-img" src="{{ site.baseurl }}/{{ item.image }}" width="100%">
+                                </a>
+                                {% endif %}
+                            </div>
+                            <div class="content">
+                                <a id="{{ item.identification }}" class="header">{{ item.title }}</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-2 company-icon">
-                    <a href="https://careers.google.com/students/" target="_blank"><img style="width: 100px;" src="https://seeklogo.com/images/G/google-2015-logo-65BBD07B01-seeklogo.com.png"/></a>
-                </div>
-                <div class="col-md-2 company-icon">
-                    <a href="http://www.iqmetrix.com/" target="_blank"><img style="width: 100px;" src="https://media.licdn.com/media/AAEAAQAAAAAAAAfwAAAAJDBiODA1Yjk4LTEzMWMtNDdmMS05MDRhLWQ2NzI0YWU1NDdlZg.png"/></a>
-                </div>
-                <div class="col-md-2 company-icon">
-                    <a href="https://www.invenia.ca/" target="_blank"><img style="width: 200px;" src="https://cdn.nanalyze.com/uploads/2017/07/invenia-logo.png"/></a>
-                </div>
-                <div class="col-md-2 company-icon">
-                    <a href="https://www.gov.mb.ca/" target="_blank"><img style="width: 100px;" src="http://manitobaev.ca/wp-content/uploads/2012/06/MB_Buffalo.gif"/></a>
-                </div>
-                <div class="col-md-2 company-icon">
-                    <a href="https://www.wawanesa.com/canada/index.html" target="_blank"><img style="width: 100px;" src="https://www.bbb.org/ProfileImages/0ad2e215-ee14-4458-b365-072611594e89.png"/></a>
-                </div>
-            </div>
-            <div class="row" style="margin-top:25px;">
-                <div class="col-md-2 company-icon">
-                    <a href="https://www.payworks.ca/" target="_blank"><img style="width: 100px;" src="https://media.glassdoor.com/sqll/474106/payworks-canada-squarelogo-1451550767818.png"/></a>
-                </div>
-                <div class="col-md-2 company-icon">
-                    <a href="https://www.hydro.mb.ca/careers/index.shtml" target="_blank"><img style="width: 200px;" src="http://ipolitics.ca/wp-content/uploads/2013/07/02157074.jpg"/></a>
-                </div>
-                <div class="col-md-2 company-icon">
-                    <a href="https://www.amazon.jobs/en/business_categories/university-recruiting" target="_blank"><img style="width:200px;" src="https://images-na.ssl-images-amazon.com/images/G/01/gc/designs/livepreview/a_generic_white_10_us_noto_email_v2016_us-main._CB277146614_.png"/></a>
-                </div>
-                <div class="col-md-2 company-icon">
-                    <a href="https://www.d2l.com/careers/jobs/" target="_blank"><img style="width:100px;" src="http://www.alcdsb.on.ca/School/regi/Lists/FeaturedImageLinks/Attachments/3/d2l.jpg"/></a>
-                </div>
-                <div class="col-md-2 company-icon">
-                    <a href="http://johnstongroup.ca/" target="_blank"><img style="width:100px;" src="http://scontent.fybz2-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/23658782_2145972975428979_7751372279714435941_n.jpg?oh=78a4b0cb87c4d2c053f457189124ca98&oe=5AE3C87C"/></a>
-                </div>
-                <div class="col-md-2 company-icon">
-                    <a href="http://24-7intouch.com/" target="_blank"><img style="width:100px;" src="https://media.glassdoor.com/sqll/759011/24-7-intouch-squarelogo-1417470132970.png"/></a>
-                </div>
-            </div>
-            <div class="row" style="margin-top:25px;">
-                <div class="col-md-3 company-icon">
-                    <a href="" target="_blank"><img style="width:100px;" src=""/></a>
-                </div>
-            </div>
+                {% if mod6 == 7 %}</div>{% endif %}
+            {% endfor %}
         </div>
     </div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/parallax.js"></script>
-
-<style>
-    .company-icon {
-        margin-top: 20px;
-    }
-</style>
+<script>
+    $(document).ready(function() {
+        {% for item in site.co-op-companies %}
+        {% if item.complete == true %}
+       $("#{{ item.identification }}").click(function() {
+           $("#{{ item.identification }}-modal").modal("show");
+       });
+       $("#{{ item.identification }}-img").click(function() {
+           $("#{{ item.identification }}-modal").modal("show");
+       });
+       $("#{{ item.identification }}-close").click(function() {
+          $("#{{ item.identification }}-modal").modal("hide");
+       });
+       $('body').on('click', '.modal-backdrop.show', function(e) {  
+        $("#{{ item.identification }}-modal").modal("hide");
+       });
+         {% endif %}
+         {% endfor %}
+    });
+</script>

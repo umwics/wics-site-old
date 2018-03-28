@@ -1,2 +1,6 @@
 baseurl: "/~wics"
 sitename: "UM WICS"
+locale: "en-US"
+
+collections:
+  - co-op-companies
