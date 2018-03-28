@@ -9,6 +9,6 @@ complete: false
 members:
   - name: "Rebecca Tiessen"
     summary: "Rebecca did her second work term at Johnston Group."
-    statement: ""
+    statement: "She worked on the Java team migrating functionality to their new web application."
     image: "/assets/img/co-op/rebecca.jpg"
 ---
