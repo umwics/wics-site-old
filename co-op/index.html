@@ -43,7 +43,14 @@ description: Highlighting WICS members who have/had done a co-op
                     <div class="ui link cards">
                         <div class="card">
                             <div class="blurring dimmable image">
+                                {% if item.complete == true %}
                                 <img id="{{ item.identification }}-img" src="{{ site.baseurl }}/{{ item.image }}">
+                                {% endif %}
+                                {% if item.complete == false %}
+                                <a href="{{ item.link }}" target="_blank">
+                                    <img id="{{ item.identification }}-img" src="{{ site.baseurl }}/{{ item.image }}" width="100%">
+                                </a>
+                                {% endif %}
                             </div>
                             <div class="content">
                                 <a id="{{ item.identification }}" class="header">{{ item.title }}</a>
@@ -62,6 +69,7 @@ description: Highlighting WICS members who have/had done a co-op
 <script>
     $(document).ready(function() {
         {% for item in site.co-op-companies %}
+        {% if item.complete == true %}
        $("#{{ item.identification }}").click(function() {
            $("#{{ item.identification }}-modal").modal("show");
        });
@@ -74,6 +82,7 @@ description: Highlighting WICS members who have/had done a co-op
        $('body').on('click', '.modal-backdrop.show', function(e) {  
         $("#{{ item.identification }}-modal").modal("hide");
        });
+         {% endif %}
          {% endfor %}
     });
 </script>

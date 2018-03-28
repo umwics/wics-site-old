@@ -5,6 +5,7 @@ description: "Google is an internet technology company."
 link: "https://careers.google.com/students/"
 image: "assets/img/logos/google.png"
 width: "100px"
+complete: true
 members:
   - name: "Laura Stoyko"
     summary: "Laura will be working at Google this summer as an Engineering Practicum intern."

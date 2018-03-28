@@ -5,6 +5,7 @@ description: "Manitoba Hydro handles all of the water and electricity in the pro
 link: "https://www.hydro.mb.ca/careers/index.shtml"
 image: "assets/img/logos/hydro.png"
 width: "200px"
+complete: true
 members:
   - name: "Katharine King"
     summary: "Kat did her first and second work term at Manitoba Hydro."

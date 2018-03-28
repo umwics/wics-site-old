@@ -5,6 +5,7 @@ description: "D2L creates products for use in education."
 link: "https://www.d2l.com/careers/jobs/"
 image: "assets/img/logos/d2l.png"
 width: "100px"
+complete: true
 members:
   - name: "Tiffany Jiang"
     summary: "Tiffany did her second work term at D2L."

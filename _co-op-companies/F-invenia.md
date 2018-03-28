@@ -5,6 +5,7 @@ description: "Invenia is advancing decision making utlizing machine learning."
 link: "https://www.invenia.ca/"
 image: "assets/img/logos/invenia-logo.png"
 width: "100px"
+complete: false
 members:
   - name: "Jessica Bondoc"
     summary: "Jessica worked at Invenia."

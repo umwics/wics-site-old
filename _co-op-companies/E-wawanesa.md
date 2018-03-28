@@ -5,6 +5,7 @@ description: "Wawanesa Insurance provides insurance for homes, businesses, autom
 link: "https://www.wawanesa.com/canada/index.html"
 image: "assets/img/logos/wawanesa.png"
 width: "100px"
+complete: false
 members:
   - name: "Shenyun Wang"
     summary: "Shenyun currently works here."
