@@ -2,6 +2,7 @@ _site
 .idea
 Gemfile
 Gemfile.lock
+node_modules
 
 # macOS dev
 .DS_Store
