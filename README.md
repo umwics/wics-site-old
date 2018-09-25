@@ -43,25 +43,26 @@ Now that you've made some changes, you probably want to see what they look like.
 
 [This article](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) describes everything here and more, but some of it is not necessary and might just trip you up.
 
-**Note**: These instructions are written for Linux or MacOS, Windows setup may be slightly different.
+**Note**: If you're on Windows, you should run the commands listed here with Git Bash, which should have been installed along with Git.
+If you're on Linux or MacOS, use your terminal to run the commands.
 
 You will need the Ruby programming language and `bundler` installed on your computer.
 
 To install Ruby, go [here](https://www.ruby-lang.org/en/downloads/) and follow the instructions.
 
-Now with Ruby installed, you should be able to install `bundler` with the `gem` utility (Ruby's package manager) from a terminal with the following command:
+Now with Ruby installed, you should be able to install `bundler` with the `gem` utility (Ruby's package manager) with the following command:
 
 ```sh
 $ gem install bundler
 ```
 
-You might see a warning that looks like the following:
+You might see a warning that looks like so:
 ```
 WARNING:  You don't have /homedir/.gem/ruby/2.5.0/bin in your PATH,
           gem executables will not run.
 ```
 
-If so, use the following command, replacing the path with the exact path found in the warning message:
+If so, run this command, replacing the path with the exact path found in the warning message:
 
 ```sh
 $ export PATH=$PATH:/homedir/.gem/ruby/2.5.0/bin
@@ -81,7 +82,7 @@ Run the following command:
 bundle exec jekyll serve
 ```
 
-You should see a message that ends with the following lines:
+You should see a message that ends with these lines (or similar):
 
 ```
 Server address: http://127.0.0.1:4000/~wics/
@@ -98,7 +99,7 @@ While the site is running, you can edit pages and they will update in real time.
 Now that you've written a great new feature, the next step is to *commit* those changes, and *push* them to the GitHub repository.
 Afterwards, you will make a *pull request* for us to review and *merge*.
 
-First, we need to *stage* our files with the following command:
+First, we need to *stage* our files with this command:
 
 ```sh
 $ git add .
