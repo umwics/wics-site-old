@@ -17,13 +17,14 @@ However, everyone has their own preference and you're welcome to use whatever yo
 ### Setting up Git
 
 See [this article](https://help.github.com/articles/set-up-git/).
+You don't need to worry about the "Authenticating with GitHub from Git" section, just complete 1-3.
 
 ### Making Changes
 
 Once you have Git installed, clone the repository, then change directory to it with this command:
 
 ```sh
-$ git clone git@github.com:umwics/wics-site.git
+$ git clone https://github.com/umwics/wics-site
 $ cd wics-site
 ```
 Next, create a new branch.
@@ -115,6 +116,9 @@ Now, *push* the commit to the GitHub repository.
 ```sh
 $ git push origin fix-broken-link  # Remember to use the same name as your own branch!
 ```
+
+Here, Git will ask you for your username and password.
+Enter you GitHub username and password here.
 
 Finally, create a *pull request*.
 To do so, follow the instructions found [here](https://help.github.com/articles/creating-a-pull-request/)!
