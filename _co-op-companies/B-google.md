@@ -9,6 +9,6 @@ complete: true
 members:
   - name: "Laura Stoyko"
     summary: "Laura will be working at Google this summer as an Engineering Practicum intern."
-    statement: "She worked on the Technical Infrastrucutre team, working on creating a user interface in Angular2/Typescript, while retrieving and processing the data for it in Java."
+    statement: "She worked on the Technical Infrastructure team, working on creating a user interface in Angular 2/TypeScript, while retrieving and processing the data for it in Java."
     image: "assets/img/co-op/laura.jpg"
 ---

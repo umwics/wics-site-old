@@ -9,6 +9,6 @@ complete: true
 members:
   - name: "Julia Stoyko"
     summary: "Julia did her third work term at Shopify."
-    statement: "She worked on the Wallets team, writing in Typescript, React, and Ruby on Rails. She loves Shopify."
+    statement: "She worked on the Wallets team, writing in TypeScript, React, and Ruby on Rails. She loves Shopify."
     image: "assets/img/co-op/julia.jpg"
 ---
