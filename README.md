@@ -71,7 +71,7 @@ $ export PATH=$PATH:/homedir/.gem/ruby/2.5.0/bin
 Next, change directory to the repository and install the site's dependencies (this might take a while).
 
 ```sh
-$ cd <path-to-wics-site>
+$ cd <repo>  # Skip this step if you're already inside the WICS website repository, otherwise replace <repo> with the path to the repository.
 $ bundle install
 ```
 
