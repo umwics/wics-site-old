@@ -119,7 +119,7 @@ $ git push origin fix-broken-link  # Remember to use the same name as your own b
 ```
 
 Here, Git will ask you for your username and password.
-Enter you GitHub username and password here.
+Enter your GitHub username and password here.
 
 Finally, create a *pull request*.
 To do so, follow the instructions found [here](https://help.github.com/articles/creating-a-pull-request/)!
