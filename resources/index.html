@@ -34,74 +34,54 @@ description: things we recommend - e.g. tutorials
         <link rel="stylesheet" href="styles.css">
     </div>
     <div class="section">
+            {% assign img_dir = site.baseurl | append: '/assets/img/resources-imgs' %}
             <div class="row">
                 <h2 id = "event-section" style="margin-top: 40px; ">Events</h2>
             </div>
             <div class="row" style="margin-top: 30px">
-                <div class="col-md-4"><div class="img-link-div"><a href="https://squareup.com/ca/code-camp" target="_blank"><img class="center-block shake-slow center-img" src="https://yt3.ggpht.com/-bWUaHwGz7To/AAAAAAAAAAI/AAAAAAAAAAA/xEUD6X5iT2Y/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"/></a></div><div class="center-block" style="margin-bottom: 10%">Code Camp launched to inspire, educate and empower the next generation of women in technology.</div></div>
-                <div class="col-md-4"><div class="img-link-div"><a href="https://www.kodewithklossy.com/" target="_blank"><img class="center-block shake-slow center-img" src="https://go.flatironschool.com/hs-fs/hubfs/KWK_logo.png?t=1508884980516&width=320&name=KWK_logo.png"/></a></div><div class="center-block" style="margin-bottom: 10%">With the Kode with Klossy Career Scholarship, you complete over 700 lessons and solve hundreds of labs to gain a mastery of programming fundamentals as well as build fully functioning web apps and a massive digital portfolio of your skills on GitHub.</div></div>
-                <div class="col-md-4"><div class="img-link-div"><a href="https://www.canadalearningcode.ca/" target="_blank" ><img class="center-block shake-slow center-img" src="https://blog.hubba.com/wp-content/uploads/sites/3/2016/10/clc-stacked-logo.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Offers beginner-friendly workshops for adults who want to learn computer programming and other technical skills in a social, collaborative way.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="https://squareup.com/ca/code-camp" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/code-camp.jpg"/></a></div><div class="center-block" style="margin-bottom: 10%">Code Camp launched to inspire, educate and empower the next generation of women in technology.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="https://www.kodewithklossy.com/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/kwk.webp"/></a></div><div class="center-block" style="margin-bottom: 10%">With the Kode with Klossy Career Scholarship, you complete over 700 lessons and solve hundreds of labs to gain a mastery of programming fundamentals as well as build fully functioning web apps and a massive digital portfolio of your skills on GitHub.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="https://www.canadalearningcode.ca/" target="_blank" ><img class="center-block shake-slow center-img" src="{{ img_dir }}/canada-learning-code.svg"/></a></div><div class="center-block" style="margin-bottom: 10%">Offers beginner-friendly workshops for adults who want to learn computer programming and other technical skills in a social, collaborative way.</div></div>
             </div>
-
-            <div class="row">
-                <div class="up-btn" style="margin-top: 20px; float: right; " >
-                    <h4><a href="#" class="black-link"><img style="width: 20px; "src="http://freevector.co/wp-content/uploads/2014/07/70495-up-arrow-sign.png"/>Back to Top</a></h4>
-                </div>
-            </div>
+            {% include back-to-top.html %}
 
             <div class="row">
                 <h2 id="coding-begin" style="margin-top: 40px; ">Coding for Beginners</h2>
             </div>
             <div class="row" style="margin-top: 30px">
-                <div class="col-md-4"><div class="img-link-div"><a href="https://www.codecademy.com/learn" target="_blank"><img class="center-block shake-slow center-img" src="http://s3.amazonaws.com/codecademy-blog/assets/logo_blue_dark.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Tons of online courses to help beginners get a start with many popular languages and technologies. </div></div>
-                <div class="col-md-4"><div class="img-link-div"><a href="https://hourofcode.com/ca/learn" target="_blank"><img class="center-block shake-slow center-img" src="https://hourofcode.com/us/en/images/hour-of-code-logo.png"/></div></a><div class="center-block" style="margin-bottom: 10%">One hour coding tutorials for most ages and abilities.</div></div>
-                <div class="col-md-4"><div class="img-link-div"><a href="http://www.learn-c.org/" target="_blank"><img class="center-block shake-slow center-img" src="http://www.learn-c.org/static/img/logos/learn-c.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Free online interactive language tutorials, using short and effective exercises.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="https://www.codecademy.com/learn" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/codeacademy.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Tons of online courses to help beginners get a start with many popular languages and technologies. </div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="https://hourofcode.com/ca/learn" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/hour-of-code.png"/></div></a><div class="center-block" style="margin-bottom: 10%">One hour coding tutorials for most ages and abilities.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="http://www.learn-c.org/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/learn-c.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Free online interactive language tutorials, using short and effective exercises.</div></div>
             </div>
+            {% include back-to-top.html %}
 
-            <div class="row">
-                <div class="up-btn" style="margin-top: 20px; float: right; " >
-                    <h4><a href="#" class="black-link"><img style="width: 20px; "src="http://freevector.co/wp-content/uploads/2014/07/70495-up-arrow-sign.png"/>Back to Top</a></h4>
-                </div>
-            </div>
             <div class="row">
                 <h2 id="coding-inter" style="margin-top: 40px; ">Intermediate Coding</h2>
             </div>
             <div class="row" style="margin-top: 30px">
-                <div class="col-md-4"><div class="img-link-div"><a href="https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/about" target="_blank"><img class="center-block shake-slow center-img" src="https://www.thesisscientist.com/images/blog/stanford-%20University-ThesisScientist.com.png"/></a></div><div class="center-block" style="margin-bottom: 10%"> Free online university courses in areas such as databases, automata theory, networking and more.</div></div>
-                <div class="col-md-4"><div class="img-link-div"><a href="https://www.w3schools.com/html/" target="_blank"><img class="center-block shake-slow center-img" src="https://3.bp.blogspot.com/-o_NkCtSIGUM/WXxnhtsgT9I/AAAAAAAAGfE/v2BQ1ouKFLgwRzMVPXOVEMiuuE5zo99WwCLcBGAs/s1600/w3-schools-logo.jpg"/></a></div><div class="center-block" style="margin-bottom: 10%">Basically tutorials on everything ever.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/about" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/stanford.png"/></a></div><div class="center-block" style="margin-bottom: 10%"> Free online university courses in areas such as databases, automata theory, networking and more.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="https://www.w3schools.com/html/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/w3.jpg"/></a></div><div class="center-block" style="margin-bottom: 10%">Basically tutorials on everything ever.</div></div>
             </div>
+            {% include back-to-top.html %}
 
-            <div class="row">
-                <div class="up-btn" style="margin-top: 40px; float: right; " >
-                    <h4><a href="#" class="black-link"><img style="width: 20px; "src="http://freevector.co/wp-content/uploads/2014/07/70495-up-arrow-sign.png"/>Back to Top</a></h4>
-                </div>
-            </div>
             <div class="row">
                 <h2 id="tutorial-sec" style="margin-top: 40px; ">Tutorials</h2>
             </div>
             <div class="row" style="margin-top: 30px">
-                <div class="col-md-4"><div class="img-link-div"><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank"><img class="center-block shake-slow center-img" src="https://community.hubspot.com/html/assets/HSN_gray.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Git and Github tutorial for beginners.</div></div>
-                <div class="col-md-4"><div class="img-link-div"><a href="https://developer.android.com/training/basics/firstapp/index.html" target="_blank"><img class="center-block shake-slow center-img" src="http://dc942d419843af05523b-ff74ae13537a01be6cfec5927837dcfe.r14.cf1.rackcdn.com/wp-content/uploads/Android-logo.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Step by step tutorial on making your first android app.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/hubspot.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Git and Github tutorial for beginners.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="https://developer.android.com/training/basics/firstapp/index.html" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/android.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Step by step tutorial on making your first android app.</div></div>
             </div>
+            {% include back-to-top.html %}
 
-            <div class="row">
-                <div class="up-btn" style="margin-top: 20px; float: right; " >
-                    <h4><a href="#" class="black-link"><img style="width: 20px; "src="http://freevector.co/wp-content/uploads/2014/07/70495-up-arrow-sign.png"/>Back to Top</a></h4>
-                </div>
-            </div>
             <div class="row">
                 <h2 id="library-sec" style="margin-top: 40px; ">Libraries</h2>
             </div>
             <div class="row" style="margin-top: 30px">
-                <div class="col-md-4"><div class="img-link-div"><a href="http://getbootstrap.com/" target="_blank"><img class="center-block shake-slow center-img" src="http://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Most popular front end library.</div></div>
-                <div class="col-md-4"><div class="img-link-div"><a href="https://semantic-ui.com/" target="_blank"><img class="center-block shake-slow center-img" src="https://cdn.worldvectorlogo.com/logos/semantic-ui.svg"/></a></div><div class="center-block" style="margin-bottom: 10%"> Another snazzy and easy to use front end library.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="http://getbootstrap.com/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/bootstrap.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Most popular front end library.</div></div>
+                <div class="col-md-4"><div class="img-link-div"><a href="https://semantic-ui.com/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/semantic-ui.svg"/></a></div><div class="center-block" style="margin-bottom: 10%"> Another snazzy and easy to use front end library.</div></div>
             </div>
-
-            <div class="row">
-                <div class="up-btn" style="margin-top: 40px; float: right; margin-bottom: 30px" >
-                    <h4><a href="#" class="black-link"><img style="width: 20px; "src="http://freevector.co/wp-content/uploads/2014/07/70495-up-arrow-sign.png"/>Back to Top</a></h4>
-                </div>
-            </div>
+            {% include back-to-top.html %}
+            
         </div>
 
 </div>
