@@ -21,5 +21,13 @@
     background: transparent;
 }
 .company-icon {
-        margin-top: 20px;
+    margin-top: 20px;
+}
+button.close{
+    float:right; 
+    transform-origin: center;
+    transform: scale(2);
+}
+button.close:focus {
+    outline: none;
 }

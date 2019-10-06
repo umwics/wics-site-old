@@ -2,7 +2,9 @@
 <div class="ui modal" id="{{ item.identification }}-modal">
     <div class="header">
         {{ item.title }}
-        <i id="{{ item.identification }}-close" style="float:right;" class="close icon"></i>
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+        	<span aria-hidden="true">&times;</span>
+        </button>
     </div>
     <div class="image content">
         <div class="ui small image">
