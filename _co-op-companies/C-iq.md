@@ -7,8 +7,9 @@ image: "assets/img/logos/iqmetrix.png"
 width: "100px"
 complete: true
 members:
-  - name: "Julia Stoyko"
-    summary: "Julia did her second work term at iQmetrix."
-    statement: "She worked on the Payments team, working in C# .NET"
-    image: "assets/img/co-op/julia.jpg"
+    - name: "Julia Stoyko"
+      summary: "Julia Stoyko"
+      term: "Work Term 2: Summer 2018"
+      skills: "Tools: C#, .NET"
+      image: "assets/img/co-op/julia.jpg"
 ---

@@ -7,8 +7,9 @@ image: "assets/img/logos/hydro.png"
 width: "200px"
 complete: true
 members:
-  - name: "Katharine King"
-    summary: "Kat did her first and second work term at Manitoba Hydro."
-    statement: "She worked in ERP System Development, programming in SAP ABAP. It was such a great learning experience for her."
-    image: "/assets/img/co-op/kat.jpg"
+    - name: "Katharine King"
+      summary: "Kat King"
+      term: "Work Term 1&2: Summer-Fall 2017"
+      skills: "Tools: SAP ABAP"
+      image: "/assets/img/co-op/kat.jpg"
 ---

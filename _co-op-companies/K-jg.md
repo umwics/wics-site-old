@@ -7,8 +7,9 @@ image: "assets/img/logos/johnston-group.jpg"
 width: "100px"
 complete: true
 members:
-  - name: "Rebecca Tiessen"
-    summary: "Rebecca did her second work term at Johnston Group."
-    statement: "She worked on the Java team migrating functionality to their new web application."
-    image: "/assets/img/co-op/rebecca.jpg"
+    - name: "Rebecca Tiessen"
+      summary: "Rebecca Tiessen"
+      term: "Work Term 2: Fall 2017"
+      skills: "Tools: Java"
+      image: "/assets/img/co-op/rebecca.jpg"
 ---
