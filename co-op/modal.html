@@ -18,9 +18,9 @@
     {% for member in item.members %}
     <div class="image content">
         <div class="ui small image">
-            <img src="{{site.baseurl}}/{{ member.image }}">
+            <img src="{{site.baseurl}}/{{ member.image }}" class="img-rounded">
         </div>
-        <div class="description">
+        <div class="description" style="width:750px">
             <div class="ui header">{{ member.summary }}</div>
             <p>{{ member.statement }}</p>
         </div>
