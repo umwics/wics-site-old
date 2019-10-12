@@ -8,7 +8,7 @@ width: "100px"
 complete: true
 members:
     - name: "Rebecca Tiessen"
-      summary: "Rebecca did her third work term at Bold."
+      summary: "Rebecca Tiessen"
       term: "Work Term 3: Summer 2018"
       skills: "Tools: React/Redux, Go"
       image: "/assets/img/co-op/rebecca.jpg"
