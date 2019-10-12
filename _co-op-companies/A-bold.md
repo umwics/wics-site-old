@@ -7,6 +7,11 @@ image: "assets/img/logos/bold-icon.png"
 width: "100px"
 complete: true
 members:
+    - name: "Rebecca Tiessen"
+      summary: "Rebecca did her third work term at Bold."
+      term: "Work Term 3: Summer 2018"
+      skills: "Tools: React/Redux, Go"
+      image: "/assets/img/co-op/rebecca.jpg"
     - name: "Elizabeth Kenyon"
       summary: "Elizabeth Kenyon"
       term: "Work Term 2: Fall 2017"
@@ -17,9 +22,4 @@ members:
       term: "Work Term 1: Summer 2017"
       skills: "Tools: PHP, React/Redux"
       image: "assets/img/co-op/julia.jpg"
-    - name: "Rebecca Tiessen"
-      summary: "Rebecca did her third work term at Bold."
-      term: "Work Term 3: Summer 2018"
-      skills: "Tools: React/Redux, Go"
-      image: "/assets/img/co-op/rebecca.jpg"
 ---
