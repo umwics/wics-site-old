@@ -8,8 +8,7 @@ width: "100px"
 complete: true
 members:
     - name: "Julia Stoyko"
-      summary: "Julia Stoyko"
       term: "Work Term 3: Fall 2018"
-      skills: "TypeScript, React, Ruby on Rails"
+      tools: "Tools: TypeScript, React, Ruby on Rails"
       image: "assets/img/co-op/julia.jpg"
 ---

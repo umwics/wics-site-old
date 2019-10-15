@@ -8,13 +8,11 @@ width: "100px"
 complete: true
 members:
     - name: "Shenyun Wang"
-      summary: "Shenyun Wang"
       term: "Work Term 1: Winter 2018"
-      skills: "Tools: Java, JSP"
+      tools: "Tools: Java, JSP"
       image: "/assets/img/co-op/shenyun.jpg"
     - name: "Tife Akinola"
-      summary: "Tife Akinola"
       term: "Work Term 1: Winter 2018"
-      skills: "Tools: XSLT Stylsheet, XML, AL3"
+      tools: "Tools: XSLT Stylsheet, XML, AL3"
       image: "/assets/img/co-op/tife.jpg"
 ---

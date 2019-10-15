@@ -8,8 +8,7 @@ width: "200px"
 complete: true
 members:
     - name: "Tiffany Jiang"
-      summary: "Tiffany Jiang"
       term: "Work Term 3: Summer 2018"
-      skills: ""
+      tools: ""
       image: "/assets/img/co-op/tiffany.jpg"
 ---

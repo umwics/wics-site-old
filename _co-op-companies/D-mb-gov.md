@@ -8,8 +8,7 @@ width: "100px"
 complete: true
 members:
     - name: "Elizabeth Kenyon"
-      summary: "Elizabeth Kenyon"
       term: "Work Term 1: Winter 2017"
-      skills: "Tools: .Net"
+      tools: "Tools: .Net"
       image: "/assets/img/co-op/elizabeth.jpg"
 ---

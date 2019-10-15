@@ -8,8 +8,7 @@ width: "100px"
 complete: true
 members:
     - name: "Raquel Thiessen"
-      summary: "Raquel Thiessen"
       term: "Work Term 1: Winter 2019"
-      skills: "Tools: AWS, Python"
+      tools: "Tools: AWS, Python"
       image: "/assets/img/co-op/raquel.jpg"
 ---

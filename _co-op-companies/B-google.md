@@ -8,8 +8,7 @@ width: "100px"
 complete: true
 members:
     - name: "Laura Stoyko"
-      summary: "Laura Stoyko"
       term: "Intern: Summer 2018"
-      skills: "Tools: Angular 2/TypeScript, Java"
+      tools: "Tools: Angular 2/TypeScript, Java"
       image: "assets/img/co-op/laura.jpg"
 ---
