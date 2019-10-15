@@ -1,9 +1,9 @@
 ---
-title: "Co-Op Profile"
+title: "Co-op Profile"
 labels: co-op
 ---
 
-Update the [Co-Op page](http://cs.umanitoba.ca/~wics/co-op/) by adding a new profile for the company below:
+Update the [Co-op page](http://cs.umanitoba.ca/~wics/co-op/) by adding a new profile for the company below:
 
 ## [Company Name]
 
