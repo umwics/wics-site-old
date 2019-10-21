@@ -9,6 +9,6 @@ complete: true
 members:
     - name: "Katharine King"
       term: "Work Term 1&2: Summer-Fall 2017"
-      tools: "Tools: SAP ABAP"
+      tools: "SAP ABAP"
       image: "/assets/img/co-op/kat.jpg"
 ---

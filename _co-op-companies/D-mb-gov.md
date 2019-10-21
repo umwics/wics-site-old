@@ -9,6 +9,6 @@ complete: true
 members:
     - name: "Elizabeth Kenyon"
       term: "Work Term 1: Winter 2017"
-      tools: "Tools: .Net"
+      tools: ".Net"
       image: "/assets/img/co-op/elizabeth.jpg"
 ---

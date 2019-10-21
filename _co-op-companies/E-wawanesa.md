@@ -9,10 +9,10 @@ complete: true
 members:
     - name: "Shenyun Wang"
       term: "Work Term 1: Winter 2018"
-      tools: "Tools: Java, JSP"
+      tools: "Java, JSP"
       image: "/assets/img/co-op/shenyun.jpg"
     - name: "Tife Akinola"
       term: "Work Term 1: Winter 2018"
-      tools: "Tools: XSLT Stylsheet, XML, AL3"
+      tools: "XSLT Stylsheet, XML, AL3"
       image: "/assets/img/co-op/tife.jpg"
 ---

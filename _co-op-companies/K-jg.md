@@ -9,6 +9,6 @@ complete: true
 members:
     - name: "Rebecca Tiessen"
       term: "Work Term 2: Fall 2017"
-      tools: "Tools: Java"
+      tools: "Java"
       image: "/assets/img/co-op/rebecca.jpg"
 ---

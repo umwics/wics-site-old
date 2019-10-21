@@ -9,6 +9,6 @@ complete: true
 members:
     - name: "Raquel Thiessen"
       term: "Work Term 1: Winter 2019"
-      tools: "Tools: AWS, Python"
+      tools: "AWS, Python"
       image: "/assets/img/co-op/raquel.jpg"
 ---

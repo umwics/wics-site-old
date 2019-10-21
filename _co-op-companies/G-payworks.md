@@ -9,6 +9,6 @@ complete: true
 members:
     - name: "Rebecca Tiessen"
       term: "Work Term 1: Winter 2017"
-      tools: "Tools: JavaScript, .NET"
+      tools: "JavaScript, .NET"
       image: "/assets/img/co-op/rebecca.jpg"
 ---

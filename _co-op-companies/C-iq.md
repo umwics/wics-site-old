@@ -9,10 +9,10 @@ complete: true
 members:
     - name: "Jada Cheung"
       term: "Work Term 2: Fall 2018"
-      tools: "Tools: Azure, C#, Backbone.js"
+      tools: "Azure, C#, Backbone.js"
       image: "assets/img/co-op/jada.jpg"
     - name: "Julia Stoyko"
       term: "Work Term 2: Summer 2018"
-      tools: "Tools: C#, .NET"
+      tools: "C#, .NET"
       image: "assets/img/co-op/julia.jpg"
 ---

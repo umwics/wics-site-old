@@ -9,6 +9,6 @@ complete: true
 members:
     - name: "Julia Stoyko"
       term: "Work Term 3: Fall 2018"
-      tools: "Tools: TypeScript, React, Ruby on Rails"
+      tools: "TypeScript, React, Ruby on Rails"
       image: "assets/img/co-op/julia.jpg"
 ---

@@ -9,6 +9,6 @@ complete: true
 members:
     - name: "Tiffany Jiang"
       term: "Work Term 2: Fall 2017"
-      tools: "Tools: Polymer, C#"
+      tools: "Polymer, C#"
       image: "/assets/img/co-op/tiffany.jpg"
 ---
