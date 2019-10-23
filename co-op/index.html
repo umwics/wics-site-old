@@ -73,7 +73,7 @@ description: Highlighting WICS members who have/had done a co-op
 <script src="{{site.baseurl}}/assets/js/parallax.js"></script>
 <script>
     $(document).ready(function () {
-        {% for item in site.co - op - companies %}
+        {% for item in site.co-op-companies %}
         {% if item.complete == true %}
         $("#{{ item.identification }}").click(function () {
             $("#{{ item.identification }}-modal").modal("show");
