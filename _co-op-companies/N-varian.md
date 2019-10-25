@@ -5,6 +5,6 @@ description: "Varian uses intelligent approach to fight against cancer."
 link: "https://www.varian.com/"
 image: "assets/img/logos/varian.png"
 width: "200px"
-complete: false
+complete: true
 members: 
 ---
