@@ -27,12 +27,12 @@ Now with Ruby installed, you should be able to install `bundler` with the `gem` 
 ```sh
 $ gem install bundler
 ```
->You might see a warning that looks like so:
+>**Note**: You might see a warning that looks like so:
 ```
 WARNING:  You don't have /homedir/.gem/ruby/2.5.0/bin in your PATH,
           gem executables will not run.
 ```
-If so, run this command, replacing the path with the exact path found in the warning message:
+**If so**: run this command, replacing the path with the exact path found in the warning message:
 ```sh
 $ export PATH=$PATH:/homedir/.gem/ruby/2.5.0/bin
 ```
@@ -73,11 +73,10 @@ If you're on Linux or MacOS, use your terminal to run the commands.
 
 You will need the Ruby programming language and `bundler` installed on your computer. (See the [Before Getting Stated Section](#Before-Getting-Started))
 
-1. change directory to the repository.
+1. change directory to the WICS website repository. (**Skip this step** if you're already inside the repository.)
 ```sh
 $ cd <repo> #replace <repo> with the path to the repository.
 ```
->Skip this step if you're already inside the WICS website repository.
 
 2. Install the site's Dependencies(this might take a while).
 ```sh
@@ -111,7 +110,7 @@ $ git add .
 ```
 
 2. *Commit* your changes.
->Your *commit message* should concisely describe what you did.
+>**Note**: Your *commit message* should concisely describe what you did.
 
   ```sh
 $ git commit -m 'Fix broken link to CSS tutorial'
