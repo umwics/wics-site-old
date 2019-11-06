@@ -32,7 +32,7 @@ $ gem install bundler
 WARNING:  You don't have /homedir/.gem/ruby/2.5.0/bin in your PATH,
           gem executables will not run.
 ```
-**If so**: run this command, replacing the path with the exact path found in the warning message:
+>**If so**: run this command, replacing the path with the exact path found in the warning message:
 ```sh
 $ export PATH=$PATH:/homedir/.gem/ruby/2.5.0/bin
 ```
@@ -53,7 +53,7 @@ $ git clone https://github.com/umwics/wics-site
 $ cd wics-site
 ```
 3. Next, create a new branch.
-> **Note**: You should name it something concise but relevant to what you're going to work on.
+  > **Note**: You should name it something concise but relevant to what you're going to work on.
 Here I've used the name `fix-broken-link` to describe what my branch will contain.  
 
   ```sh
