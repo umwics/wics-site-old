@@ -41,7 +41,7 @@ $ export PATH=$PATH:/homedir/.gem/ruby/2.5.0/bin
 ---
 ## Contributing to the Site
 
-#### Making Changes
+### Making Changes
 
 Now that you have Git installed.
 1. clone the repository
@@ -62,7 +62,7 @@ $ git checkout -b fix-broken-link
 
 Now feel free to make changes to the site! Now to preview changes to the site.
 
-#### Testing the Site Locally
+### Testing the Site Locally
 
 Now that you've made some changes, you probably want to see what they look like.
 
@@ -99,7 +99,7 @@ Now you can navigate to `http://localhost:4000/~wics/` to view the  website. _(D
 
 While the site is running in the terminal, you can edit pages and they will update in real time.
 
-#### Submitting Changes
+### Submitting Changes
 
 Now that you've written a great new feature, the next step is to *commit* those changes, and *push* them to the GitHub repository.
 Afterwards, you will make a *pull request* for us to review and *merge*.
