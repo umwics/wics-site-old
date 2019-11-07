@@ -8,5 +8,7 @@ width: "200px"
 complete: true
 members:
   -name: "Raquel"
-  summary: "used C#, .net, vue, on work term 2 in Fall 2019"
+  tools: "C#, .net, vue"
+  term: "Work Term: Fall 2019"
+  image: "/assets/img/co-op/raquel.jpg"
 ---
