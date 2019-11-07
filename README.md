@@ -137,5 +137,8 @@ Here are some tutorials for getting you on your feet with various tools and tech
 * [HTML](https://www.w3schools.com/html/html_intro.asp)
 * [CSS](https://www.w3schools.com/css/css_intro.asp)
 * [Bootstrap](https://www.w3schools.com/bootstrap/bootstrap_get_started.asp)
+
+Optional:
+* [YAML](https://gettaurus.org/docs/YAMLTutorial/)
 * [Markdown](https://www.markdowntutorial.com/)
 * [Jekyll](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
