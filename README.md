@@ -110,11 +110,12 @@ $ git add .
 ```
 
 2. *Commit* your changes.
->**Note**: Your *commit message* should concisely describe what you did.
-
-  ```sh
+```sh
 $ git commit -m 'Fix broken link to CSS tutorial'
 ```
+>**Note**: Your *commit message* should concisely describe what you did.
+
+
 
 3. *Push* the commit to the GitHub repository.
 ```sh
