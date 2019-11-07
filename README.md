@@ -53,11 +53,12 @@ $ git clone https://github.com/umwics/wics-site
 $ cd wics-site
 ```
 3. Next, create a new branch.  
+> **Note**: You should name it something concise but relevant to what you're going to work on.
+Here I've used the name `fix-broken-link` to describe what my branch will contain.  
 ```sh
 $ git checkout -b fix-broken-link
 ```
-  > **Note**: You should name it something concise but relevant to what you're going to work on.
-Here I've used the name `fix-broken-link` to describe what my branch will contain.  
+
 
 
 Now feel free to make changes to the site! Now to preview changes to the site.
