@@ -5,6 +5,6 @@ description: "BlackBerry is a Canadian multinational company specializing in ent
 link: "https://www.blackberry.com/ca/en"
 image: "assets/img/logos/Blackberry.png"
 width: "100px"
-complete: false
+complete: true
 members:
 ---
