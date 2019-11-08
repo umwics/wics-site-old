@@ -1,4 +1,4 @@
-.darkened{
+.darkened {
     filter: brightness(70%);
 }
 
@@ -20,10 +20,20 @@
     min-height: 60%;
     background: transparent;
 }
-.company-icon {
+
+.company-card {
     margin-top: 20px;
 }
-button.close{
+
+.company-card-footer {
+    padding: 0px !important;
+}
+
+.company-card-footer-link {
+    padding: 15px !important;
+}
+
+button.close {
     float:right; 
     transform-origin: center;
     transform: scale(2);

@@ -44,7 +44,7 @@ description: Highlighting WICS members who have/had done a co-op
         <div class="ui centered grid">
             {% for item in site.co-op-companies %}
             {% assign mod7 = forloop.index | modulo: 7 %}
-            <div class="col-md-2 company-icon">
+            <div class="company-card col-md-2">
                 <div class="ui link cards">
                     <div class="card">
                         <div class="blurring dimmable image">
@@ -58,8 +58,8 @@ description: Highlighting WICS members who have/had done a co-op
                             </a>
                             {% endif %}
                         </div>
-                        <div class="content" style="padding: 0;">
-                            <a id="{{ item.identification }}" class="header" style="padding: 15px;">{{ item.title }}</a>
+                        <div class="company-card-footer content">
+                            <a class="company-card-footer-link header" id="{{ item.identification }}">{{ item.title }}</a>
                         </div>
                     </div>
                 </div>
