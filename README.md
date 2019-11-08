@@ -6,7 +6,7 @@ This repository holds the WICS website's source code!
 
 You don't need much to work on the site, just a text editor and a few basic tools.
 Here is a guide to get you started.  
-> If you run into issues with this guide, don't hesitate to reach out over Slack, we're happy to help out!
+If you run into issues with this guide, don't hesitate to reach out over Slack, we're happy to help out!
 
 #### Installing an Editor
 
