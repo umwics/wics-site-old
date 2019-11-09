@@ -1,0 +1,103 @@
+{% for item in site.data.members.website-committee.docs %}
+<div class="ui modal" id="{{ item.identification }}-modal" >
+
+    <div class="header">
+        {{ item.title }}
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="section-description">
+        <div class="column-image">
+            <img src="{{ site.baseurl }}{{ item.image }}" class="image-circle">
+        </div>
+
+        <div class="description">
+            <div class="ui header">{{ item.description }}</div>
+            <h4>{{ item.description2 }}</h4>
+            <a target="_blank" href="{{ item.link }}"><button class="ui primary button">Contact</button></a>
+        </div>
+    </div>
+
+</div>
+{% endfor %}
+
+{% for item in site.data.members.youth-outreach-committee.docs %}
+<div class="ui modal" id="{{ item.identification }}-modal" >
+
+    <div class="header">
+        {{ item.title }}
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="section-description">
+        <div class="column-image">
+            <img src="{{ site.baseurl }}{{ item.image }}" class="image-circle">
+        </div>
+
+        <div class="description">
+            <div class="ui header">{{ item.description }}</div>
+            <h4>{{ item.description2 }}</h4>
+            <a target="_blank" href="{{ item.link }}"><button class="ui primary button">Contact</button></a>
+        </div>
+    </div>
+
+</div>
+{% endfor %}
+
+
+
+{% for item in site.data.members.past-execs.docs %}
+<div class="ui modal" id="{{ item.identification }}-modal" >
+
+    <div class="header">
+        {{ item.title }}
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="section-description">
+        <div class="column-image">
+            <img src="{{ site.baseurl }}{{ item.image }}" class="image-circle">
+        </div>
+
+        <div class="description">
+            <div class="ui header">{{ item.description }}</div>
+            <h4>{{ item.description2 }}</h4>
+            <a target="_blank" href="{{ item.link }}"><button class="ui primary button">Contact</button></a>
+        </div>
+    </div>
+
+</div>
+{% endfor %}
+
+
+
+{% for item in site.data.members.alumni.docs %}
+<div class="ui modal" id="{{ item.identification }}-modal" >
+
+    <div class="header">
+        {{ item.title }}
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="section-description">
+        <div class="column-image">
+            <img src="{{ site.baseurl }}{{ item.image }}" class="image-circle">
+        </div>
+
+        <div class="description">
+            <div class="ui header">{{ item.description }}</div>
+            <h4>{{ item.description2 }}</h4>
+            <a target="_blank" href="{{ item.link }}"><button class="ui primary button">Contact</button></a>
+        </div>
+    </div>
+
+</div>
+{% endfor %}
