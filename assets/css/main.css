@@ -200,7 +200,16 @@ body {
     font-size: 30px;
 }
 
+/* Page titles */
+
+.title {
+    text-align: center; 
+    margin-bottom: 1em;
+    font-size: 3.5em;
+}
+
 /* Container holding the image and the text */
+
 .img-container {
     position: relative;
     text-align: center;
