@@ -4,5 +4,7 @@ $('.main-carousel').flickity({
     // disable previous & next buttons and dots
     prevNextButtons: false,
     autoPlay: true,
-    wrapAround: true
+    wrapAround: true,
+    draggable: false,
+    pageDots: false,
   });

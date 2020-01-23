@@ -31,7 +31,6 @@ function textManipulate(manipulateType) {
     let currentSentence = TEXT_CONTENT[textContentIndex].substring(0, letterIndex);
     blinkingTextElement.innerHTML = currentSentence;
     letterIndex += manipulateType;
-    console.log(letterIndex);
     let endSentenceLength = START_TEXT_CONTENT_INDEX[textContentIndex]+1;
     // if we are typing text, then the end process will occur when the sentence
     // this function is typing equals to the full sentence
