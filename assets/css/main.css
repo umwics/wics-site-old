@@ -1,13 +1,35 @@
+@font-face {
+    font-family: gilroy-medium;
+    src: url("{{ site.baseurl }}/assets/font/Gilroy-Medium.otf") format("opentype");
+}
+
+
 html {
     height: 100%;
+    font-family: gilroy-semibold;
     font-weight:normal !important;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     height: 100%;
     font-weight:normal !important;
 }
+
+
+/* carousel */
+.carousel-cell {
+    width: 100%;
+    /* margin-right: 10px; */
+}
+
+
+.carousel-img {
+    width: 80%;
+    height: 80%;
+}
+
+/* end of carousel */
 
 
 /* Blinking cursor css */
