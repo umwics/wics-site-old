@@ -33,6 +33,21 @@ body {
 /* end of carousel */
 
 
+/* carousel */
+.carousel-cell {
+    width: 100%;
+    /* margin-right: 10px; */
+}
+
+
+.carousel-img {
+    width: 80%;
+    height: 80%;
+}
+
+/* end of carousel */
+
+
 /* Blinking cursor css */
 .blink-block {
     text-align: center;
