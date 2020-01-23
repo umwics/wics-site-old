@@ -3,33 +3,37 @@ layout: default
 ---
 <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 <link rel="stylesheet" type="text/css" href="assets/css/carousel/flickity.css">
-<!-- i love daryl a -harrygu -->
+
+
 <div class="container">
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-            <p style="font-size: 45px;" align="center"><b>U of M Women in Computer Science</b></p>
+            <p class="title"><b>U of M Women in Computer Science</b></p>
             <div class="blink-block">
-                    <p class="blink-text" align="center">We are
-                            <div class="blinking-cursor"></div>
-                    </p>
-                    
+                <p class="blink-text" align="center">We are
+                    <div class="blinking-cursor"></div>
+                </p>
+
             </div>
         </div>
     </div>
 </div>
 
 <div class="img-container">
-    
+
     <div class="main-carousel">
-        <div class="carousel-cell"><img class="carousel-img" src="{{ site.baseurl }}/assets/img/home/carousel/execteam.PNG"/></div>
-        <div class="carousel-cell"><img class="carousel-img" src="{{ site.baseurl }}/assets/img/home/carousel/iqmetrix.PNG"/></div>
-        <div class="carousel-cell"><img class="carousel-img" src="{{ site.baseurl }}/assets/img/home/carousel/skipscholarship.PNG"/></div>
+        {% for image in site.static_files %}
+        {% if image.path contains 'carousel' and image.extname contains 'jpg' %}
+        <div class="carousel-cell"><img class="carousel-img" src="{{site.baseurl}}{{image.path}}" /></div>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
 <div class="container" style="margin: 0; width: 100%; background-color:rgb(116, 119, 124); color: white;">
     <div class="row">
-        <h3 style="text-align: center; margin: 25px 15px 25px 15px;">We are a group of University of Manitoba students who support women in technology. All are welcome to join!</h3>
+        <h3 style="text-align: center; margin: 25px 15px 25px 15px;">We are a group of University of Manitoba students
+            who support women in technology. All are welcome to join!</h3>
     </div>
 </div>
 

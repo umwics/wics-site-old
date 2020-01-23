@@ -1,12 +1,10 @@
-var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity( elem, {
-  // options
-  cellAlign: 'left',
-  contain: true
-});
-
-// element argument can be a selector string
-//   for an individual element
-var flkty = new Flickity( '.main-carousel', {
-  // options
-});
+$('.main-carousel').flickity({
+    // options
+    contain: true,
+    // disable previous & next buttons and dots
+    prevNextButtons: false,
+    autoPlay: true,
+    wrapAround: true,
+    draggable: false,
+    pageDots: false,
+  });

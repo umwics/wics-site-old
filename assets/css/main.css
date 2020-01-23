@@ -3,30 +3,31 @@
     src: url("{{ site.baseurl }}/assets/font/Gilroy-Medium.otf") format("opentype");
 }
 
-
 html {
     height: 100%;
-    font-family: gilroy-semibold;
+    font-family: gilroy-medium;
     font-weight:normal !important;
 }
 
 body {
-    /* font-family: 'Raleway', sans-serif; */
     height: 100%;
     font-weight:normal !important;
 }
 
-
+.title{
+    font-size: 45px;
+    margin-bottom:20px;
+    text-align: center;
+}
 /* carousel */
 .carousel-cell {
     width: 100%;
-    /* margin-right: 10px; */
 }
 
 
 .carousel-img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
 /* end of carousel */
@@ -67,6 +68,10 @@ body {
         margin-bottom: 5px;
         background-color: black; 
         animation: blink .75s step-end infinite;
+    }
+    .title{
+        font-size: xx-large;
+        margin-bottom:10px;
     }
 }
 
@@ -119,7 +124,7 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #475d68;
+    color: #6a7981;
 }
 .navbar-default .navbar-toggle {
     border-color: #888;
