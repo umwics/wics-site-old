@@ -26,11 +26,7 @@
 }
 
 .company-card-footer {
-    padding: 0px !important;
-}
-
-.company-card-footer-link {
-    padding: 15px;
+    padding: 5px;
 }
 
 button.close {
