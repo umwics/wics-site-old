@@ -3,8 +3,9 @@ $('.main-carousel').flickity({
     contain: true,
     // disable previous & next buttons and dots
     prevNextButtons: false,
-    autoPlay: true,
+    autoPlay: 5000,
     wrapAround: true,
     draggable: false,
-    pageDots: false,
+    pageDots: true,
+    pauseAutoPlayOnHover: false,
   });
