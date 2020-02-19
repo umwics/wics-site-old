@@ -24,8 +24,10 @@ layout: default
 
     <div class="main-carousel">
         {% for image in site.static_files %}
-        {% if image.path contains 'carousel' and image.extname contains 'jpg' %}
+        {% if image.path contains 'carousel'%}
+        {% if image.extname contains 'jpg' or image.extname contains 'jpeg' %}
         <div class="carousel-cell"><img class="carousel-img" src="{{site.baseurl}}{{image.path}}" /></div>
+        {% endif %}
         {% endif %}
         {% endfor %}
     </div>
