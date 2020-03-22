@@ -4,9 +4,18 @@ docs:
   - title: Shenyun Wang
     identification: shenyun
     description: Website coordinator
-    description2: Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    description2: Manages the website committee and keeps everything updated on the website.
     link: mailto:webmaster@example.com
     image: /assets/img/members/shenyun.jpg
+    width: 100px
+    complete: true
+
+  - title: Jada Lim
+    identification: jada
+    description: Website Assistant
+    description2: Assists in managing website and teaching members web developement, GitHub, etc.
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/jada.jpg
     width: 100px
     complete: true
 
@@ -15,95 +24,32 @@ docs:
     description: Member
     description2:
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
+    image: /assets/img/members/juhee.jpg
     width: 100px
     complete: true
 
-  - title: Jane Doe
-    identification: jane1
+  - title: Semon Alfaro
+    identification: semon
     description: Member
     description2:
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
+    image: /assets/img/members/semon.png
     width: 100px
     complete: true
 
-  - title: Jane Doe
-    identification: jane2
+  - title: Daryl Fung
+    identification: darl
     description: Member
     description2:
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
+    image: /assets/img/members/daryl.jpg
     width: 100px
     complete: true
 
-  - title: Jane Doe
-    identification: jane3
+  - title: Luke Morrow
+    identification: luke
     description: Member
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
-    width: 100px
-    complete: true
-
-  - title: Jane Doe
-    identification: jane4
-    description: Member
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
-    width: 100px
-    complete: true
-
-  - title: Jane Doe
-    identification: jane5
-    description: Member
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
-    width: 100px
-    complete: true
-
-  - title: Jane Doe
-    identification: jane6
-    description: Member
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
-    width: 100px
-    complete: true
-
-  - title: Jane Doe
-    identification: jane7
-    description: Member
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
-    width: 100px
-    complete: true
-
-  - title: Jane Doe
-    identification: jane8
-    description: Member
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
-    width: 100px
-    complete: true
-
-  - title: Jane Doe
-    identification: jane9
-    description: Member
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
-    width: 100px
-    complete: true
-
-  - title: Jane Doe
-    identification: jane10
-    description: Member
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
-    width: 100px
-    complete: true
-
-  - title: Jane Doe
-    identification: jane11
-    description: Member
+    description2:
     link: mailto:webmaster@example.com
     image: /assets/img/members/emptywhite.png
     width: 100px

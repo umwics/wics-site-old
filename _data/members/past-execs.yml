@@ -2,27 +2,50 @@ docs_list_title: Past execs
 docs:
 
 
-  - title: Jane Doe
-    identification: janea
-    description: Member
+  - title: Katharine King
+    identification: katk
+    description: Co-President (Founder) 2018-2019
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptyblack.png
+    image: /assets/img/members/kat.jpg
     width: 100px
     complete: true
 
-  - title: Jane Doe
-    identification: janeb
-    description: Member
+  - title: Julia Stoyko
+    identification: julias
+    description: Co-President 2018-2019
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptyblack.png
+    image: /assets/img/members/julia.jpg
     width: 100px
     complete: true
 
-  - title: Jane Doe
-    identification: janec
-    description: Member
+  - title: Raquel Thiessen
+    identification: raquelt
+    description: Co-Vice President 2018-2019
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptyblack.png
+    image: /assets/img/members/raquel.jpg
     width: 100px
     complete: true
 
+  - title: Diljot Garcha
+    identification: diljot
+    description: Co-Vice President 2018-2019
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/diljot.png
+    width: 100px
+    complete: true
+
+  - title: Laura Stoyko
+    identification: lauras
+    description: Director of Outreach 2018-2019
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/laura.jpg
+    width: 100px
+    complete: true
+
+  - title: Danika 
+    identification: danika
+    description: Treasurer 2018-2019
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/danika.jpg
+    width: 100px
+    complete: true
