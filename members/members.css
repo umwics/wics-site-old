@@ -73,9 +73,9 @@ h4{
   margin-right: auto;
   object-fit: cover;
   border-radius:50%;
-  width: 100%;
+  width: 120px;
   max-width: 150px;
-  height: auto;
+  height: 120px;
   cursor: pointer;
   transition: .5s ease;
 }
@@ -96,24 +96,6 @@ h4{
 }
 
 
-
-button.close{
-    float:right;
-    transform-origin: center;
-    transform: scale(2);
-}
-button.close:focus {
-    outline: none;
-}
-
-.section-description{
-padding: 21px;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-direction: row;
-}
-
 .column-image{
 padding: 21px;
 }
@@ -127,4 +109,13 @@ padding: 21px;
     border-radius:50%;
     width: 150px;
     height: auto;
+}
+
+/* modal */
+.description{
+    padding: 0px 15px 15px 15px;
+}
+
+.ui.modal{
+    height: fit-content;
 }

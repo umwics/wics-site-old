@@ -18,6 +18,28 @@ description: WICS Members
 <div class="container">
         {% assign img_dir = site.baseurl | append: '/assets/img/resources-imgs' %}
 
+        <div class="execs">
+            <div class="sub-title">
+                <b>{{ site.data.members.execs.docs_list_title }}</b>
+            </div>
+        
+            <div class="ui left grid" style="margin-top: 30px">
+                {% for item in site.data.members.execs.docs %}
+                {% assign mod6 = forloop.index | modulo: 6 %}
+                <div class="column-card">
+                    <div class="card">
+                        <img id="{{ item.identification }}-img" src="{{ site.baseurl }}{{ item.image }}" class="avatar">
+                        <div class="container-card">
+                            <h3>{{ item.title }}</h3>
+                            <p class="title-card">{{ item.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div> <!-- /.ui centered grid-class -->
+        
+        </div> <!-- /.website-committee-class -->
+        {% include back-to-top.html %}
         <div class="website-committee">
             <div class="sub-title">
                 <b>{{ site.data.members.website-committee.docs_list_title }}</b>
@@ -130,7 +152,7 @@ description: WICS Members
 <script src="{{site.baseurl}}/assets/js/parallax.js"></script>
 <script>
     $(document).ready(function () {
-        {% for item in site.data.members.website-committee.docs %}
+        {% for item in site.data.members.execs.docs %}
         {% if item.complete == true %}
         $("#{{ item.identification }}").click(function () {
             $("#{{ item.identification }}-modal").modal("show");
@@ -150,65 +172,3 @@ description: WICS Members
 </script>
 
 
-<script>
-    $(document).ready(function () {
-        {% for item in site.data.members.youth-outreach-committee.docs %}
-        {% if item.complete == true %}
-        $("#{{ item.identification }}").click(function () {
-            $("#{{ item.identification }}-modal").modal("show");
-        });
-        $("#{{ item.identification }}-img").click(function () {
-            $("#{{ item.identification }}-modal").modal("show");
-        });
-        $("#{{ item.identification }}-close").click(function () {
-            $("#{{ item.identification }}-modal").modal("hide");
-        });
-        $('body').on('click', '.modal-backdrop.show', function (e) {
-            $("#{{ item.identification }}-modal").modal("hide");
-        });
-        {% endif %}
-        {% endfor %}
-    });
-</script>
-
-<script>
-    $(document).ready(function () {
-        {% for item in site.data.members.past-execs.docs %}
-        {% if item.complete == true %}
-        $("#{{ item.identification }}").click(function () {
-            $("#{{ item.identification }}-modal").modal("show");
-        });
-        $("#{{ item.identification }}-img").click(function () {
-            $("#{{ item.identification }}-modal").modal("show");
-        });
-        $("#{{ item.identification }}-close").click(function () {
-            $("#{{ item.identification }}-modal").modal("hide");
-        });
-        $('body').on('click', '.modal-backdrop.show', function (e) {
-            $("#{{ item.identification }}-modal").modal("hide");
-        });
-        {% endif %}
-        {% endfor %}
-    });
-</script>
-
-<script>
-    $(document).ready(function () {
-        {% for item in site.data.members.alumni.docs %}
-        {% if item.complete == true %}
-        $("#{{ item.identification }}").click(function () {
-            $("#{{ item.identification }}-modal").modal("show");
-        });
-        $("#{{ item.identification }}-img").click(function () {
-            $("#{{ item.identification }}-modal").modal("show");
-        });
-        $("#{{ item.identification }}-close").click(function () {
-            $("#{{ item.identification }}-modal").modal("hide");
-        });
-        $('body').on('click', '.modal-backdrop.show', function (e) {
-            $("#{{ item.identification }}-modal").modal("hide");
-        });
-        {% endif %}
-        {% endfor %}
-    });
-</script>
