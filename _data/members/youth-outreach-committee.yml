@@ -8,5 +8,5 @@ docs:
     link: mailto:webmaster@example.com
     image: /assets/img/members/skyla.jpg
     width: 100px
-    complete: true
+    modal: false
 

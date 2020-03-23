@@ -18,7 +18,7 @@ description: WICS Members
 <div class="container">
         {% assign img_dir = site.baseurl | append: '/assets/img/resources-imgs' %}
 
-        <div class="execs">
+        <div id="execs">
             <div class="sub-title">
                 <b>{{ site.data.members.execs.docs_list_title }}</b>
             </div>
@@ -40,7 +40,7 @@ description: WICS Members
         
         </div> <!-- /.website-committee-class -->
         {% include back-to-top.html %}
-        <div class="website-committee">
+        <div id="website-committee">
             <div class="sub-title">
                 <b>{{ site.data.members.website-committee.docs_list_title }}</b>
             </div>
@@ -66,7 +66,7 @@ description: WICS Members
 
 
 
-        <div class="youth-outreach-committee">
+        <div id="youth-outreach-committee">
             <div class="sub-title">
                 <b>{{ site.data.members.youth-outreach-committee.docs_list_title }}</b>
             </div>
@@ -91,7 +91,7 @@ description: WICS Members
 
 
 
-        <div class="Past-execs">
+        <div id="Past-execs">
             <div class="sub-title">
                 <b>{{ site.data.members.past-execs.docs_list_title }}</b>
             </div>
@@ -115,7 +115,7 @@ description: WICS Members
     {% include back-to-top.html %}
 
 
-        <div class="alumni">
+        <div id="alumni">
             <div class="sub-title">
                 <b>{{ site.data.members.alumni.docs_list_title }}</b>
             </div>
@@ -153,7 +153,7 @@ description: WICS Members
 <script>
     $(document).ready(function () {
         {% for item in site.data.members.execs.docs %}
-        {% if item.complete == true %}
+        {% if item.modal == true %}
         $("#{{ item.identification }}").click(function () {
             $("#{{ item.identification }}-modal").modal("show");
         });

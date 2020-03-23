@@ -8,7 +8,7 @@ docs:
     link: mailto:webmaster@example.com
     image: /assets/img/members/kat.jpg
     width: 100px
-    complete: true
+    modal: false
 
   - title: Julia Stoyko
     identification: julias
@@ -16,7 +16,7 @@ docs:
     link: mailto:webmaster@example.com
     image: /assets/img/members/julia.jpg
     width: 100px
-    complete: true
+    modal: false
 
   - title: Raquel Thiessen
     identification: raquelt
@@ -24,7 +24,7 @@ docs:
     link: mailto:webmaster@example.com
     image: /assets/img/members/raquel.jpg
     width: 100px
-    complete: true
+    modal: false
 
   - title: Diljot Garcha
     identification: diljot
@@ -32,7 +32,7 @@ docs:
     link: mailto:webmaster@example.com
     image: /assets/img/members/diljot.png
     width: 100px
-    complete: true
+    modal: false
 
   - title: Laura Stoyko
     identification: lauras
@@ -40,12 +40,12 @@ docs:
     link: mailto:webmaster@example.com
     image: /assets/img/members/laura.jpg
     width: 100px
-    complete: true
+    modal: false
 
-  - title: Danika 
+  - title: Danika Passler-Bates
     identification: danika
     description: Treasurer 2018-2019
     link: mailto:webmaster@example.com
     image: /assets/img/members/danika.jpg
     width: 100px
-    complete: true
+    modal: false

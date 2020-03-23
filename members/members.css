@@ -21,7 +21,6 @@
     width: 3rem;
 }
 
-
 h1 {
     font-size: 30px;
 }
@@ -54,10 +53,9 @@ h4{
   }
 }
 
-/* Some left and right padding inside the container */
+/* avatar label alignment */
 .container-card {
-  padding: 0 16px;
-  padding-bottom: 16px;
+  padding: 0 16px 16px 16px;
   margin: 10px 0;
   text-align: center;
 }
@@ -84,17 +82,13 @@ h4{
   opacity: 0.8;
 }
 
-
 .profile-icon {
     margin-top: 20px;
 }
 
-
-
 .darkened{
     filter: brightness(70%);
 }
-
 
 .column-image{
 padding: 21px;
