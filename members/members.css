@@ -64,6 +64,23 @@ h4{
   color: grey;
 }
 
+.avatar-execs{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    border-radius:50%;
+    width: 120px;
+    max-width: 150px;
+    height: 120px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.avatar-execs:hover{
+    opacity: 0.8;
+}
 .avatar {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: block;
@@ -74,12 +91,7 @@ h4{
   width: 120px;
   max-width: 150px;
   height: 120px;
-  cursor: pointer;
   transition: .5s ease;
-}
-
-.avatar:hover{
-  opacity: 0.8;
 }
 
 .profile-icon {
