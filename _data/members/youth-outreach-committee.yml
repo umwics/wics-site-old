@@ -1,0 +1,12 @@
+docs_list_title: Youth outreach committee
+docs:
+
+
+  - title: Skyla Dudek
+    identification: skyla
+    description: Outreach Director
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/skyla.jpg
+    width: 100px
+    modal: false
+

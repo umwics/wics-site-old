@@ -1,0 +1,51 @@
+docs_list_title: Past execs
+docs:
+
+
+  - title: Katharine King
+    identification: katk
+    description: Co-President (Founder) 2018-2019
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/kat.jpg
+    width: 100px
+    modal: false
+
+  - title: Julia Stoyko
+    identification: julias
+    description: Co-President 2018-2019
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/julia.jpg
+    width: 100px
+    modal: false
+
+  - title: Raquel Thiessen
+    identification: raquelt
+    description: Co-Vice President 2018-2019
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/raquel.jpg
+    width: 100px
+    modal: false
+
+  - title: Diljot Garcha
+    identification: diljot
+    description: Co-Vice President 2018-2019
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/diljot.png
+    width: 100px
+    modal: false
+
+  - title: Laura Stoyko
+    identification: lauras
+    description: Director of Outreach 2018-2019
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/laura.jpg
+    width: 100px
+    modal: false
+
+  - title: Danika Passler-Bates
+    identification: danika
+    description: Treasurer 2018-2019
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/danika.jpg
+    width: 100px
+    modal: false

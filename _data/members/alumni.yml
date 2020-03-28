@@ -1,0 +1,27 @@
+docs_list_title: Alumni
+docs:
+
+
+  - title: Tiffany Jiang
+    identification: tiffany
+    description: Member
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/tiffany.jpg
+    width: 100px
+    modal: false
+
+  - title: Elizabeth Kenyon
+    identification: eliz
+    description: Member
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/elizabeth.jpg
+    width: 100px
+    modal: false
+
+  - title: Rebecca Tiessen
+    identification: rebecca
+    description: Member
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/rebecca.jpg
+    width: 100px
+    modal: false

@@ -1,0 +1,56 @@
+docs_list_title: Website committee
+docs:
+
+  - title: Shenyun Wang
+    identification: shenyun
+    description: Website coordinator
+    description2: 
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/shenyun.jpg
+    width: 100px
+    modal: false
+
+  - title: Jada Lim
+    identification: jada
+    description: Website Assistant
+    description2: 
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/jada.jpg
+    width: 100px
+    modal: false
+
+  - title: Juhee Kim
+    identification: juhee
+    description: Member
+    description2:
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/juhee.jpg
+    width: 100px
+    modal: false
+
+  - title: Semon Alfaro
+    identification: semon
+    description: Member
+    description2:
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/semon.png
+    width: 100px
+    modal: false
+
+  - title: Daryl Fung
+    identification: darl
+    description: Member
+    description2:
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/daryl.jpg
+    width: 100px
+    modal: false
+
+  - title: Luke Morrow
+    identification: luke
+    description: Member
+    description2:
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/emptywhite.png
+    width: 100px
+    modal: false

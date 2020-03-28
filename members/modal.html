@@ -1,0 +1,23 @@
+{% for item in site.data.members.execs.docs %}
+<div class="ui modal" id="{{ item.identification }}-modal" >
+
+    <div class="header">
+        {{ item.title }} - {{item.description}}
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="section-description">
+        <div class="column-image">
+            <img src="{{ site.baseurl }}{{ item.image }}" class="image-circle">
+        </div>
+
+        <div class="description">
+            <h4>{{ item.description2 }}</h4>
+        </div>
+    </div>
+
+</div>
+{% endfor %}
+
