@@ -28,7 +28,7 @@ description: WICS Members
                 {% assign mod6 = forloop.index | modulo: 6 %}
                 <div class="column-card">
                     <div class="card">
-                        <img id="{{ item.identification }}-img" src="{{ site.baseurl }}{{ item.image }}" class="avatar-execs">
+                        <img id="{{ item.identification }}-img" src="{{ site.baseurl }}{{ item.image }}" class="avatar clickable">
                         <div class="container-card">
                             <h3>{{ item.title }}</h3>
                             <p class="title-card">{{ item.description }}</p>
