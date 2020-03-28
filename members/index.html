@@ -37,9 +37,9 @@ description: WICS Members
                 </div>
                 {% endfor %}
             </div> <!-- /.ui centered grid-class -->
-        
-        </div> <!-- /.website-committee-class -->
+        </div> <!-- /.execs-class -->
         {% include back-to-top.html %}
+        
         <div id="website-committee">
             <div class="sub-title">
                 <b>{{ site.data.members.website-committee.docs_list_title }}</b>
@@ -62,6 +62,33 @@ description: WICS Members
 
         </div> <!-- /.website-committee-class -->
         {% include back-to-top.html %}
+
+
+
+
+        <div id="active-members">
+            <div class="sub-title">
+                <b>{{ site.data.members.active-members.docs_list_title }}</b>
+            </div>
+
+            <div class="ui left grid" style="margin-top: 30px">
+                {% for item in site.data.members.active-members.docs %}
+                {% assign mod6 = forloop.index | modulo: 6 %}
+                <div class="column-card">
+                    <div class="card">
+                        <img id="{{ item.identification }}-img" src="{{ site.baseurl }}{{ item.image }}" class="avatar">
+                        <div class="container-card">
+                            <h3>{{ item.title }}</h3>
+                            <p class="title-card">{{ item.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div> <!-- /.ui centered grid-class -->
+
+        </div> <!-- /.active-members-class -->
+        {% include back-to-top.html %}
+
 
 
         <div id="Past-execs">
