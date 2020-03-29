@@ -13,7 +13,7 @@ docs:
     identification: ronnie
     description: Member
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
+    image: /assets/img/members/ronnie.png
     width: 100px
     modal: false
 
@@ -29,7 +29,7 @@ docs:
     identification: nicoli
     description: Member
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
+    image: /assets/img/members/nicoli.png
     width: 100px
     modal: false
 
