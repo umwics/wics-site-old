@@ -3,7 +3,7 @@ docs:
 
   - title: Kevin Adams
     identification: kevina
-    description: Member
+    description: 
     link: mailto:webmaster@example.com
     image: /assets/img/members/kevina.jpg
     width: 100px
@@ -11,23 +11,23 @@ docs:
 
   - title: Ronnie D'souza
     identification: ronnie
-    description: Member
+    description: 
     link: mailto:webmaster@example.com
-    image: /assets/img/members/ronnie.png
+    image: /assets/img/members/ronnie.jpg
     width: 100px
     modal: false
 
   - title: Marille Manlulu
     identification: marille
-    description: Member
+    description: 
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
+    image: /assets/img/members/mer.jpg
     width: 100px
     modal: false
 
   - title: Nicoli
     identification: nicoli
-    description: Member
+    description: 
     link: mailto:webmaster@example.com
     image: /assets/img/members/nicoli.png
     width: 100px
@@ -35,8 +35,8 @@ docs:
 
   - title: Tyler Loewen
     identification: tyler
-    description: Member
+    description: 
     link: mailto:webmaster@example.com
-    image: /assets/img/members/emptywhite.png
+    image: /assets/img/members/tyler.jpg
     width: 100px
     modal: false

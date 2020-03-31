@@ -21,7 +21,7 @@ docs:
 
   - title: Juhee Kim
     identification: juhee
-    description: Member
+    description: 
     description2:
     link: mailto:webmaster@example.com
     image: /assets/img/members/juhee.jpg
@@ -30,7 +30,7 @@ docs:
 
   - title: Semon Alfaro
     identification: semon
-    description: Member
+    description: 
     description2:
     link: mailto:webmaster@example.com
     image: /assets/img/members/semon.png
@@ -39,7 +39,7 @@ docs:
 
   - title: Daryl Fung
     identification: darl
-    description: Member
+    description: 
     description2:
     link: mailto:webmaster@example.com
     image: /assets/img/members/daryl.jpg
@@ -48,7 +48,7 @@ docs:
 
   - title: Luke Morrow
     identification: luke
-    description: Member
+    description: 
     description2:
     link: mailto:webmaster@example.com
     image: /assets/img/members/emptywhite.png
