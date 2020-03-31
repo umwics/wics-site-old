@@ -1,10 +1,10 @@
-docs_list_title: Alumni
+docs_list_title: WICS Alumni
 docs:
 
 
   - title: Tiffany Jiang
     identification: tiffany
-    description: Member
+    description: 
     link: mailto:webmaster@example.com
     image: /assets/img/members/tiffany.jpg
     width: 100px
@@ -12,7 +12,7 @@ docs:
 
   - title: Elizabeth Kenyon
     identification: eliz
-    description: Member
+    description: 
     link: mailto:webmaster@example.com
     image: /assets/img/members/elizabeth.jpg
     width: 100px
@@ -20,7 +20,7 @@ docs:
 
   - title: Rebecca Tiessen
     identification: rebecca
-    description: Member
+    description: 
     link: mailto:webmaster@example.com
     image: /assets/img/members/rebecca.jpg
     width: 100px
