@@ -1,6 +1,13 @@
 docs_list_title: WICS Alumni
 docs:
 
+  - title: Chris de Graaf
+    identification: chris
+    description: 
+    link: mailto:webmaster@example.com
+    image: /assets/img/members/chris.jpg
+    width: 100px
+    modal: false
 
   - title: Tiffany Jiang
     identification: tiffany
