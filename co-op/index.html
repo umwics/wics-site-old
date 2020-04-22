@@ -12,6 +12,11 @@ description: Highlighting WICS members who have/had done a co-op
             <p><b>Computer Science Co-op</b></p>
         </a>
     </div>
+    <div class="blink-block">
+        <p class="blink-text">Y
+            <div class="blinking-cursor"></div>
+        </p>
+    </div>
 </div>
 
 {% include_relative modal.html %}
@@ -88,3 +93,6 @@ description: Highlighting WICS members who have/had done a co-op
         {% endfor %}
     });
 </script>
+
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/blinkText.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/blinkTextCoop.js"></script>

@@ -1,20 +1,5 @@
-// For blinking text in home page
-const TEXT_CONTENT = [
-    "We are problem solvers",
-    "We are developers",
-    "We support equality in STEM",
-    "We are women in computer science.",
-]
-const START_TEXT_CONTENT_INDEX = [
-6,
-6,
-2,
-6,
-6
-];
-
 let textContentIndex = 0; // the current index of the sentence being processed
-let letterIndex = 6; // the part of the current letter that the current sentence is being processed
+let letterIndex = 2; // the part of the current letter that the current sentence is being processed
 let blinkingTextElement = document.querySelector(".blink-text");
 let intervalStart; // handles the setInterval variable where timing is required
 
@@ -27,7 +12,7 @@ typeWriter Effect.
 @param manipulateType - integer value +1 or -1 where +1 refers to typing text and -1 refers to deleting text
 
 */
-function textManipulate(manipulateType) {
+function textManipulate(manipulateType,TEXT_CONTENT,START_TEXT_CONTENT_INDEX) {
     let currentSentence = TEXT_CONTENT[textContentIndex].substring(0, letterIndex);
     blinkingTextElement.innerHTML = currentSentence;
     letterIndex += manipulateType;
@@ -54,11 +39,9 @@ function textManipulate(manipulateType) {
         setTimeout(() => {
             // manipulateType * -1 will change typing to deleting and vice versa
             intervalStart = setInterval(() => {
-                textManipulate(manipulateType * -1)
+                textManipulate(manipulateType * -1,TEXT_CONTENT,START_TEXT_CONTENT_INDEX)
             }, 50); 
         }, 1000)
         
     }
 }
-
-intervalStart = setInterval(() => {textManipulate(1)}, 50);
