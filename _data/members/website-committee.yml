@@ -1,56 +1,48 @@
 docs_list_title: Website Committee
 docs:
 
-  - title: Shenyun Wang
-    identification: shenyun
-    description: Website coordinator
-    description2: 
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/shenyun.jpg
-    width: 100px
-    modal: false
-
-  - title: Jada Lim
-    identification: jada
-    description: Website Assistant
-    description2: 
-    link: mailto:webmaster@example.com
-    image: /assets/img/members/jada.jpg
-    width: 100px
-    modal: false
-
   - title: Juhee Kim
+    name: Juhee
     identification: juhee
-    description: 
-    description2:
-    link: mailto:webmaster@example.com
+    description: Website Coordinator
+    description2: Hi! My name is Juhee, but you can just call me Julie, and I am going to be the Website Coordinator for the 2020-2021! I am entering my third year of Computer Science this Fall. I am so excited to be a part of the WICS, and working with other amazing WICS members to improve and maintain the WICS website!
+    funfacts: true
+    facts: 
+      - fact: I started making websites in middle school for fun.
+      - fact: I am a terrible artist but still create amateur webcomics and do karaoke in my car :p 
+      - fact: I am training for a half marathon this Fall. (I will run for the UM WICS!!) 
+      - fact: I speak Korean.
+    emails: true
+    email: mailto:kimj4@myumanitoba.ca
+    contactlinks: true
+    links: 
+      - address: http://juheejuliekim.com/
+        label: Website
+        icon: fa fa-user
+      - address: https://github.com/juliek1217
+        label: Github
+        icon: fa fa-github
+      - address: https://linkedin.com/in/kim-juhee-b5b309166
+        label: LinkedIn
+        icon: fa fa-linkedin
     image: /assets/img/members/juhee.jpg
     width: 100px
-    modal: false
+    modal: true
 
   - title: Semon Alfaro
     identification: semon
-    description: 
-    description2:
-    link: mailto:webmaster@example.com
     image: /assets/img/members/semon.png
     width: 100px
     modal: false
 
   - title: Daryl Fung
     identification: darl
-    description: 
-    description2:
-    link: mailto:webmaster@example.com
     image: /assets/img/members/daryl.jpg
     width: 100px
     modal: false
 
   - title: Luke Morrow
     identification: luke
-    description: 
-    description2:
-    link: mailto:webmaster@example.com
     image: /assets/img/members/emptywhite.png
     width: 100px
     modal: false

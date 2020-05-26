@@ -1,34 +1,40 @@
 docs_list_title: WICS Alumni
 docs:
 
+  - title: Shenyun Wang
+    identification: shenyun
+    description: Website coordinator<br>2019-2020
+    image: /assets/img/members/shenyun.jpg
+    width: 100px
+    modal: false
+
+  - title: Jada Lim
+    identification: jada
+    description: Website Assistant<br>2019-2020
+    image: /assets/img/members/jada.jpg
+    width: 100px
+    modal: false
+
   - title: Chris de Graaf
     identification: chris
-    description: 
-    link: mailto:webmaster@example.com
     image: /assets/img/members/chris.jpg
     width: 100px
     modal: false
 
   - title: Tiffany Jiang
     identification: tiffany
-    description: 
-    link: mailto:webmaster@example.com
     image: /assets/img/members/tiffany.jpg
     width: 100px
     modal: false
 
   - title: Elizabeth Kenyon
     identification: eliz
-    description: 
-    link: mailto:webmaster@example.com
     image: /assets/img/members/elizabeth.jpg
     width: 100px
     modal: false
 
   - title: Rebecca Tiessen
     identification: rebecca
-    description: 
-    link: mailto:webmaster@example.com
     image: /assets/img/members/rebecca.jpg
     width: 100px
     modal: false
