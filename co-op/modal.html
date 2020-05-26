@@ -1,11 +1,13 @@
 {% for item in site.co-op-companies %}
 <div class="ui modal" id="{{ item.identification }}-modal">
+
     <div class="header">
         {{ item.title }}
         <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
+    
     <div class="image content">
         <div class="ui small image">
             <img src="{{ site.baseurl }}/{{ item.image }}" class="img-rounded">
@@ -15,6 +17,7 @@
             <a target="_blank" href="{{ item.link }}"><button class="ui primary button">Read more about it</button></a>
         </div>
     </div>
+
     {% for member in item.members %}
     <div class="image content">
         <div class="ui small image">
@@ -28,5 +31,6 @@
         </div>
     </div>
     {% endfor %}
+
 </div>
 {% endfor %}
