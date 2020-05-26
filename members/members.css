@@ -191,6 +191,22 @@ button.close:focus {
   outline: none;
 }
 
+
+
+
+/***** 
+modal 
+******/
+button.close {
+  float:right; 
+  transform-origin: center;
+  transform: scale(2);
+}
+button.close:focus {
+  outline: none;
+}
+
+
 .image-circle{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: block;
