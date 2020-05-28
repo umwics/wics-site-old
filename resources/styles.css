@@ -1,3 +1,9 @@
+body{
+    background-attachment: fixed;
+    background-image: url("../assets/img/resources-imgs/resources\ bg.jpg"), 0.1;
+    background-position: center;
+    
+}
 h1 {
     font-size: 30px;
 }
@@ -14,6 +20,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 70%;
 }
 img {
     width: auto;
@@ -41,4 +48,80 @@ h2{
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    color: rgb(88, 202, 247);
 }
+
+.background{
+    background-color: rgb(46, 46, 46);
+    padding: 1em;
+}
+
+.background a{
+    color: rgb(255, 255, 255);
+}
+
+.fixed-nav>.container>.row.background{
+    top: 0;
+    position: fixed;
+    z-index: 34;
+    width: inherit;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.center-block{
+    text-align: center;
+}
+
+.col-md-2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-4{
+    padding-top: 1vh;
+}
+
+
+.col-md-4:hover{
+    box-shadow: 0px 5px 4px grey;
+}
+
+.img-link-div>a{
+    width: 100%;
+    height: inherit;
+}
+
+.underline-magical{
+    background-image: linear-gradient(120deg, #34ffff 0%, #48ff7f 100%);
+    background-repeat: no-repeat;
+    background-size: 50% 0.2em;
+    background-position: 0 88%;
+    font-size: 3vh;
+}
+
+/*a different way of implementing the resources nav bar, can fine tune responsiveness without looking for bootstrap divs*/
+
+/* <div id="resource-main" class="resource-nav">
+    <ul style="list-style: none">
+        <li><a class="black-link hvr-grow" href="#event-section">Events</a></li>
+        <li><a id="code-begin" href="#coding-begin"class="black-link hvr-grow">Learn to Code (Beginner)</a></li>
+        <li><a id="code-inter" href="#coding-inter"class="black-link hvr-grow">Intermediate Coding</a></li>
+        <li><a id="tutorial" href="#tutorial-sec" class="black-link hvr-grow">Tutorials</a></li>
+        <li><a id="library" href="#library-sec" class="black-link hvr-grow">Libraries</a></li>
+    </ul>
+    
+</div> --> */
+/* .resource-nav ul{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.resource-nav li{
+    display: inline-block;
+    padding: 2em;
+    text-align: center;
+    font-size: 2vh;
+} */

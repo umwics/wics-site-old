@@ -54,6 +54,12 @@ body {
     animation: blink .75s step-end infinite;
 }
 
+@media screen and (max-width: 991px){
+    .fixed-nav>.container>.row.background{
+        width: initial;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .blink-text {
         display: inline-block;
