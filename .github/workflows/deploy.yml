@@ -1,15 +1,15 @@
 on:
-  push:
-    branches:
-      - master
+    push:
+        branches:
+            - master
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: docker://jekyll/jekyll:builder
-        with:
-          entrypoint: .github/workflows/deploy.sh
-        env:
-          DESTINATION: wics@aviary.cs.umanitoba.ca:~/public_html
-          SSH_KEY: ${{ secrets.SSH_KEY }}
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: docker://jekyll/builder:3.8
+              with:
+                  entrypoint: .github/workflows/deploy.sh
+              env:
+                  DESTINATION: wics@aviary.cs.umanitoba.ca:~/public_html
+                  SSH_KEY: ${{ secrets.SSH_KEY }}
