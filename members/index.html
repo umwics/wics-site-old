@@ -81,8 +81,6 @@ description: WICS Members
         </div> <!-- /.management-class -->
         {% include back-to-top.html %}
 
-
-
         <div id="website-committee"><!-- website-committee-class -->
             <div class="sub-title">
                 <b>{{ site.data.members.website-committee.docs_list_title }}</b>
@@ -215,10 +213,6 @@ description: WICS Members
 
 
 
-
-
-
-
 <!-- Modal -->
 <script>
     $("#up-btn").click(function (){
@@ -254,6 +248,50 @@ description: WICS Members
 <script>
     $(document).ready(function () {
         {% for item in site.data.members.management.docs %}
+        {% if item.modal == true %}
+        $("#{{ item.identification }}").click(function () {
+            $("#{{ item.identification }}-modal").modal("show");
+        });
+        $("#{{ item.identification }}-img").click(function () {
+            $("#{{ item.identification }}-modal").modal("show");
+        });
+        $("#{{ item.identification }}-close").click(function () {
+            $("#{{ item.identification }}-modal").modal("hide");
+        });
+        $('body').on('click', '.modal-backdrop.show', function (e) {
+            $("#{{ item.identification }}-modal").modal("hide");
+        });
+        {% endif %}
+        {% endfor %}
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        {% for item in site.data.members.website-committee.docs %}
+        {% if item.modal == true %}
+
+        $("#{{ item.identification }}").click(function () {
+            $("#{{ item.identification }}-modal").modal("show");
+        });
+        $("#{{ item.identification }}-img").click(function () {
+            $("#{{ item.identification }}-modal").modal("show");
+        });
+        $("#{{ item.identification }}-close").click(function () {
+            $("#{{ item.identification }}-modal").modal("hide");
+        });
+        $('body').on('click', '.modal-backdrop.show', function (e) {
+            $("#{{ item.identification }}-modal").modal("hide");
+        });
+        {% endif %}
+        {% endfor %}
+    });
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        {% for item in site.data.members.active-members.docs %}
         {% if item.modal == true %}
         $("#{{ item.identification }}").click(function () {
             $("#{{ item.identification }}-modal").modal("show");

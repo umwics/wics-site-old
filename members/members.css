@@ -78,6 +78,11 @@ h4{
     filter: brightness(70%);
 }
 
+
+.darkened{
+    filter: brightness(70%);
+}
+
 .column-image{
 padding: 21px;
 text-align: center;
@@ -191,6 +196,37 @@ button.close:focus {
   outline: none;
 }
 
+
+
+
+/***** 
+modal 
+******/
+button.close {
+  float:right; 
+  transform-origin: center;
+  transform: scale(2);
+}
+button.close:focus {
+  outline: none;
+}
+
+
+
+
+/***** 
+modal 
+******/
+button.close {
+  float:right; 
+  transform-origin: center;
+  transform: scale(2);
+}
+button.close:focus {
+  outline: none;
+}
+
+
 .image-circle{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: block;
@@ -259,9 +295,6 @@ ul.social-buttons li a {
     text-decoration: none;
     color: white;
 }
-
-
-
 
 
 

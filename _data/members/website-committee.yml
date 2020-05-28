@@ -7,15 +7,15 @@ docs:
     description: Website Coordinator
     description2: Hi! My name is Juhee, but you can just call me Julie, and I am going to be the Website Coordinator for the 2020-2021! I am entering my third year of Computer Science this Fall. I am so excited to be a part of the WICS, and working with other amazing WICS members to improve and maintain the WICS website!
     funfacts: true
-    facts: 
+    facts:
       - fact: I started making websites in middle school for fun.
-      - fact: I am a terrible artist but still create amateur webcomics and do karaoke in my car :p 
-      - fact: I am training for a half marathon this Fall. (I will run for the UM WICS!!) 
+      - fact: I am a terrible artist but still create amateur webcomics and do karaoke in my car :p
+      - fact: I am training for a half marathon this Fall. (I will run for the UM WICS!!)
       - fact: I speak Korean.
     emails: true
     email: mailto:kimj4@myumanitoba.ca
     contactlinks: true
-    links: 
+    links:
       - address: http://juheejuliekim.com/
         label: Website
         icon: fa fa-user
@@ -26,6 +26,38 @@ docs:
         label: LinkedIn
         icon: fa fa-linkedin
     image: /assets/img/members/juhee.jpg
+    width: 100px
+    modal: true
+
+  - title: Evan Madill
+    name: Evan
+    identification: evan
+    description: Website Assistant
+    description2:
+    funfacts: false
+    facts:
+      - fact:
+    emails: true
+    email: mailto:madille@myumanitoba.ca
+    contactlinks: true
+    links:
+    image: /assets/img/members/emptywhite.png
+    width: 100px
+    modal: true
+
+  - title: Nick Duan
+    name: Nick
+    identification: nick
+    description: Member
+    description2:
+    funfacts: false
+    facts:
+      - fact:
+    emails: true
+    email: mailto:duannd11@gmail.com
+    contactlinks: true
+    links:
+    image: /assets/img/members/emptywhite.png
     width: 100px
     modal: true
 
