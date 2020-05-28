@@ -1,5 +1,6 @@
 docs_list_title: Website Committee
 docs:
+
   - title: Juhee Kim
     name: Juhee
     identification: juhee
@@ -28,6 +29,38 @@ docs:
     width: 100px
     modal: true
 
+  - title: Evan Madill
+    name: Evan
+    identification: evan
+    description: Website Assistant
+    description2:
+    funfacts: false
+    facts:
+      - fact:
+    emails: true
+    email: mailto:madille@myumanitoba.ca
+    contactlinks: true
+    links:
+    image: /assets/img/members/emptywhite.png
+    width: 100px
+    modal: true
+
+  - title: Nick Duan
+    name: Nick
+    identification: nick
+    description: Member
+    description2:
+    funfacts: false
+    facts:
+      - fact:
+    emails: true
+    email: mailto:duannd11@gmail.com
+    contactlinks: true
+    links:
+    image: /assets/img/members/emptywhite.png
+    width: 100px
+    modal: true
+
   - title: Semon Alfaro
     identification: semon
     image: /assets/img/members/semon.png
@@ -45,9 +78,4 @@ docs:
     image: /assets/img/members/emptywhite.png
     width: 100px
     modal: false
-
-  - title: Evan Madill
-    identification: evan
-    image: /assets/img/members/emptywhite.png
-    width: 100px
-    modal: false
+    

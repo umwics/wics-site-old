@@ -1,5 +1,6 @@
 docs_list_title: Management Positions
 docs:
+
   - title: Nicoli Zunti Martins
     name: Nicoli
     identification: nicoli
@@ -7,7 +8,7 @@ docs:
     description2: Hello people!! I’m Nicoli and I’m thrilled to be the new Event Coordinator Assistant for 2020-2021! I’ll start my third year in Computer Science this fall and I’m super excited to be part of this great community that is WICS. I had the best times at our Mentor Mingles, met awesome people and heard about incredible experiences, so I hope you will join us so we can have a great time together!!
     funfacts: true
     facts:
-      - fact: I have an awful lot of hobbies &#58 sewing, painting, drawing, cooking, building miniatures, reading... it’s kind of overwhelming >.<
+      - fact: I have an awful lot of hobbies sewing
       - fact: I have another degree! In Engineering Physics O.O
       - fact: I get really excited about a lot of things, really easily
     emails: false
@@ -44,3 +45,4 @@ docs:
     image: /assets/img/members/riki.jpg
     width: 100px
     modal: true
+    
