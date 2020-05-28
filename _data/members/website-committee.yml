@@ -1,21 +1,20 @@
 docs_list_title: Website Committee
 docs:
-
   - title: Juhee Kim
     name: Juhee
     identification: juhee
     description: Website Coordinator
     description2: Hi! My name is Juhee, but you can just call me Julie, and I am going to be the Website Coordinator for the 2020-2021! I am entering my third year of Computer Science this Fall. I am so excited to be a part of the WICS, and working with other amazing WICS members to improve and maintain the WICS website!
     funfacts: true
-    facts: 
+    facts:
       - fact: I started making websites in middle school for fun.
-      - fact: I am a terrible artist but still create amateur webcomics and do karaoke in my car :p 
-      - fact: I am training for a half marathon this Fall. (I will run for the UM WICS!!) 
+      - fact: I am a terrible artist but still create amateur webcomics and do karaoke in my car :p
+      - fact: I am training for a half marathon this Fall. (I will run for the UM WICS!!)
       - fact: I speak Korean.
     emails: true
     email: mailto:kimj4@myumanitoba.ca
     contactlinks: true
-    links: 
+    links:
       - address: http://juheejuliekim.com/
         label: Website
         icon: fa fa-user
@@ -43,6 +42,12 @@ docs:
 
   - title: Luke Morrow
     identification: luke
+    image: /assets/img/members/emptywhite.png
+    width: 100px
+    modal: false
+
+  - title: Evan Madill
+    identification: evan
     image: /assets/img/members/emptywhite.png
     width: 100px
     modal: false
