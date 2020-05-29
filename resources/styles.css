@@ -1,9 +1,4 @@
-body{
-    background-attachment: fixed;
-    background-image: url("../assets/img/resources-imgs/resources\ bg.jpg"), 0.1;
-    background-position: center;
-    
-}
+
 h1 {
     font-size: 30px;
 }
@@ -21,6 +16,9 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     height: 70%;
+}
+.row{
+    margin-bottom: 2vh;
 }
 img {
     width: auto;
@@ -53,10 +51,11 @@ h2{
 
 .background{
     background-color: rgb(46, 46, 46);
-    padding: 1em;
+    padding: 0.5em 1em;
 }
 
 .background a{
+    font-size: 2vh;
     color: rgb(255, 255, 255);
 }
 
@@ -99,7 +98,8 @@ html{
     background-repeat: no-repeat;
     background-size: 50% 0.2em;
     background-position: 0 88%;
-    font-size: 3vh;
+    font-size: 4.3vh;
+    font-weight: 700;
 }
 
 /*a different way of implementing the resources nav bar, can fine tune responsiveness without looking for bootstrap divs*/

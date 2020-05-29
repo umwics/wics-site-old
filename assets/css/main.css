@@ -79,6 +79,9 @@ body {
         font-size: xx-large;
         margin-bottom:10px;
     }
+    .fixed-nav>.container>.row.background{
+        width: 100%;
+    }
 }
 
 @keyframes blink {
@@ -130,15 +133,34 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #6a7981;
+    color: black;
 }
 .navbar-default .navbar-toggle {
-    border-color: #888;
+    border-color: black;
 }
 
 .breadcrumb {
     background: transparent !important;
 }
+
+/*navbar style*/
+/* .navbar-collapse.collapse .nav.navbar-nav.navbar-right{
+    top: 50%;
+    background-color: black;
+}
+
+.navbar-collapse.collapse{
+    vertical-align: middle;
+}
+
+#navbarCollapse>ul{
+    vertical-align: middle;
+}
+#navbarCollapse>a{
+    color: white;
+} */
+
+
 
 /*****co-op page*****/
 .darkened{
