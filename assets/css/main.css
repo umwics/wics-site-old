@@ -133,11 +133,12 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: black;
+    color: #6a7981;
 }
 .navbar-default .navbar-toggle {
-    border-color: black;
+    border-color: #888;
 }
+
 
 .breadcrumb {
     background: transparent !important;

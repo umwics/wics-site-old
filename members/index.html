@@ -14,11 +14,9 @@ description: WICS Members
 
 {% include_relative modal.html %}
 
-
 <!-- container class -->
 <div class="container">
         {% assign img_dir = site.baseurl | append: '/assets/img/resources-imgs' %}
-
 
         <div id="execs"><!-- execs-class -->
             <div class="sub-title">
@@ -48,11 +46,10 @@ description: WICS Members
                 {% endfor %}
             </div> 
         </div> <!-- /.execs-class -->
-        {% include back-to-top.html %}
         
 
         <div id="management"><!-- management-class -->
-            <div class="sub-title">
+            <div class="sub-title sub-title-padding-top">
                 <b>{{ site.data.members.management.docs_list_title }}</b>
             </div>
         
@@ -82,7 +79,7 @@ description: WICS Members
          
 
         <div id="website-committee"><!-- website-committee-class -->
-            <div class="sub-title">
+            <div class="sub-title sub-title-padding-top">
                 <b>{{ site.data.members.website-committee.docs_list_title }}</b>
             </div>
         
@@ -115,7 +112,7 @@ description: WICS Members
 
 
         <div id="active-members"><!-- active-members-class -->
-            <div class="sub-title">
+            <div class="sub-title sub-title-padding-top">
                 <b>{{ site.data.members.active-members.docs_list_title }}</b>
             </div>
         
@@ -147,7 +144,7 @@ description: WICS Members
 
 
         <div id="past-execs"><!-- past-execs-class -->
-            <div class="sub-title">
+            <div class="sub-title sub-title-padding-top">
                 <b>{{ site.data.members.past-execs.docs_list_title }}</b>
             </div>
         
@@ -178,7 +175,7 @@ description: WICS Members
 
 
         <div id="alumni"><!-- alumni-class -->
-            <div class="sub-title">
+            <div class="sub-title sub-title-padding-top">
                 <b>{{ site.data.members.alumni.docs_list_title }}</b>
             </div>
         
@@ -355,3 +352,5 @@ description: WICS Members
     });
 </script>
 <!-- /.Modal -->
+
+{% include back-to-top2.html %}
