@@ -1,0 +1,134 @@
+
+h1 {
+    font-size: 30px;
+}
+.col-md-2 {
+    text-align: center;
+}
+.col-md-3 {
+    text-align: center;
+}
+.col-md-4 {
+    align-content: center;
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+}
+
+img {
+    width: auto;
+    max-width: 250px;
+    max-height: 120px;
+}
+.img-link-div {
+    height: 150px;
+    line-height: 150px;
+}
+h2{
+    font-size: 25px;
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: rgb(88, 202, 247);
+}
+
+.background{
+    background-color: #f5f5f5;
+    padding: 0.5em 1em;
+
+    border-radius: 5px;
+}
+
+.background a{
+    font-size: 2.5vh;
+    color: #4C4C4C;
+    font-family: "Roboto", Helvetica, Arial,sans-serif;
+
+}
+
+.fixed-nav>.container>.row.background{
+    top: 0;
+    position: fixed;
+    z-index: 34;
+    width: inherit;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.center-block{
+    text-align: center;
+}
+
+.col-md-2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-4{
+    padding-top: 1vh;
+}
+
+
+.col-md-4:hover{
+    box-shadow: 0px 5px 4px grey;
+}
+
+.img-link-div>a{
+    width: 100%;
+    height: inherit;
+}
+
+.underline-magical{
+    background-image: linear-gradient(120deg, #34ffff 0%, #48ff7f 100%);
+    background-repeat: no-repeat;
+    background-size: 50% 0.2em;
+    background-position: 0 88%;
+    font-size: 4.3vh;
+    font-weight: 700;
+}
+
+/*a different way of implementing the resources nav bar, can fine tune responsiveness without looking for bootstrap divs*/
+
+/* <div id="resource-main" class="resource-nav">
+    <ul style="list-style: none">
+        <li><a class="black-link hvr-grow" href="#event-section">Events</a></li>
+        <li><a id="code-begin" href="#coding-begin"class="black-link hvr-grow">Learn to Code (Beginner)</a></li>
+        <li><a id="code-inter" href="#coding-inter"class="black-link hvr-grow">Intermediate Coding</a></li>
+        <li><a id="tutorial" href="#tutorial-sec" class="black-link hvr-grow">Tutorials</a></li>
+        <li><a id="library" href="#library-sec" class="black-link hvr-grow">Libraries</a></li>
+    </ul>
+    
+</div> --> */
+/* .resource-nav ul{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+.resource-nav li{
+    display: inline-block;
+    padding: 2em;
+    text-align: center;
+    font-size: 2vh;
+} */
+
+
+.sub-title-padding-top {
+    padding-top: 5em;
+  }

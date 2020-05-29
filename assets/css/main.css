@@ -54,6 +54,12 @@ body {
     animation: blink .75s step-end infinite;
 }
 
+@media screen and (max-width: 991px){
+    .fixed-nav>.container>.row.background{
+        width: initial;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .blink-text {
         display: inline-block;
@@ -72,6 +78,9 @@ body {
     .title{
         font-size: xx-large;
         margin-bottom:10px;
+    }
+    .fixed-nav>.container>.row.background{
+        width: 100%;
     }
 }
 
@@ -130,9 +139,29 @@ body {
     border-color: #888;
 }
 
+
 .breadcrumb {
     background: transparent !important;
 }
+
+/*navbar style*/
+/* .navbar-collapse.collapse .nav.navbar-nav.navbar-right{
+    top: 50%;
+    background-color: black;
+}
+
+.navbar-collapse.collapse{
+    vertical-align: middle;
+}
+
+#navbarCollapse>ul{
+    vertical-align: middle;
+}
+#navbarCollapse>a{
+    color: white;
+} */
+
+
 
 /*****co-op page*****/
 .darkened{
