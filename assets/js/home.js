@@ -2,7 +2,7 @@ $(".main-carousel").flickity({
   // options
   contain: true,
   // disable previous & next buttons and dots
-  prevNextButtons: false,
+  prevNextButtons: true,
   autoPlay: 5000,
   wrapAround: true,
   draggable: false,
