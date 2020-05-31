@@ -79,7 +79,7 @@ You will need the Ruby programming language and `bundler` installed on your comp
 $ cd <repo> #replace <repo> with the path to the repository.
 ```
 
-2. Install the site's Dependencies(this might take a while).
+2. Install the site's dependencies (this might take a while).
 ```sh
 $ bundle install
 ```  
