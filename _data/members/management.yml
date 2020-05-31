@@ -1,0 +1,48 @@
+docs_list_title: Management Positions
+docs:
+
+  - title: Nicoli Zunti Martins
+    name: Nicoli
+    identification: nicoli
+    description: Assistant Events Coordinator
+    description2: Hello people!! I’m Nicoli and I’m thrilled to be the new Event Coordinator Assistant for 2020-2021! I’ll start my third year in Computer Science this fall and I’m super excited to be part of this great community that is WICS. I had the best times at our Mentor Mingles, met awesome people and heard about incredible experiences, so I hope you will join us so we can have a great time together!!
+    funfacts: true
+    facts:
+      - fact: I have an awful lot of hobbies&#58 sewing, painting, drawing, cooking, building miniatures, reading... it’s kind of overwhelming >.<
+      - fact: I have another degree! In Engineering Physics O.O
+      - fact: I get really excited about a lot of things, really easily
+    emails: false
+    email:
+    contactlinks: false
+    links:
+    image: /assets/img/members/nicoli.png
+    width: 100px
+    modal: true
+
+  - title: Riki Zimbakov
+    name: Riki
+    identification: riki
+    description: Male Representative
+    description2: Hey Everybody! My Name is Riki and I am the Male Representative for the 2020-2021 school year. I will be heading into my fourth year of school and am super excited to be a part of the team! I hope to get a chance to meet with you all and help voice the opinion of all students at the university. My role allows me to help in many areas of WICS so if any of you have suggestions please do not hesitate to reach me I would love a chance to hear your story!
+    funfacts: true
+    facts:
+      - fact: I am third for 3 point shooting in Western Canada
+      - fact: I play a little too much warzone and have nothing to show for it
+      - fact: I am an amateur smartphone astrophotographer
+    emails: true
+    email: mailto:zimbakor@myumanitoba.ca
+    contactlinks: true
+    links:
+      - address: https://www.kickresume.com/cv/ristozimbakov/
+        label: Website
+        icon: fa fa-user
+      - address: https://github.com/RikiZimbakov
+        label: Github
+        icon: fa fa-github
+      - address: https://linkedin.com/in/ristozimbakov
+        label: LinkedIn
+        icon: fa fa-linkedin
+    image: /assets/img/members/riki.jpg
+    width: 100px
+    modal: true
+    

@@ -3,84 +3,101 @@ layout: default
 title: Resources
 description: things we recommend - e.g. tutorials
 ---
+
+<link rel="stylesheet" type="text/css" href="resources.css" />
+
 <div class="container">
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-            <p style="font-size: 45px;" align="center"><b>Resources</b></p>
-        </div>
+    <div class="row title">
+        <p><b>Resources</b></p>
     </div>
 </div>
 
 
+<!-- container class -->
 <div class="container">
 
-    <div class="row">
+    <div id="resource-main" class="row background">
         <div class="col-md-2">
             <h1><a id="event-a" href="#event-section" class="black-link hvr-grow">Events</a></h1>
         </div>
         <div class="col-md-3">
-            <h1><a id="code-begin" href="#coding-begin"class="black-link hvr-grow">Learn to Code (Beginner)</a></h1>
-        </div>
-        <div class="col-md-3">
-            <h1><a id="code-inter" href="#coding-inter"class="black-link hvr-grow">Intermediate Coding</a></h1>
+            <h1><a id="code-begin" href="#coding-begin"class="black-link hvr-grow">Beginners</a></h1>
         </div>
         <div class="col-md-2">
+            <h1><a id="code-inter" href="#coding-inter"class="black-link hvr-grow">Intermediate</a></h1>
+        </div>
+        <div class="col-md-3">
             <h1><a id="tutorial" href="#tutorial-sec" class="black-link hvr-grow">Tutorials</a></h1>
         </div>
         <div class="col-md-2">
             <h1><a id="library" href="#library-sec" class="black-link hvr-grow">Libraries</a></h1>
         </div>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="resources.css">
     </div>
+
     <div class="section">
-            {% assign img_dir = site.baseurl | append: '/assets/img/resources-imgs' %}
-            <div class="row">
-                <h2 id = "event-section" style="margin-top: 40px; ">Events</h2>
+        {% assign img_dir = site.baseurl | append: '/assets/img/resources-imgs' %}
+
+        <div class="event" id = "event-section"><!-- event-class -->
+            <div class="row sub-title-padding-top">
+                <span style="margin-top: 40px; " class="underline-magical">Events</h2>
             </div>
             <div class="row" style="margin-top: 30px">
                 <div class="col-md-4"><div class="img-link-div"><a href="https://squareup.com/ca/code-camp" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/code-camp.jpg"/></a></div><div class="center-block" style="margin-bottom: 10%">Code Camp launched to inspire, educate and empower the next generation of women in technology.</div></div>
                 <div class="col-md-4"><div class="img-link-div"><a href="https://www.kodewithklossy.com/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/kwk.webp"/></a></div><div class="center-block" style="margin-bottom: 10%">With the Kode with Klossy Career Scholarship, you complete over 700 lessons and solve hundreds of labs to gain a mastery of programming fundamentals as well as build fully functioning web apps and a massive digital portfolio of your skills on GitHub.</div></div>
                 <div class="col-md-4"><div class="img-link-div"><a href="https://www.canadalearningcode.ca/" target="_blank" ><img class="center-block shake-slow center-img" src="{{ img_dir }}/canada-learning-code.svg"/></a></div><div class="center-block" style="margin-bottom: 10%">Offers beginner-friendly workshops for adults who want to learn computer programming and other technical skills in a social, collaborative way.</div></div>
             </div>
-            {% include back-to-top.html %}
+        </div> <!-- /.event-class -->
 
-            <div class="row">
-                <h2 id="coding-begin" style="margin-top: 40px; ">Coding for Beginners</h2>
+        <div class="begin" id = "coding-begin"><!-- begin-class -->
+            <div class="row sub-title-padding-top">
+                <span style="margin-top: 40px; " class="underline-magical">Coding for Beginners</h2>
             </div>
             <div class="row" style="margin-top: 30px">
-                <div class="col-md-4"><div class="img-link-div"><a href="https://www.codecademy.com/learn" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/codeacademy.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Tons of online courses to help beginners get a start with many popular languages and technologies. </div></div>
+                <div class="col-md-4">
+                    <div class="img-link-div">
+                        <a href="https://www.codecademy.com/learn" target="_blank">
+                            <img class="center-block shake-slow center-img" src="{{ img_dir }}/codeacademy.png"/>
+                        </a>
+                    </div>
+                    <div class="center-block" style="margin-bottom: 10%">Tons of online courses to help beginners get a start with many popular languages and technologies. 
+                    </div>
+                </div>
+
                 <div class="col-md-4"><div class="img-link-div"><a href="https://hourofcode.com/ca/learn" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/hour-of-code.png"/></div></a><div class="center-block" style="margin-bottom: 10%">One hour coding tutorials for most ages and abilities.</div></div>
                 <div class="col-md-4"><div class="img-link-div"><a href="http://www.learn-c.org/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/learn-c.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Free online interactive language tutorials, using short and effective exercises.</div></div>
             </div>
-            {% include back-to-top.html %}
+        </div> <!-- /.begin-class -->
 
-            <div class="row">
-                <h2 id="coding-inter" style="margin-top: 40px; ">Intermediate Coding</h2>
+        <div class="inter" id = "coding-inter"><!-- inter-class -->
+            <div class="row sub-title-padding-top">
+                <span style="margin-top: 40px; " class="underline-magical">Intermediate Coding</h2>
             </div>
             <div class="row" style="margin-top: 30px">
                 <div class="col-md-4"><div class="img-link-div"><a href="https://lagunita.stanford.edu/courses/DB/SQL/SelfPaced/about" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/stanford.png"/></a></div><div class="center-block" style="margin-bottom: 10%"> Free online university courses in areas such as databases, automata theory, networking and more.</div></div>
                 <div class="col-md-4"><div class="img-link-div"><a href="https://www.w3schools.com/html/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/w3.jpg"/></a></div><div class="center-block" style="margin-bottom: 10%">Basically tutorials on everything ever.</div></div>
             </div>
-            {% include back-to-top.html %}
+        </div> <!-- /.inter-class -->     
 
-            <div class="row">
-                <h2 id="tutorial-sec" style="margin-top: 40px; ">Tutorials</h2>
+        <div class="tutorial" id = "tutorial-sec"><!-- tutorial-class -->
+            <div class="row sub-title-padding-top">
+                <span style="margin-top: 40px; " class="underline-magical">Tutorials</h2>
             </div>
             <div class="row" style="margin-top: 30px">
                 <div class="col-md-4"><div class="img-link-div"><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/hubspot.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Git and Github tutorial for beginners.</div></div>
                 <div class="col-md-4"><div class="img-link-div"><a href="https://developer.android.com/training/basics/firstapp/index.html" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/android.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Step by step tutorial on making your first android app.</div></div>
             </div>
-            {% include back-to-top.html %}
+        </div> <!-- /.tutorial-class -->
 
-            <div class="row">
-                <h2 id="library-sec" style="margin-top: 40px; ">Libraries</h2>
+        <div class="library" id = "library-sec"><!-- library-class -->
+            <div class="row sub-title-padding-top">
+                <span id="library-sec" style="margin-top: 40px;" class="underline-magical">Libraries</h2>
             </div>
             <div class="row" style="margin-top: 30px">
                 <div class="col-md-4"><div class="img-link-div"><a href="http://getbootstrap.com/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/bootstrap.png"/></a></div><div class="center-block" style="margin-bottom: 10%">Most popular front end library.</div></div>
                 <div class="col-md-4"><div class="img-link-div"><a href="https://semantic-ui.com/" target="_blank"><img class="center-block shake-slow center-img" src="{{ img_dir }}/semantic-ui.svg"/></a></div><div class="center-block" style="margin-bottom: 10%"> Another snazzy and easy to use front end library.</div></div>
             </div>
-            {% include back-to-top.html %}
+        </div> <!-- /.library-class --> 
             
         </div>
 
@@ -92,5 +109,23 @@ description: things we recommend - e.g. tutorials
         document.documentElement.scrollTop = 0; // For IE and Firefox
     });
 
+    const nav = document.querySelector('#resource-main');
+    const topOfNav = (nav.offsetTop)-15;
+    function fixNav(){
+        if(window.innerWidth >= 992){
+            if(window.scrollY >= topOfNav){
+                document.body.style.paddingTop = nav.offsetHeight + 'px';
+                document.body.classList.add('fixed-nav');
+            }
+            else{
+                document.body.style.paddingTop = 0;
+                document.body.classList.remove('fixed-nav');
+            }
+        }
+    }
+
+    window.addEventListener('scroll', fixNav);
 
 </script>
+
+{% include back-to-top2.html %}
