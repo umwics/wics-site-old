@@ -76,7 +76,7 @@ You will need the Ruby programming language and `bundler` installed on your comp
 
 1. change directory to the WICS website repository. (**Skip this step** if you're already inside the repository.)
 ```sh
-$ cd <repo> #replace <repo> with the path to the repository.
+$ cd <repo> # replace <repo> with the path to the repository
 ```
 
 2. Install the site's dependencies (this might take a while).
