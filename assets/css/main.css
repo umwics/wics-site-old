@@ -10,6 +10,7 @@ html {
 }
 
 body {
+    font-family: Raleway, sans-serif;
     height: 100%;
     font-weight:normal !important;
 }
@@ -143,24 +144,6 @@ body {
 .breadcrumb {
     background: transparent !important;
 }
-
-/*navbar style*/
-/* .navbar-collapse.collapse .nav.navbar-nav.navbar-right{
-    top: 50%;
-    background-color: black;
-}
-
-.navbar-collapse.collapse{
-    vertical-align: middle;
-}
-
-#navbarCollapse>ul{
-    vertical-align: middle;
-}
-#navbarCollapse>a{
-    color: white;
-} */
-
 
 
 /*****co-op page*****/
