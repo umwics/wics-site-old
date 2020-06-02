@@ -6,6 +6,8 @@ if [ -z "$SSH_KEY" ]; then
 fi
 
 chmod 777 "$GITHUB_WORKSPACE"
+
+node instagramLatest.js
 jekyll build
 
 KEY_FILE="$HOME/key"
