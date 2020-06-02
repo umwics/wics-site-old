@@ -1,4 +1,5 @@
 // Simple node script with no deps to fetch the most recent post from instagram
+// Good resource if you don't want to use an instagram access token https://stackoverflow.com/questions/17373886/how-can-i-get-a-users-media-from-instagram-without-authenticating-as-a-user
 
 const https = require("https");
 const fs = require("fs");
@@ -9,15 +10,12 @@ const fetch = (url, opts = {}) => {
       .get(url, opts, res => {
         const { statusCode, headers } = res;
         const contentType = headers["content-type"];
+        const isJSON = /^application\/json/.test(contentType);
 
         let error;
         if (statusCode !== 200) {
           error = new Error(
             `Request Failed.\n Status Code: ${statusCode}\n Headers: ${JSON.stringify(headers)}`
-          );
-        } else if (!/^application\/json/.test(contentType)) {
-          error = new Error(
-            "Invalid content-type.\n" + `Expected application/json but received ${contentType}`
           );
         }
         if (error) {
@@ -34,7 +32,7 @@ const fetch = (url, opts = {}) => {
         });
         res.on("end", () => {
           try {
-            const parsedData = JSON.parse(rawData);
+            const parsedData = isJSON ? JSON.parse(rawData) : rawData;
             resolve(parsedData);
           } catch (e) {
             reject(e);
@@ -48,13 +46,19 @@ const fetch = (url, opts = {}) => {
 };
 
 const fetchRecent = user => {
-  return fetch(`https://www.instagram.com/${user}/?__a=1`);
+  //   const instagramURL = `https://www.instagram.com/${user}/?__a=1`;
+
+  const queryId = 17888483320059182; // constant, may be changed in the future
+  const authorId = user;
+  const instagramURL = `https://www.instagram.com/graphql/query/?query_id=${queryId}&variables={"id":"${authorId}","first":5,"after":null}`;
+
+  return fetch(encodeURI(instagramURL));
 };
 
 const fetchRecentShortId = user => {
   return fetchRecent(user).then(data => {
-    if (data && data.graphql && data.graphql.user) {
-      const user = data.graphql.user;
+    if (data && ((data.data && data.data.user) || (data.graphql && data.graphql.user))) {
+      const user = data.data ? data.data.user : data.graphql.user;
       const timeline = user.edge_owner_to_timeline_media;
       const postExists = timeline && timeline.count > 0;
       if (postExists) {
@@ -105,4 +109,5 @@ const saveInstagramEmbed = async user => {
   }
 };
 
-saveInstagramEmbed("umwics");
+// saveInstagramEmbed("umwics");
+saveInstagramEmbed(8347229779); // userId of umwics
