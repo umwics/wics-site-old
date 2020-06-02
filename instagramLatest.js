@@ -12,7 +12,9 @@ const fetch = (url, opts = {}) => {
 
         let error;
         if (statusCode !== 200) {
-          error = new Error("Request Failed.\n" + `Status Code: ${statusCode}`);
+          error = new Error(
+            `Request Failed.\n Status Code: ${statusCode}\n Headers: ${JSON.stringify(headers)}`
+          );
         } else if (!/^application\/json/.test(contentType)) {
           error = new Error(
             "Invalid content-type.\n" + `Expected application/json but received ${contentType}`
@@ -82,20 +84,24 @@ const fetchEmbed = (shortCode, hideCaption = false, maxWidth = 540) => {
 };
 
 const saveInstagramEmbed = async user => {
-  const shortCode = await fetchRecentShortId(user);
+  try {
+    const shortCode = await fetchRecentShortId(user);
 
-  if (shortCode) {
-    const embed = await fetchEmbed(shortCode);
+    if (shortCode) {
+      const embed = await fetchEmbed(shortCode);
 
-    if (embed && embed.html) {
-      fs.writeFile("./_includes/instagram-latest.html", embed.html, err => {
-        if (err) {
-          console.error(err);
-          return;
-        }
-        console.log("Successfully grabbed latest instagram post");
-      });
+      if (embed && embed.html) {
+        fs.writeFile("./_includes/instagram-latest.html", embed.html, err => {
+          if (err) {
+            console.error(err);
+            return;
+          }
+          console.log("Successfully grabbed latest instagram post");
+        });
+      }
     }
+  } catch (e) {
+    console.error(e);
   }
 };
 
