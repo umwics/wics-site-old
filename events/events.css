@@ -50,6 +50,7 @@ div.gallery {
     margin: 5px;
     float: left;
     width: 270px;
+    height: 270px;
     transition: transform .2s; /* Animation */
   }
   
@@ -58,8 +59,9 @@ div.gallery {
   }
   
   div.gallery img {
-    width: 100%;
-    height: auto;
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
   }
   
   div.desc {
