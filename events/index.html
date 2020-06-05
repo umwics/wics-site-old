@@ -8,16 +8,70 @@ description: WICS events
 
 <div class="container">
     <div class="row title">
-        <p><b>Upcoming Events</b></p>
+        <p><b>WICS Events</b></p>
     </div>
 </div>
 
-<div class="events-container">
-    <div class="calendar calendar-large">
-        <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=uofmwics%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FWinnipeg" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </div>
+<div class="container">
+    <div class="row">
+        <div role="tabpanel">
 
-    <div class="calendar calendar-small">
-        <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=uofmwics%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FWinnipeg" style="border-width:0" width="80%" height="600" frameborder="0" scrolling="no"></iframe>
+            <div class="col-sm-3">
+                <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
+                    <li role="presentation" class="brand-nav active"><a href="#calendar" aria-controls="calendar" role="tab" data-toggle="tab" style="font-weight: bold;">CALENDAR</a></li>
+                    
+                    <li role="presentation" class="brand-nav"><a href="#{{ site.data.events.mentor-mingle.docs[0].identification }}" aria-controls="mentor-mingle" role="tab" data-toggle="tab" style="font-weight: bold;">MENTOR MINGLE</a></li>
+                    <ul>
+                        {% for item in site.data.events.mentor-mingle.docs %}
+                        <a href="#{{ item.identification }}" aria-controls="mentor-mingle" role="tab" data-toggle="tab" style="text-decoration: none;"><li>{{ item.title }}</li></a>
+                        {% endfor %}
+                    </ul>
+                    
+                    <li role="presentation" class="brand-nav"><a href="#{{ site.data.events.other-events.docs[0].identification }}" aria-controls="other-events" role="tab" data-toggle="tab" style="font-weight: bold;">OTHER EVENTS</a></li>
+                    <ul>
+                        {% for item in site.data.events.other-events.docs %}
+                        <a href="#{{ item.identification }}" aria-controls="other-events" role="tab" data-toggle="tab" style="text-decoration: none;"><li>{{ item.title }}</li></a>
+                        {% endfor %}
+                    </ul>
+
+                    <li role="presentation" class="brand-nav"><a href="#games-night" aria-controls="games-night" role="tab" data-toggle="tab" style="font-weight: bold;">GAMES NIGHT</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#mentor-tech-session" aria-controls="mentor-tech-session" role="tab" data-toggle="tab" style="font-weight: bold;">MENTOR TECH SESSION</a></li>
+                </ul><br>
+            </div>
+
+
+            <div class="col-sm-9">
+                <div class="tab-content">
+
+                    <div role="tabpanel" class="tab-pane active" id="calendar">
+                        {% include calendar.html %}
+                    </div>
+
+                    {% for item in site.data.events.mentor-mingle.docs %}
+                    <div role="tabpanel" class="tab-pane" id="{{ item.identification }}">
+                        {% include mentor-mingle.html %}
+                    </div>
+                    {% endfor %}
+
+                    {% for item in site.data.events.other-events.docs %}
+                    <div role="tabpanel" class="tab-pane" id="{{ item.identification }}">
+                        {% include other-events.html %}
+                    </div>
+                    {% endfor %}
+
+
+                    <div role="tabpanel" class="tab-pane" id="games-night">
+                        {% include games-night.html %}
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="mentor-tech-session">
+                        {% include mentor-tech-session.html %}
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+{% include back-to-top2.html %}
