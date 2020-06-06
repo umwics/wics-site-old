@@ -1,6 +1,5 @@
 docs_list_title: Website Committee
 docs:
-
   - title: Juhee Kim
     name: Juhee
     identification: juhee
@@ -25,7 +24,7 @@ docs:
       - address: https://linkedin.com/in/kim-juhee-b5b309166
         label: LinkedIn
         icon: fa fa-linkedin
-    image: /assets/img/members/juhee.jpg
+    image: img/members/juhee.jpg
     width: 100px
     modal: true
 
@@ -41,7 +40,7 @@ docs:
     email: mailto:madille@myumanitoba.ca
     contactlinks: true
     links:
-    image: /assets/img/members/emptywhite.png
+    image: img/members/emptywhite.png
     width: 100px
     modal: true
 
@@ -57,25 +56,24 @@ docs:
     email: mailto:duannd11@gmail.com
     contactlinks: true
     links:
-    image: /assets/img/members/emptywhite.png
+    image: img/members/emptywhite.png
     width: 100px
     modal: true
 
   - title: Semon Alfaro
     identification: semon
-    image: /assets/img/members/semon.png
+    image: img/members/semon.png
     width: 100px
     modal: false
 
   - title: Daryl Fung
     identification: darl
-    image: /assets/img/members/daryl.jpg
+    image: img/members/daryl.jpg
     width: 100px
     modal: false
 
   - title: Luke Morrow
     identification: luke
-    image: /assets/img/members/emptywhite.png
+    image: img/members/emptywhite.png
     width: 100px
     modal: false
-    

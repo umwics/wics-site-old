@@ -25,17 +25,18 @@ description: WICS Homepage
 <div class="img-container">
   <div class="main-carousel" style="margin-bottom: 50px;">
     <div class="carousel-cell">
-      <a href = "https://www.youtube.com/watch?v=646jjiejsuA&feature=youtu.be" target="_blank">
-      <img class="carousel-img" style="cursor: pointer;" src="/~wics/assets/img/home/carousel/execteam.jpg" /></a>
+      <a href="https://www.youtube.com/watch?v=646jjiejsuA&feature=youtu.be" target="_blank">
+        {% asset img/home/carousel/execteam.jpg class="carousel-img" style="cursor: pointer;" %}</a
+      >
     </div>
     <div class="carousel-cell">
-      <img class="carousel-img" src="/~wics/assets/img/home/carousel/SkipTheDishes-95-01.jpeg" />
+      {% asset img/home/carousel/SkipTheDishes-95-01.jpeg class="carousel-img" %}
     </div>
     <div class="carousel-cell">
-      <img class="carousel-img" src="/~wics/assets/img/home/carousel/mentormingle.jpg" />
+      {% asset img/home/carousel/mentormingle.jpg class="carousel-img" %}
     </div>
     <div class="carousel-cell">
-      <img class="carousel-img" src="/~wics/assets/img/home/carousel/skip.jpg" />
+      {% asset img/home/carousel/skip.jpg class="carousel-img" %}
     </div>
   </div>
 </div>
@@ -51,7 +52,9 @@ description: WICS Homepage
             </b>
           </h2>
           <span class="social-subtitle">Like our Facebook page!</span>
-          <div style="display: flex; justify-content: center; padding-top: 30px; padding-bottom: 50px;">
+          <div
+            style="display: flex; justify-content: center; padding-top: 30px; padding-bottom: 50px;"
+          >
             {% include fb-timeline.html %}
           </div>
         </div>
@@ -64,7 +67,9 @@ description: WICS Homepage
             </b>
           </h2>
           <span class="social-subtitle">Follow our Instagram page!</span>
-          <div style="display: flex; justify-content: center; padding-top: 30px; padding-bottom: 70px;">
+          <div
+            style="display: flex; justify-content: center; padding-top: 30px; padding-bottom: 70px;"
+          >
             {% include instagram-latest.html %}
           </div>
         </div>
@@ -73,10 +78,10 @@ description: WICS Homepage
   </div>
 </div>
 
-
 <div
   class="container"
-  style="margin: 0; width: 100%; background-color: rgb(116, 119, 124); color: white;">
+  style="margin: 0; width: 100%; background-color: rgb(116, 119, 124); color: white;"
+>
   <div class="row">
     <h3 style="text-align: center; margin: 25px 15px 25px 15px;">
       We are a group of University of Manitoba students who support women in technology. All are
@@ -86,10 +91,8 @@ description: WICS Homepage
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/parallax.js"></script>
-<script src="{{ site.baseurl }}/assets/js/blinkText.js"></script>
-<script src="{{ site.baseurl }}/assets/js/carousel/flickity.pkgd.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/home.js"></script>
+{% asset js/parallax.js %} {% asset js/blinkText.js %} {% asset js/carousel/flickity.pkgd.min.js %}
+{% asset js/home.js %}
 
 <style>
   .navbar {

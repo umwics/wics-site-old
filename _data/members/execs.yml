@@ -1,6 +1,5 @@
 docs_list_title: Execs
 docs:
-
   - title: Ceilidh Simon
     name: Ceilidh
     identification: ceilidh
@@ -14,14 +13,14 @@ docs:
     emails: true
     email: mailto:simonc@myumanitoba.ca
     contactlinks: true
-    links: 
+    links:
       - address: http://ceilidhsimon.com/
         label: Website
         icon: fa fa-user
-      - address: https://linkedin.com/in/ceilidhsimon 
+      - address: https://linkedin.com/in/ceilidhsimon
         label: LinkedIn
         icon: fa fa-linkedin
-    image: /assets/img/members/ceilidh.jpg
+    image: img/members/ceilidh.jpg
     width: 100px
     modal: true
 
@@ -29,9 +28,9 @@ docs:
     name: Ana
     identification: ana
     description: Vice-President
-    description2: Hi pals! I’m Ana, the new Vice President for WICS. I’m entering my third year of computer science but my fifth year of university. WICS helped me make some friends in my field and I’m excited to be in this position to hopefully encourage other people to get involved! 
+    description2: Hi pals! I’m Ana, the new Vice President for WICS. I’m entering my third year of computer science but my fifth year of university. WICS helped me make some friends in my field and I’m excited to be in this position to hopefully encourage other people to get involved!
     funfacts: true
-    facts: 
+    facts:
       - fact: I love reading!!! (I’m trying to read 100 books this year lol)
       - fact: I’ve played soccer since I was 6 years old
       - fact: I speak Romanian
@@ -39,7 +38,7 @@ docs:
     emails: true
     email: mailto:ignats@myumanitoba.ca
     contactlinks: true
-    links: 
+    links:
       - address: http://anaignat.com/
         label: Website
         icon: fa fa-user
@@ -49,7 +48,7 @@ docs:
       - address: https://www.linkedin.com/in/ana-ignat-901/
         label: LinkedIn
         icon: fa fa-linkedin
-    image: /assets/img/members/ana.jpg
+    image: img/members/ana.jpg
     width: 100px
     modal: true
 
@@ -59,21 +58,21 @@ docs:
     description: Event Coordinator
     description2: Hi! My name is Raquel and I am going to continue as the Event Coordinator for the 2020-2021 year. I’m entering my fifth year of Computer Science. This will be my third term as a WICS Exec. WICS has allowed me to use my energy and planning skills to benefit others! I love helping people, talking about my experience (or honestly anything) and giving advice. This position allows me to do all of the above and also provide a place for other people to also act as mentors and share their experience. I look forward to meeting you all!
     funfacts: true
-    facts: 
+    facts:
       - fact: I have almost no sense of smell
       - fact: I play a lot of ultimate frisbee
       - fact: I have published research in the Human Robot Interaction field
     emails: false
     email:
     contactlinks: true
-    links: 
+    links:
       - address: http://raquelthiessen.ca
         label: Website
         icon: fa fa-user
       - address: https://ca.linkedin.com/in/raquelrthiessen
         label: LinkedIn
         icon: fa fa-linkedin
-    image: /assets/img/members/raquel.jpg
+    image: img/members/raquel.jpg
     width: 100px
     modal: true
 
@@ -83,15 +82,15 @@ docs:
     description: Social Media Coordinator
     description2: Hi everyone! I’m Mia, and I will be the new Social Media Coordinator for WICS in 2020-2021! This fall I’ll be entering my second year at U of M, and officially my first year of computer science. I am beyond excited to contribute more to the WICS community—WICS is full of strong, amazing people who have helped me step out of my comfort zone and made me proud to be a woman in computer science. I can’t wait to meet all of you, please look forward to my social media updates throughout the year!
     funfacts: true
-    facts: 
+    facts:
       - fact: I started coding in seventh grade. My first language was Python!
       - fact: Some of my non-technology related hobbies are music and painting
       - fact: Anything sweet is my favourite food
     emails: false
     email:
     contactlinks: false
-    links: 
-    image: /assets/img/members/mia.jpg
+    links:
+    image: img/members/mia.jpg
     width: 100px
     modal: true
 
@@ -101,21 +100,21 @@ docs:
     description: Outreach Director
     description2: Hi everybody! My name is Marielle Manlulu and I am the new WICS Outreach Coordinator for the 2020-2012 school year! I will be entering my fourth year of Computer Science in the upcoming Fall semester. I cannot wait to contribute to this supportive community! One of my goals this year is to show children how fun coding can be and encourage them to explore the field of Computer Science. I am so excited to share my knowledge and work along with you all!
     funfacts: true
-    facts: 
+    facts:
       - fact: I play Ultimate Frisbee.
       - fact: I got into “coding” through Tumblr’s “Edit Appearance”
       - fact: My favourite CS course is Software Engineer and HCI 1/2.
     emails: true
     email: mailto:manlulum@myumanitoba.ca
     contactlinks: true
-    links: 
+    links:
       - address: https://github.com/mariellemanlulu
         label: Github
         icon: fa fa-github
       - address: https://www.linkedin.com/in/mariellemanlulu/
         label: LinkedIn
         icon: fa fa-linkedin
-    image: /assets/img/members/marielle.jpg
+    image: img/members/marielle.jpg
     width: 100px
     modal: true
 
@@ -123,16 +122,16 @@ docs:
     name: Camila
     identification: camila
     description: Treasurer
-    description2: Hi everyone! My name is Camila and I'm the new Treasurer for the 2020-2021 school year. I will be entering my fourth year of computer science. I am happy to be able to contribute more to WICS through this position. WICS has led me to talk to and interact with so many awesome people I may not have had the chance to otherwise. I look forward to meeting you all! 
+    description2: Hi everyone! My name is Camila and I'm the new Treasurer for the 2020-2021 school year. I will be entering my fourth year of computer science. I am happy to be able to contribute more to WICS through this position. WICS has led me to talk to and interact with so many awesome people I may not have had the chance to otherwise. I look forward to meeting you all!
     funfacts: true
-    facts: 
+    facts:
       - fact: Animal Crossing has currently taken over my life
       - fact: I can speak Spanish
       - fact: I love to knit, crochet, cross stitch and do other "old lady" activities 👵
     emails: false
     email:
     contactlinks: false
-    links: 
-    image: /assets/img/members/camila.jpg
+    links:
+    image: img/members/camila.jpg
     width: 100px
     modal: true

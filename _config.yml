@@ -2,5 +2,14 @@ baseurl: "/~wics"
 sitename: "UM WICS"
 locale: "en-US"
 
+plugins:
+  - jekyll-sitemap
+
+assets:
+  caching:
+    enabled: false
+  sources:
+    - _assets/
+
 collections:
   - co-op-companies

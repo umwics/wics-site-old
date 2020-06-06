@@ -1,20 +1,19 @@
 docs_list_title: Active Members
 docs:
-
   - title: Kevin Adams
     identification: kevina
-    image: /assets/img/members/kevina.jpg
+    image: img/members/kevina.jpg
     width: 100px
     modal: false
 
   - title: Ronnie D'souza
     identification: ronnie
-    image: /assets/img/members/ronnie.jpg
+    image: img/members/ronnie.jpg
     width: 100px
     modal: false
 
   - title: Tyler Loewen
     identification: tyler
-    image: /assets/img/members/tyler.jpg
+    image: img/members/tyler.jpg
     width: 100px
     modal: false

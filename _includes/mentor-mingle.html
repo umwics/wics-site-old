@@ -1,15 +1,15 @@
 <h1 style="color: #e37262;"><b>{{ item.name }}</b></h1>
 <h3>Mentor Mingle - {{ item.term }}!</h3>
-<h5>{{ item.date }} <br><i class="fa fa-map-marker" style="color: black"></i> {{ item.location }}</h5>
-<p> {{ item.description }}<br><br></p>
-<h6> {{ item.photocredit }}<br></h6>
+<h5>
+  {{ item.date }} <br /><i class="fa fa-map-marker" style="color: black;"></i> {{ item.location }}
+</h5>
+<p>{{ item.description }}<br /><br /></p>
+<h6>{{ item.photocredit }}<br /></h6>
 
-
-{% for image in site.static_files %}
-{% if image.path contains item.imgurl %}
+{% for a in assets %} {% if a[0] contains item.imgurl %}
 <div class="gallery" id="gallery">
-    <a target="_blank" href="{{ site.baseurl }}{{ image.path }}">
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="Cinque Terre">
-    </a></div>
-{% endif %}
-{% endfor %}
+  <a target="_blank" href="{% asset "{{ a[0] }}" @path %}">
+    {% asset "{{ a[0] }}" alt="Cinque Terre" %}
+  </a>
+</div>
+{% endif %} {% endfor %}
