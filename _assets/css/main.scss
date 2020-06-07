@@ -1,10 +1,6 @@
----
-layout: none
----
-
 @font-face {
   font-family: gilroy-medium;
-  src: url("{% asset font/Gilroy-Medium.otf @path %}") format("opentype");
+  src: asset_url("font/Gilroy-Medium.otf") format("opentype");
 }
 
 html {

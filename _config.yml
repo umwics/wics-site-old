@@ -6,6 +6,8 @@ plugins:
   - jekyll-sitemap
 
 assets:
+  compression: true
+  gzip: true
   caching:
     enabled: false
   sources:
