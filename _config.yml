@@ -1,17 +1,23 @@
 baseurl: "/~wics"
 sitename: "UM WICS"
 locale: "en-US"
+permalink: pretty
 
+# Generates a sitemap.xml file
 plugins:
-  - jekyll-sitemap
+    - jekyll-sitemap
 
+# Used by jekyll-assets
 assets:
-  compression: true
-  gzip: true
-  caching:
-    enabled: false
-  sources:
-    - _assets/
+    compression: true # Uglify files
+    gzip: true
+    caching:
+        enabled: false
+    sources:
+        - _assets/
 
 collections:
-  - co-op-companies
+    pages: # Keep the root clean organizing all pages into _pages
+        output: true
+        permalink: /:path/
+    co-op-companies:

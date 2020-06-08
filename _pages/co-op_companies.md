@@ -1,3 +1,9 @@
+---
+layout: default
+permalink: /co-op_companies/
+title: Co-op Companies
+---
+
 ## Where have you worked?
 
 We want to include links to all companies UMWICS members have worked at on our site's Co-op page!
