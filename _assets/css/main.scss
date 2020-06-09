@@ -234,3 +234,18 @@ body {
     text-align: center;
     font-size: 25px;
 }
+
+.lazyload,
+.lazyloading {
+    -webkit-filter: blur(0.25rem);
+    -moz-filter: blur(0.25rem);
+    -o-filter: blur(0.25rem);
+    filter: blur(0.25rem);
+}
+
+.lazyloaded {
+    -webkit-transition: 0.5s -webkit-filter linear;
+    -moz-transition: 0.5s -moz-filter linear;
+    -o-transition: 0.5s -o-filter linear;
+    transition: 0.5s filter linear;
+}

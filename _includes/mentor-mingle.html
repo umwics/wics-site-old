@@ -1,15 +1,20 @@
 <h1 style="color: #e37262;"><b>{{ item.name }}</b></h1>
 <h3>Mentor Mingle - {{ item.term }}!</h3>
 <h5>
-  {{ item.date }} <br /><i class="fa fa-map-marker" style="color: black;"></i> {{ item.location }}
+    {{ item.date }} <br /><i class="fa fa-map-marker" style="color: black;"></i> {{ item.location }}
 </h5>
 <p>{{ item.description }}<br /><br /></p>
 <h6>{{ item.photocredit }}<br /></h6>
 
 {% for a in assets %} {% if a[0] contains item.imgurl %}
 <div class="gallery" id="gallery">
-  <a target="_blank" href="{% asset "{{ a[0] }}" @path %}">
-    {% asset "{{ a[0] }}" alt="Cinque Terre" %}
-  </a>
+    <a target="_blank" href="{% asset "{{ a[0] }}" @path %}">
+        <img
+            src="{% asset "{{ a[0] }}" magick:strip magick:resize=50x50 magick:units=PixelsPerInch magick:density=72x72 magick:quality=75 @path %}"
+            alt="Cinque Terre"
+            data-src="{% asset "{{ a[0] }}" @path %}"
+            class="lazyload"
+        />
+    </a>
 </div>
 {% endif %} {% endfor %}

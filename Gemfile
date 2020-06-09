@@ -7,5 +7,11 @@ group :jekyll_plugins do
     gem "jekyll-assets"
 end
 
-gem "uglifier"
-gem "sass"
+group :jekyll_assets do
+    gem "uglifier"
+    gem "sass"
+    gem "mini_magick"
+    gem "autoprefixer-rails"
+    gem "image_optim"
+    gem "image_optim_pack"
+end
