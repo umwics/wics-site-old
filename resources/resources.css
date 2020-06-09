@@ -1,16 +1,19 @@
-
 h1 {
     font-size: 30px;
 }
+
 .col-md-2 {
     text-align: center;
 }
+
 .col-md-3 {
     text-align: center;
 }
+
 .col-md-4 {
     align-content: center;
 }
+
 .center-img {
     display: block;
     margin-left: auto;
@@ -23,13 +26,16 @@ img {
     max-width: 250px;
     max-height: 120px;
 }
+
 .img-link-div {
     height: 150px;
     line-height: 150px;
 }
-h2{
+
+h2 {
     font-size: 25px;
 }
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -41,61 +47,61 @@ h2{
     -webkit-transition-property: transform;
     transition-property: transform;
 }
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     color: rgb(88, 202, 247);
 }
 
-.background{
+.background {
     background-color: #f5f5f5;
     padding: 0.5em 1em;
-
     border-radius: 5px;
 }
 
-.background a{
+.background a {
     font-size: 2.5vh;
     color: #4C4C4C;
-    font-family: "Roboto", Helvetica, Arial,sans-serif;
-
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
-.fixed-nav>.container>.row.background{
+.fixed-nav>.container>.row.background {
     top: 0;
     position: fixed;
     z-index: 34;
     width: inherit;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.center-block{
+.center-block {
     text-align: center;
 }
 
-.col-md-2{
+.col-md-2 {
     margin-left: auto;
     margin-right: auto;
 }
 
-.col-md-4{
+.col-md-4 {
     padding-top: 1vh;
 }
 
-
-.col-md-4:hover{
+.col-md-4:hover {
     box-shadow: 0px 5px 4px grey;
 }
 
-.img-link-div>a{
+.img-link-div>a {
     width: 100%;
     height: inherit;
 }
 
-.underline-magical{
+.underline-magical {
     background-image: linear-gradient(120deg, #34ffff 0%, #48ff7f 100%);
     background-repeat: no-repeat;
     background-size: 50% 0.2em;
@@ -104,31 +110,100 @@ html{
     font-weight: 700;
 }
 
-/*a different way of implementing the resources nav bar, can fine tune responsiveness without looking for bootstrap divs*/
-
-/* <div id="resource-main" class="resource-nav">
-    <ul style="list-style: none">
-        <li><a class="black-link hvr-grow" href="#event-section">Events</a></li>
-        <li><a id="code-begin" href="#coding-begin"class="black-link hvr-grow">Learn to Code (Beginner)</a></li>
-        <li><a id="code-inter" href="#coding-inter"class="black-link hvr-grow">Intermediate Coding</a></li>
-        <li><a id="tutorial" href="#tutorial-sec" class="black-link hvr-grow">Tutorials</a></li>
-        <li><a id="library" href="#library-sec" class="black-link hvr-grow">Libraries</a></li>
-    </ul>
-    
-</div> --> */
-/* .resource-nav ul{
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
-}
-.resource-nav li{
-    display: inline-block;
-    padding: 2em;
-    text-align: center;
-    font-size: 2vh;
-} */
-
-
 .sub-title-padding-top {
     padding-top: 5em;
-  }
+}
+
+
+/* tree */
+
+.tree-row {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.tree ul {
+    position: relative;
+    padding-bottom: .5em;
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tree li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding-right: .5em;
+}
+
+.tree ul li a:hover {
+    background: #e9453f;
+    color: #fff;
+    border: 1px solid #e9453f;
+}
+
+.button {
+    margin: .25em;
+    border: 1px solid #ccc;
+    padding: .5em .75em;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    color: #333;
+    position: relative;
+    top: 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-red {
+    background-color: white;
+    color: black;
+    border: 2px solid #d14;
+}
+
+.button-red:hover {
+    background-color: #d14;
+    color: white;
+}
+
+.button-green {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button-green:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-blue {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button-blue:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button-gray {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+
+.button-gray:hover {
+    background-color: gray;
+    color: white;
+}
+
+.button-click-change {
+    background-color: black;
+    color: white;
+}

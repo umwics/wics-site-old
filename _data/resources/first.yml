@@ -1,0 +1,140 @@
+docs_list_title: COMP 1000 COURSES
+docs1:
+
+  - id: comp1010
+    name: COMP 1010
+    title: 'Introductory Computer Science 1'
+    presbool: false
+    pres: 
+      - pre:
+    postsbool: true
+    posts: 
+      - post: comp1020
+    equivalent: COMP 1012
+    honours: true
+    major: true
+    comp: true
+    coop: false
+    stat: false
+    math: false
+  
+  - id: comp1012
+    name: COMP 1012
+    title: 	'Computer Science for Scientists and Engineers'
+    presbool: false
+    pres: 
+      - pre: 
+    postsbool: false
+    posts: 
+      - post:
+    equivalent: COMP 1010
+    honours: false
+    major: false
+    comp: true
+    coop: false
+    stat: false
+    math: false
+
+  - id: math1300
+    name: MATH 1300
+    title: 'Vector Geometry and Linear Algebra'
+    presbool: false
+    pres: 
+      - pre: 
+    postsbool: false
+    posts: 
+      - post: 
+    equivalent: 
+    honours: true
+    major: true
+    comp: false
+    coop: false
+    stat: false
+    math: true
+
+  - id: math1500
+    name: MATH 1500
+    title: 'Introduction to Calculus'
+    presbool: false
+    pres: 
+      - pre: 
+    postsbool: true
+    posts: 
+      - post: math1700
+    equivalent: 
+    honours: true
+    major: true
+    comp: false
+    coop: false
+    stat: false
+    math: true
+
+  - id: comp1500
+    name: COMP 1500
+    title: 'Computing: Ideas and Innovation'
+    presbool: false
+    pres: 
+      - pre: 
+    postsbool: true
+    posts: 
+      - post: 
+    equivalent: 
+    honours: false
+    major: false
+    comp: true
+    coop: false
+    stat: false
+    math: false
+
+  - id: comp1600
+    name: COMP 1600
+    title: 'Navigating Your Digital World'
+    presbool: false
+    pres: 
+      - pre: 
+    postsbool: true
+    posts: 
+      - post: 
+    equivalent: 
+    honours: false
+    major: false
+    comp: true
+    coop: false
+    stat: false
+    math: false
+
+docs2:
+  - id: comp1020
+    name: COMP 1020
+    title: 'Introductory Computer Science 2'
+    presbool: true
+    pres: 
+      - pre: comp1010
+    postsbool: true
+    posts: 
+      - post: comp2140
+      - post: comp2160
+    equivalent: 
+    honours: true
+    major: true
+    comp: true
+    coop: false
+    stat: false
+    math: false
+
+  - id: math1700
+    name: MATH 1700
+    title: 'Calculus II'
+    presbool: true
+    pres: 
+      - pre: math1500
+    postsbool: false
+    posts: 
+      - post: 
+    equivalent: 
+    honours: true
+    major: true
+    comp: false
+    coop: false
+    stat: false
+    math: true
