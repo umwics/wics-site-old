@@ -9,7 +9,7 @@ plugins:
 
 # Used by jekyll-assets
 assets:
-    compression: true # Uglify files
+    compression: false # Uglify files
     gzip: true
     caching:
         enabled: false

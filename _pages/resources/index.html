@@ -19,7 +19,7 @@ description: things we recommend - e.g. tutorials
         <div class="col-md-2">
             <h1><a id="event-a" href="#event-section" class="black-link hvr-grow">Events</a></h1>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2">
             <h1>
                 <a id="code-begin" href="#coding-begin" class="black-link hvr-grow">Beginners</a>
             </h1>
@@ -29,11 +29,18 @@ description: things we recommend - e.g. tutorials
                 <a id="code-inter" href="#coding-inter" class="black-link hvr-grow">Intermediate</a>
             </h1>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2">
             <h1><a id="tutorial" href="#tutorial-sec" class="black-link hvr-grow">Tutorials</a></h1>
         </div>
         <div class="col-md-2">
             <h1><a id="library" href="#library-sec" class="black-link hvr-grow">Libraries</a></h1>
+        </div>
+        <div class="col-md-2">
+            <h1>
+                <a id="course" href="#course-section" class="black-link hvr-grow"
+                    >CS Course Tech Tree</a
+                >
+            </h1>
         </div>
     </div>
 
@@ -238,6 +245,16 @@ description: things we recommend - e.g. tutorials
             </div>
         </div>
         <!-- /.library-class -->
+
+        <div class="course" id = "course-section"><!-- course-class -->
+            <div class="row sub-title-padding-top">
+                <span style="margin-top: 40px; " class="underline-magical">CS Course Tech Tree</h2>
+            </div>
+            <div class="row" style="margin-top: 30px">
+                {% include course-tree.html %}
+            </div>
+        </div> 
+        <!-- /.course-class -->
     </div>
 </div>
 
@@ -245,6 +262,10 @@ description: things we recommend - e.g. tutorials
     $("#up-btn").click(function () {
         document.body.scrollTop = 0; // For Chrome, Safari and Opera
         document.documentElement.scrollTop = 0; // For IE and Firefox
+    });
+
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
     });
 
     const nav = document.querySelector("#resource-main");

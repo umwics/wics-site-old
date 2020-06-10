@@ -76,7 +76,6 @@ description: Highlighting WICS members who have/had done a co-op
     </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 {% asset js/parallax.js %}
 
 <script>
@@ -92,7 +91,7 @@ description: Highlighting WICS members who have/had done a co-op
         $("#{{ item.identification }}-close").click(function () {
             $("#{{ item.identification }}-modal").modal("hide");
         });
-        $('body').on('click', '.modal-backdrop.show', function (e) {
+        $('body').on('click', '.modal-backdrop.in', function (e) {
             $("#{{ item.identification }}-modal").modal("hide");
         });
         {% endif %}
