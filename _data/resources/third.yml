@@ -3,6 +3,8 @@ docs1:
     - id: comp3030
       name: COMP 3030
       title: "Automata Theory and Formal Languages"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2080
@@ -10,6 +12,7 @@ docs1:
       postsbool: true
       posts:
           - post: comp4310
+      equi: false
       equivalent:
       honours: true
       major: false
@@ -21,6 +24,8 @@ docs1:
     - id: comp3170
       name: COMP 3170
       title: "Analysis of Algorithms and Data Structures"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2080
@@ -29,6 +34,7 @@ docs1:
       posts:
           - post: comp4340
           - post: comp4420
+      equi: false
       equivalent:
       honours: true
       major: false
@@ -40,6 +46,8 @@ docs1:
     - id: comp3430
       name: COMP 3430
       title: "Operating Systems"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2140
@@ -50,6 +58,7 @@ docs1:
           - post: comp4510
           - post: comp4550
           - post: comp4580
+      equi: false
       equivalent:
       honours: true
       major: true
@@ -61,6 +70,8 @@ docs1:
     - id: comp3370
       name: COMP 3370
       title: "Computer Organization"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2280
@@ -69,6 +80,7 @@ docs1:
           - post: comp4510
           - post: comp4550
           - post: comp4690
+      equi: false
       equivalent:
       honours: true
       major: true
@@ -80,6 +92,8 @@ docs1:
     - id: comp3350
       name: COMP 3350
       title: "Software Engineering 1"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2150
@@ -88,6 +102,7 @@ docs1:
           - post: comp4050
           - post: comp4350
           - post: comp4560
+      equi: false
       equivalent:
       honours: true
       major: true
@@ -100,6 +115,8 @@ docs2:
     - id: comp3010
       name: COMP 3010
       title: "Distributed Computing"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2140
@@ -107,6 +124,7 @@ docs2:
       postsbool: false
       posts:
           - post:
+      equi: false
       equivalent:
       honours: false
       major: false
@@ -118,12 +136,15 @@ docs2:
     - id: comp3020
       name: COMP 3020
       title: "Human-Computer Interaction 1"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2140
       postsbool: true
       posts:
           - post: comp4020
+      equi: false
       equivalent:
       honours: false
       major: false
@@ -135,12 +156,15 @@ docs2:
     - id: comp3040
       name: COMP 3040
       title: "Technical Communication in Computer Science"
+      desc: ""
+      lab: false
       presbool: false
       pres:
           - pre:
       postsbool: false
       posts:
           - post:
+      equi: false
       equivalent:
       honours: false
       major: false
@@ -152,6 +176,8 @@ docs2:
     - id: comp3190
       name: COMP 3190
       title: "Introduction to Artificial Intelligence"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2140
@@ -160,6 +186,7 @@ docs2:
           - post: comp4190
           - post: comp4200
           - post: comp4360
+      equi: false
       equivalent:
       honours: false
       major: false
@@ -171,6 +198,8 @@ docs2:
     - id: comp3380
       name: COMP 3380
       title: "Databases: Concepts and Usage"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2140
@@ -179,6 +208,7 @@ docs2:
           - post: comp4380
           - post: comp4710
           - post: comp4740
+      equi: false
       equivalent:
       honours: false
       major: false
@@ -190,6 +220,8 @@ docs2:
     - id: comp3490
       name: COMP 3490
       title: "Computer Graphics 1"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2140
@@ -198,6 +230,7 @@ docs2:
       postsbool: true
       posts:
           - post: comp4490
+      equi: false
       equivalent:
       honours: false
       major: false
@@ -209,12 +242,15 @@ docs2:
     - id: comp3820
       name: COMP 3820
       title: "Introduction to Bioinformatics Algorithms"
+      desc: ""
+      lab: false
       presbool: true
       pres:
           - pre: comp2080
       postsbool: false
       posts:
           - post:
+      equi: false
       equivalent:
       honours: false
       major: false
@@ -226,12 +262,15 @@ docs2:
     - id: comp3980
       name: COMP 3980
       title: "Workterm 2"
+      desc: ""
+      lab: false
       presbool: false
       pres:
           - pre:
       postsbool: false
       posts:
           - post:
+      equi: false
       equivalent:
       honours: false
       major: false

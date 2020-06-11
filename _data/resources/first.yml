@@ -3,13 +3,16 @@ docs1:
     - id: comp1010
       name: COMP 1010
       title: "Introductory Computer Science 1"
+      desc: "An introduction to computer programming using a procedural high-level language"
+      lab: true
       presbool: false
       pres:
           - pre:
       postsbool: true
       posts:
           - post: comp1020
-      equivalent: COMP 1012
+      equi: true
+      equivalent: comp1012
       honours: true
       major: true
       comp: true
@@ -20,12 +23,16 @@ docs1:
     - id: comp1012
       name: COMP 1012
       title: "Computer Science for Scientists and Engineers"
+      desc: "An introduction to computer programming suitable for solving problems in science and engineering. Students will implement algorithms for numerical processing, statistical analysis and matrix operations."
+      lab: true
       presbool: false
       pres:
           - pre:
-      postsbool: false
+      postsbool: true
       posts:
-          - post:
+          - post: comp1020
+          - post: comp2190
+      equi: true
       equivalent: COMP 1010
       honours: false
       major: false
@@ -37,12 +44,15 @@ docs1:
     - id: math1300
       name: MATH 1300
       title: "Vector Geometry and Linear Algebra"
+      desc: ""
+      lab: true
       presbool: false
       pres:
           - pre:
       postsbool: false
       posts:
           - post:
+      equi: false
       equivalent:
       honours: true
       major: true
@@ -54,6 +64,8 @@ docs1:
     - id: math1500
       name: MATH 1500
       title: "Introduction to Calculus"
+      desc: ""
+      lab: true
       presbool: false
       pres:
           - pre:
@@ -61,6 +73,7 @@ docs1:
       posts:
           - post: math1700
       equivalent:
+      equi: false
       honours: true
       major: true
       comp: false
@@ -71,12 +84,15 @@ docs1:
     - id: comp1500
       name: COMP 1500
       title: "Computing: Ideas and Innovation"
+      desc: "An introduction to the topics of Computer Science and problem solving. Students will learn concepts in computer programming. May not be used to fulfill computer science requirements in a Computer Science Honours, Major, General or Minor program. Not available to students who have previously obtained credit in, or are concurrently registered in, any 2000 level university Computer Science course."
+      lab: false
       presbool: false
       pres:
           - pre:
-      postsbool: true
+      postsbool: false
       posts:
           - post:
+      equi: false
       equivalent:
       honours: false
       major: false
@@ -88,13 +104,16 @@ docs1:
     - id: comp1600
       name: COMP 1600
       title: "Navigating Your Digital World"
+      desc: "Topics related to digital society such as security, encryption and data storage, issues of social and ethical importance, and current events. May not be used to fulfill computer science requirements in a Computer Science Honours, Major, General or Minor program. Not available to students who have previously obtained credit in, or are concurrently registered in, any 2000 level university Computer Science course. May not be held with COMP 1270."
+      lab: false
       presbool: false
       pres:
           - pre:
-      postsbool: true
+      postsbool: false
       posts:
           - post:
       equivalent:
+      equi: false
       honours: false
       major: false
       comp: true
@@ -106,6 +125,8 @@ docs2:
     - id: comp1020
       name: COMP 1020
       title: "Introductory Computer Science 2"
+      desc: ": More features of a procedural language, elements of programming"
+      lab: true
       presbool: true
       pres:
           - pre: comp1010
@@ -113,6 +134,7 @@ docs2:
       posts:
           - post: comp2140
           - post: comp2160
+      equi: false
       equivalent:
       honours: true
       major: true
@@ -124,12 +146,15 @@ docs2:
     - id: math1700
       name: MATH 1700
       title: "Calculus II"
+      desc: ""
+      lab: true
       presbool: true
       pres:
           - pre: math1500
       postsbool: false
       posts:
           - post:
+      equi: false
       equivalent:
       honours: true
       major: true
