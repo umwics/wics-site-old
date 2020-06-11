@@ -33,8 +33,14 @@ docs1:
     posts: 
       - post: comp1020
       - post: comp2190
+    presbool: false
+    pres: 
+      - pre: 
+    postsbool: false
+    posts: 
+      - post:
     equi: true
-    equivalent: comp1010
+    equivalent: COMP 1010
     honours: false
     major: false
     comp: true
@@ -93,6 +99,12 @@ docs1:
     postsbool: false
     posts: 
       - post: 
+    presbool: false
+    pres: 
+      - pre: 
+    postsbool: true
+    posts: 
+      - post: 
     equi: false
     equivalent: 
     honours: false
@@ -111,6 +123,12 @@ docs1:
     pres: 
       - pre: 
     postsbool: false
+    posts: 
+      - post: 
+    presbool: false
+    pres: 
+      - pre: 
+    postsbool: true
     posts: 
       - post: 
     equi: false
@@ -135,8 +153,8 @@ docs2:
     posts: 
       - post: comp2140
       - post: comp2160
-    equivalent: 
     equi: false
+    equivalent: 
     honours: true
     major: true
     comp: true
