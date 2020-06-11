@@ -8,6 +8,7 @@ group :jekyll_plugins do
 end
 
 group :jekyll_assets do
+    gem "sprockets", "~> 3.7.2"
     gem "uglifier"
     gem "sass"
     gem "mini_magick"
