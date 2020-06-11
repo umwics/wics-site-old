@@ -1,64 +1,57 @@
 <div class="tree">
     <div class="tree-row" style="margin-bottom: 2em;">
-    <button class="button button-red" id="major">Required Major Program Courses</button> 
-    <button class="button button-blue" id="honours">Required Honours Program Courses</button> 
-    <button class="button button-gray" id="other">Other CS courses</button>
-
-    
+        <button class="button button-red" id="major">Required Major Program Courses</button>
+        <button class="button button-blue" id="honours">Required Honours Program Courses</button>
+        <button class="button button-gray" id="other">Other CS courses</button>
     </div>
     <div class="tree-row" style="margin-bottom: 1em;">
-    <input type="button" value="Reload page" onclick="reloadPage()" />
-</div>
-
-
-<div class="container" style="background-color: #f5f5f5;">
-    <div class="tree-row" style="padding-top: 2em;">
-        {% for item in site.data.resources.first.docs1 %}
-        {% include course-tree-detail.html %}
-        {% endfor %}
-        <br>
-        {% for item in site.data.resources.first.docs2 %}
-        {% include course-tree-detail.html %}
-        {% endfor %}
+        <input type="button" value="Reload page" onclick="reloadPage()" />
     </div>
 
-    <div class="tree-row">
-        {% for item in site.data.resources.second.docs1 %}
-        {% include course-tree-detail.html %}
-        {% endfor %}
-        <br>
-        {% for item in site.data.resources.second.docs2 %}
-        {% include course-tree-detail.html %}
-        {% endfor %}
-    </div>
+    <div class="container" style="background-color: #f5f5f5;">
+        <div class="tree-row" style="padding-top: 2em;">
+            {% for item in site.data.resources.first.docs1 %} {% include course-tree-detail.html %}
+            {% endfor %}
 
-    <div class="tree-row">
-        {% for item in site.data.resources.third.docs1 %}
-        {% include course-tree-detail.html %}
-        {% endfor %}
-        <br>
-        {% for item in site.data.resources.third.docs2 %}
-        {% include course-tree-detail.html %}
-        {% endfor %}
-    </div>
+            <br />
 
-    <div class="tree-row">
-        {% for item in site.data.resources.fourth.docs1 %}
-        {% include course-tree-detail.html %}
-        {% endfor %}
-        <br>
-        {% for item in site.data.resources.fourth.docs2 %}
-        {% include course-tree-detail.html %}
-        {% endfor %}
-    </div>
-</div>
+            {% for item in site.data.resources.first.docs2 %} {% include course-tree-detail.html %}
+            {% endfor %}
+        </div>
 
+        <div class="tree-row">
+            {% for item in site.data.resources.second.docs1 %} {% include course-tree-detail.html %}
+            {% endfor %}
+
+            <br />
+
+            {% for item in site.data.resources.second.docs2 %} {% include course-tree-detail.html %}
+            {% endfor %}
+        </div>
+
+        <div class="tree-row">
+            {% for item in site.data.resources.third.docs1 %} {% include course-tree-detail.html %}
+            {% endfor %}
+
+            <br />
+
+            {% for item in site.data.resources.third.docs2 %} {% include course-tree-detail.html %}
+            {% endfor %}
+        </div>
+
+        <div class="tree-row">
+            {% for item in site.data.resources.fourth.docs1 %} {% include course-tree-detail.html %}
+            {% endfor %}
+
+            <br />
+
+            {% for item in site.data.resources.fourth.docs2 %} {% include course-tree-detail.html %}
+            {% endfor %}
+        </div>
+    </div>
 </div>
 
 <script>
-
-
-
     // first year courses
     {% for item in site.data.resources.first.docs1 %}
     function {{ item.id }}() {
@@ -78,7 +71,8 @@
         document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
         {% endif %}
-    } {% endfor %}
+    }
+    {% endfor %}
 
     {% for item in site.data.resources.first.docs2 %}
     function {{ item.id }}() {
@@ -98,9 +92,9 @@
         document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
         {% endif %}
-    } {% endfor %}
+    }
+    {% endfor %}
 
-    
     // second year courses
     {% for item in site.data.resources.second.docs1 %}
     function {{ item.id }}() {
@@ -120,7 +114,8 @@
         document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
         {% endif %}
-    } {% endfor %}
+    }
+    {% endfor %}
 
     {% for item in site.data.resources.second.docs2 %}
     function {{ item.id }}() {
@@ -140,12 +135,8 @@
         document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
         {% endif %}
-    } {% endfor %}
-
-
-
-
-
+    }
+    {% endfor %}
 
     // third year courses
     {% for item in site.data.resources.third.docs1 %}
@@ -154,7 +145,7 @@
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
         document.getElementById("{{ item.id }}").style.outline = "none";
-        
+
         {% if item.presbool == true %}
         {% for prerequisite in item.pres %}
         document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
@@ -167,7 +158,8 @@
         document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
         {% endif %}
-    } {% endfor %}
+    }
+    {% endfor %}
 
     {% for item in site.data.resources.third.docs2 %}
     function {{ item.id }}() {
@@ -187,10 +179,11 @@
         document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
         {% endif %}
-    } {% endfor %}
+    }
+    {% endfor %}
 
-// fourth year courses
-{% for item in site.data.resources.fourth.docs1 %}
+    // fourth year courses
+    {% for item in site.data.resources.fourth.docs1 %}
     function {{ item.id }}() {
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
@@ -208,7 +201,8 @@
         document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
         {% endif %}
-    } {% endfor %}
+    }
+    {% endfor %}
 
     {% for item in site.data.resources.fourth.docs2 %}
     function {{ item.id }}() {
@@ -228,27 +222,28 @@
         document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
         {% endif %}
-    } {% endfor %}
-    
-function randDarkColor() {
-    var lum = -0.25;
-    var hex = String('#' + Math.random().toString(16).slice(2, 8).toUpperCase()).replace(/[^0-9a-f]/gi, '');
-    if (hex.length < 6) {
-        hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
     }
-    var rgb = "#",
-        c, i;
-    for (i = 0; i < 3; i++) {
-        c = parseInt(hex.substr(i * 2, 2), 16);
-        c = Math.round(Math.min(Math.max(0, c + (c * lum)), 255)).toString(16);
-        rgb += ("00" + c).substr(c.length);
+    {% endfor %}
+
+    function randDarkColor() {
+        var lum = -0.25;
+        var hex = String('#' + Math.random().toString(16).slice(2, 8).toUpperCase()).replace(/[^0-9a-f]/gi, '');
+        if (hex.length < 6) {
+            hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
+        }
+        var rgb = "#",
+            c, i;
+        for (i = 0; i < 3; i++) {
+            c = parseInt(hex.substr(i * 2, 2), 16);
+            c = Math.round(Math.min(Math.max(0, c + (c * lum)), 255)).toString(16);
+            rgb += ("00" + c).substr(c.length);
+        }
+        return rgb;
     }
-    return rgb;
-}
 </script>
 
 <script>
-    function reloadPage(){
-    window.location.reload();
+    function reloadPage() {
+        window.location.reload();
     }
 </script>

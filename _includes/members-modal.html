@@ -1,0 +1,283 @@
+<!-- execs -->
+{% for item in site.data.members.execs.docs %}
+<div class="ui modal" id="{{ item.identification }}-modal">
+    <div class="header">
+        More about {{ item.name }}
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="column-image-modal">
+                        {% asset "{{ item.image }}" class="image-circle" %}
+                        <h3>
+                            <strong> {{ item.title }} </strong>
+                            <p style="color: gray;">{{ item.description }}</p>
+                        </h3>
+
+                        {% if item.contactlinks == true %}
+                        <ul class="list-inline social-buttons">
+                            {% if item.emails == true %}
+                            <li>
+                                <a href="{{ item.email }}" class="social-link"
+                                    ><span aria-label="Email" class="fa fa-envelope"></span
+                                ></a>
+                            </li>
+                            {% endif %} {% for link in item.links %}
+                            <li>
+                                <a href="{{ link.address }}" target="_blank" class="social-link"
+                                    ><span
+                                        aria-label="{{ link.label }}"
+                                        class="{{ link.icon }}"
+                                    ></span
+                                ></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="column-right-modal">
+                        <blockquote class="default">
+                            <h1>
+                                <span class="Cdefault">Meet our {{ item.description }}!</span> {{
+                                item.name }}
+                            </h1>
+                            <p><i>{{ item.description2 }}</i></p>
+                        </blockquote>
+                        {% if item.funfacts == true %}
+                        <div class="description">
+                            <strong>Some fun facts about me:</strong>
+                            <ul>
+                                {% for funfact in item.facts %}
+                                <li>{{ funfact.fact }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<!-- management -->
+{% for item in site.data.members.management.docs %}
+<div class="ui modal" id="{{ item.identification }}-modal">
+    <div class="header">
+        More about {{ item.name }}
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="column-image-modal">
+                        {% asset "{{ item.image }}" class="image-circle" %}
+                        <h3>
+                            <strong> {{ item.title }} </strong>
+                            <p style="color: gray;">{{ item.description }}</p>
+                        </h3>
+
+                        {% if item.contactlinks == true %}
+                        <ul class="list-inline social-buttons">
+                            {% if item.emails == true %}
+                            <li>
+                                <a href="{{ item.email }}" class="social-link"
+                                    ><span aria-label="Email" class="fa fa-envelope"></span
+                                ></a>
+                            </li>
+                            {% endif %} {% for link in item.links %}
+                            <li>
+                                <a href="{{ link.address }}" target="_blank" class="social-link"
+                                    ><span
+                                        aria-label="{{ link.label }}"
+                                        class="{{ link.icon }}"
+                                    ></span
+                                ></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="column-right-modal">
+                        <blockquote class="default">
+                            <h1>
+                                <span class="Cdefault">Meet our {{ item.description }}!</span> {{
+                                item.name }}
+                            </h1>
+                            <p><i>{{ item.description2 }}</i></p>
+                        </blockquote>
+                        {% if item.funfacts == true %}
+                        <div class="description">
+                            <strong>Some fun facts about me:</strong>
+                            <ul>
+                                {% for funfact in item.facts %}
+                                <li>{{ funfact.fact }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<!-- website-committee -->
+{% for item in site.data.members.website-committee.docs %}
+<div class="ui modal" id="{{ item.identification }}-modal">
+    <div class="header">
+        More about {{ item.name }}
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="column-image-modal">
+                        {% asset "{{ item.image }}" class="image-circle" %}
+                        <h3>
+                            <strong> {{ item.title }} </strong>
+                            <p style="color: gray;">{{ item.description }}</p>
+                        </h3>
+
+                        {% if item.contactlinks == true %}
+                        <ul class="list-inline social-buttons">
+                            {% if item.emails == true %}
+                            <li>
+                                <a href="{{ item.email }}" class="social-link"
+                                    ><span aria-label="Email" class="fa fa-envelope"></span
+                                ></a>
+                            </li>
+                            {% endif %} {% for link in item.links %}
+                            <li>
+                                <a href="{{ link.address }}" target="_blank" class="social-link"
+                                    ><span
+                                        aria-label="{{ link.label }}"
+                                        class="{{ link.icon }}"
+                                    ></span
+                                ></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="column-right-modal">
+                        <blockquote class="default">
+                            <h1>
+                                <span class="Cdefault">Meet our {{ item.description }}!</span> {{
+                                item.name }}
+                            </h1>
+                            <p><i>{{ item.description2 }}</i></p>
+                        </blockquote>
+                        {% if item.funfacts == true %}
+                        <div class="description">
+                            <strong>Some fun facts about me:</strong>
+                            <ul>
+                                {% for funfact in item.facts %}
+                                <li>{{ funfact.fact }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<!-- past-execs -->
+{% for item in site.data.members.past-execs.docs %}
+<div class="ui modal" id="{{ item.identification }}-modal">
+    <div class="header">
+        More about {{ item.name }}
+        <button type="button" id="{{ item.identification }}-close" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="column-image-modal">
+                        {% asset "{{ item.image }}" class="image-circle" %}
+                        <h3>
+                            <strong> {{ item.title }} </strong>
+                            <p style="color: gray;">{{ item.description }}</p>
+                        </h3>
+
+                        {% if item.contactlinks == true %}
+                        <ul class="list-inline social-buttons">
+                            {% if item.emails == true %}
+                            <li>
+                                <a href="{{ item.email }}" class="social-link"
+                                    ><span aria-label="Email" class="fa fa-envelope"></span
+                                ></a>
+                            </li>
+                            {% endif %} {% for link in item.links %}
+                            <li>
+                                <a href="{{ link.address }}" target="_blank" class="social-link"
+                                    ><span
+                                        aria-label="{{ link.label }}"
+                                        class="{{ link.icon }}"
+                                    ></span
+                                ></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="column-right-modal">
+                        <blockquote class="default">
+                            <h1>
+                                <span class="Cdefault">Meet our {{ item.description }}!</span> {{
+                                item.name }}
+                            </h1>
+                            <p><i>{{ item.description2 }}</i></p>
+                        </blockquote>
+                        {% if item.funfacts == true %}
+                        <div class="description">
+                            <strong>Some fun facts about me:</strong>
+                            <ul>
+                                {% for funfact in item.facts %}
+                                <li>{{ funfact.fact }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

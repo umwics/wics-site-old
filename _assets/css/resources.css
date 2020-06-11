@@ -1,0 +1,249 @@
+h1 {
+    font-size: 30px;
+}
+
+.col-md-2 {
+    text-align: center;
+}
+
+.col-md-3 {
+    text-align: center;
+}
+
+.col-md-4 {
+    align-content: center;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+}
+
+img {
+    width: auto;
+    max-width: 250px;
+    max-height: 120px;
+}
+
+.img-link-div {
+    height: 150px;
+    line-height: 150px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: rgb(88, 202, 247);
+}
+
+.background {
+    background-color: #f5f5f5;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.background a {
+    font-size: 2.5vh;
+    color: #4c4c4c;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.fixed-nav > .container > .row.background {
+    top: 0;
+    position: fixed;
+    z-index: 34;
+    width: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center-block {
+    text-align: center;
+}
+
+.col-md-2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-4 {
+    padding-top: 1vh;
+}
+
+.col-md-4:hover {
+    box-shadow: 0px 5px 4px grey;
+}
+
+.img-link-div > a {
+    width: 100%;
+    height: inherit;
+}
+
+.underline-magical {
+    background-image: linear-gradient(120deg, #34ffff 0%, #48ff7f 100%);
+    background-repeat: no-repeat;
+    background-size: 50% 0.2em;
+    background-position: 0 88%;
+    font-size: 4.3vh;
+    font-weight: 700;
+}
+
+.sub-title-padding-top {
+    padding-top: 5em;
+}
+
+/* tree */
+
+.tree-row {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.tree ul {
+    position: relative;
+    padding-bottom: 0.5em;
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tree li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding-right: 0.5em;
+}
+
+.tree ul li a:hover {
+    background: #e9453f;
+    color: #fff;
+    border: 1px solid #e9453f;
+}
+
+.button {
+    margin: 0.25em;
+    border: 1px solid #ccc;
+    padding: 0.5em 0.75em;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    color: #333;
+    position: relative;
+    top: 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button-red {
+    background-color: white;
+    color: black;
+    border: 2px solid #d14;
+}
+
+.button-red:hover {
+    background-color: #d14;
+    color: white;
+}
+
+.button-green {
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+}
+
+.button-green:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+.button-blue {
+    background-color: white;
+    color: black;
+    border: 2px solid #008cba;
+}
+
+.button-blue:hover {
+    background-color: #008cba;
+    color: white;
+}
+
+.button-gray {
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+
+.button-gray:hover {
+    background-color: gray;
+    color: white;
+}
+
+.button-click-change {
+    background-color: black;
+    color: white;
+}
+
+/* tootlips */
+.tree-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tree-tooltip .tree-tooltiptext {
+    visibility: hidden;
+    /* width: 120px; */
+    width: fit-content;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: x-small;
+}
+
+.tree-tooltip .tree-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tree-tooltip:hover .tree-tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,510 +1,510 @@
 docs_list_title: COMP 4000 COURSES
 docs1:
-  - id: comp4620
-    name: COMP 4620
-    title: 'Professional Practice in Computer Science'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3350
-    postsbool: false
-    posts: 
-      - post: 
-    equi: true
-    equivalent: comp3620
-    honours: true
-    major: true
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4620
+      name: COMP 4620
+      title: "Professional Practice in Computer Science"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3350
+      postsbool: false
+      posts:
+          - post:
+      equi: true
+      equivalent: comp3620
+      honours: true
+      major: true
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4020
-    name: COMP 4020
-    title: 'Human-Computer Interaction 2'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3020
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4020
+      name: COMP 4020
+      title: "Human-Computer Interaction 2"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3020
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4050
-    name: COMP 4050
-    title: 'Project Management'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3350
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4050
+      name: COMP 4050
+      title: "Project Management"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3350
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4060
-    name: COMP 4060
-    title: 'Topics in Computer Science'
-    desc: ''
-    lab: false
-    presbool: false
-    pres: 
-      - pre:
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4060
+      name: COMP 4060
+      title: "Topics in Computer Science"
+      desc: ""
+      lab: false
+      presbool: false
+      pres:
+          - pre:
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4140
-    name: COMP 4140
-    title: 'Introduction to Cryptography and Cryptosystems'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: math1240
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4140
+      name: COMP 4140
+      title: "Introduction to Cryptography and Cryptosystems"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: math1240
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4180
-    name: COMP 4180
-    title: 'Intelligent Mobile Robotics'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp2160
-      - pre: comp3190
-    postsbool: false
-    posts: 
-      - post: 
-    equi: true
-    equivalent: comp4060
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4180
+      name: COMP 4180
+      title: "Intelligent Mobile Robotics"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp2160
+          - pre: comp3190
+      postsbool: false
+      posts:
+          - post:
+      equi: true
+      equivalent: comp4060
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4190
-    name: COMP 4190
-    title: 'Artificial Intelligence'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3190
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4190
+      name: COMP 4190
+      title: "Artificial Intelligence"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3190
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4200
-    name: COMP 4200
-    title: 'Expert Systems'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3190
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4200
+      name: COMP 4200
+      title: "Expert Systems"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3190
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4300
-    name: COMP 4300
-    title: 'Computer Networks'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp2280
-      - pre: comp3010
-    postsbool: false
-    posts: 
-      - post: 
-    equi: true
-    equivalent: comp3720 or comp4720
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4300
+      name: COMP 4300
+      title: "Computer Networks"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp2280
+          - pre: comp3010
+      postsbool: false
+      posts:
+          - post:
+      equi: true
+      equivalent: comp3720 or comp4720
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4340
-    name: COMP 4340
-    title: 'Graph Theory Algorithms 1'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3170
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4340
+      name: COMP 4340
+      title: "Graph Theory Algorithms 1"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3170
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4350
-    name: COMP 4350
-    title: 'Software Engineering 2'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3350
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4350
+      name: COMP 4350
+      title: "Software Engineering 2"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3350
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4360
-    name: COMP 4360
-    title: 'Machine Learning'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3190
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4360
+      name: COMP 4360
+      title: "Machine Learning"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3190
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4380
-    name: COMP 4380
-    title: 'Database Implementation'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3380
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4380
+      name: COMP 4380
+      title: "Database Implementation"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3380
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4420
-    name: COMP 4420
-    title: 'Advanced Design and Analysis of Algorithms'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3170
-      - pre: stat1000
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4420
+      name: COMP 4420
+      title: "Advanced Design and Analysis of Algorithms"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3170
+          - pre: stat1000
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4430
-    name: COMP 4430
-    title: 'Operating Systems 2'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp2160
-      - pre: comp3430
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4430
+      name: COMP 4430
+      title: "Operating Systems 2"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp2160
+          - pre: comp3430
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4490
-    name: COMP 4490
-    title: 'Computer Graphics 2'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3490
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4490
+      name: COMP 4490
+      title: "Computer Graphics 2"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3490
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4510
-    name: COMP 4510
-    title: 'Introduction to Parallel Computation'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3370
-      - pre: comp3430
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4510
+      name: COMP 4510
+      title: "Introduction to Parallel Computation"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3370
+          - pre: comp3430
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4520
-    name: COMP 4520
-    title: 'Undergraduate Honours Project'
-    desc: ''
-    lab: false
-    presbool: false
-    pres: 
-      - pre:
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4520
+      name: COMP 4520
+      title: "Undergraduate Honours Project"
+      desc: ""
+      lab: false
+      presbool: false
+      pres:
+          - pre:
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4550
-    name: COMP 4550
-    title: 'Real-Time Systems'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3370
-      - pre: comp3430
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4550
+      name: COMP 4550
+      title: "Real-Time Systems"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3370
+          - pre: comp3430
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4560
-    name: COMP 4560
-    title: 'Industrial Project'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3350
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4560
+      name: COMP 4560
+      title: "Industrial Project"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3350
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4580
-    name: COMP 4580
-    title: 'Computer Security'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3430
-      - pre: comp3010
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4580
+      name: COMP 4580
+      title: "Computer Security"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3430
+          - pre: comp3010
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4690
-    name: COMP 4690
-    title: 'Computer Systems and Architecture'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3370
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: false
-    stat: false
-    math: false
+    - id: comp4690
+      name: COMP 4690
+      title: "Computer Systems and Architecture"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3370
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: false
+      stat: false
+      math: false
 
-  - id: comp4710
-    name: COMP 4710
-    title: 'Introduction to Data Mining'
-    desc: ''
-    lab: false
-    presbool: true
-    pres: 
-      - pre: comp3380
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: true
-    stat: false
-    math: false
+    - id: comp4710
+      name: COMP 4710
+      title: "Introduction to Data Mining"
+      desc: ""
+      lab: false
+      presbool: true
+      pres:
+          - pre: comp3380
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: true
+      stat: false
+      math: false
 
-  - id: comp4980
-    name: COMP 4980
-    title: 'Workterm 3'
-    desc: ''
-    lab: false
-    presbool: false
-    pres: 
-      - pre:
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: true
-    stat: false
-    math: false
+    - id: comp4980
+      name: COMP 4980
+      title: "Workterm 3"
+      desc: ""
+      lab: false
+      presbool: false
+      pres:
+          - pre:
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: true
+      stat: false
+      math: false
 
-  - id: comp4990
-    name: COMP 4990
-    title: 'Work Term 4'
-    desc: ''
-    lab: false
-    presbool: false
-    pres: 
-      - pre:
-    postsbool: false
-    posts: 
-      - post: 
-    equi: false
-    equivalent: 
-    honours: false
-    major: false
-    comp: true
-    coop: true
-    stat: false
-    math: false
+    - id: comp4990
+      name: COMP 4990
+      title: "Work Term 4"
+      desc: ""
+      lab: false
+      presbool: false
+      pres:
+          - pre:
+      postsbool: false
+      posts:
+          - post:
+      equi: false
+      equivalent:
+      honours: false
+      major: false
+      comp: true
+      coop: true
+      stat: false
+      math: false
 
 docs2:

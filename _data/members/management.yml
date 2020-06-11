@@ -1,6 +1,5 @@
 docs_list_title: Management Positions
 docs:
-
   - title: Nicoli Zunti Martins
     name: Nicoli
     identification: nicoli
@@ -15,7 +14,7 @@ docs:
     email:
     contactlinks: false
     links:
-    image: /assets/img/members/nicoli.png
+    image: img/members/nicoli.png
     width: 100px
     modal: true
 
@@ -42,7 +41,6 @@ docs:
       - address: https://linkedin.com/in/ristozimbakov
         label: LinkedIn
         icon: fa fa-linkedin
-    image: /assets/img/members/riki.jpg
+    image: img/members/riki.jpg
     width: 100px
     modal: true
-    

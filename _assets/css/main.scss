@@ -1,0 +1,251 @@
+@font-face {
+    font-family: gilroy-medium;
+    src: asset_url("font/Gilroy-Medium.otf") format("opentype");
+}
+
+html {
+    height: 100%;
+    font-family: gilroy-medium;
+    font-weight: normal !important;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    height: 100%;
+    font-weight: normal !important;
+}
+
+.title {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* carousel */
+.carousel-cell {
+    width: 100%;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* end of carousel */
+
+/* Blinking cursor css */
+.blink-block {
+    text-align: center;
+}
+
+.blink-text {
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.blinking-cursor {
+    display: inline-block;
+    width: 3px;
+    height: 35px;
+    background-color: black;
+    animation: blink 0.75s step-end infinite;
+}
+
+@media screen and (max-width: 991px) {
+    .fixed-nav > .container > .row.background {
+        width: initial;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .blink-text {
+        display: inline-block;
+        color: black;
+        letter-spacing: 3px;
+        font-size: 12px;
+    }
+    .blinking-cursor {
+        display: inline-block;
+        width: 3px;
+        height: 15px;
+        margin-bottom: 5px;
+        background-color: black;
+        animation: blink 0.75s step-end infinite;
+    }
+    .title {
+        font-size: xx-large;
+        margin-bottom: 10px;
+    }
+    .fixed-nav > .container > .row.background {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from,
+    to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: black;
+    }
+}
+/* end of Blinking cursor css */
+
+.black-link {
+    color: black;
+}
+
+.black-link:hover {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.black-link:focus {
+    text-decoration: none;
+    color: black;
+}
+
+.white-link {
+    color: white;
+}
+
+.white-link:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+.white-link:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none;
+    background-image: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #6a7981;
+}
+.navbar-default .navbar-toggle {
+    border-color: #888;
+}
+
+.breadcrumb {
+    background: transparent !important;
+}
+
+/*****co-op page*****/
+.darkened {
+    filter: brightness(70%);
+}
+
+.middleText {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+}
+
+.carousel-caption {
+    background: rgba(143, 145, 147, 0.9);
+    border-radius: 20%;
+}
+
+/* home and co-op pages */
+.home-hdr {
+    color: white;
+    font-weight: bold;
+}
+
+.parallax-window {
+    min-height: 650px;
+    background: transparent;
+}
+
+.btn-outline-white {
+    background-color: transparent;
+    border-color: #ccc;
+    padding: 30px 60px;
+    font-size: 30px;
+    color: white;
+}
+
+.ui.modal {
+    bottom: 20%;
+    top: 10% !important;
+}
+
+.close.icon {
+    top: 0;
+    right: 0;
+}
+
+.ui.basic.modal {
+    z-index: 3000;
+    background: rgba(87, 90, 94, 0.85);
+}
+
+.modal-backdrop {
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.row-center {
+    text-align: center;
+}
+
+.text-lg {
+    font-size: 30px;
+}
+
+/* Page titles */
+
+.title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 3.5em;
+}
+
+/* Container holding the image and the text */
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    display: none;
+    position: absolute;
+    background: rgba(116, 123, 124, 0.85);
+    padding: 10px;
+    bottom: 20%;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.lazyload,
+.lazyloading {
+    -webkit-filter: blur(0.25rem);
+    -moz-filter: blur(0.25rem);
+    -o-filter: blur(0.25rem);
+    filter: blur(0.25rem);
+}
+
+.lazyloaded {
+    -webkit-transition: 0.5s -webkit-filter linear;
+    -moz-transition: 0.5s -moz-filter linear;
+    -o-transition: 0.5s -o-filter linear;
+    transition: 0.5s filter linear;
+}

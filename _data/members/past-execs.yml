@@ -1,6 +1,5 @@
 docs_list_title: Past Execs
 docs:
-
   - title: Tife Akinola
     name: Tife
     identification: tife
@@ -12,7 +11,7 @@ docs:
     email:
     contactlinks: false
     link:
-    image: /assets/img/members/tife.jpg
+    image: img/members/tife.jpg
     width: 100px
     modal: true
 
@@ -20,48 +19,48 @@ docs:
     name: Skyla
     identification: skyla
     description: Outreach Director<br>2019-2020
-    description2: Hello everyone, I am the new WICS outreach director for the academic year as I am entering my third year of computer science. I am excited to work and collaborate with you all on outreach volunteer opportunities. WICS has been prevalent in my university experience as an encouragement to stay in the computer science field through eliminating the isolation and barriers I felt as a woman. There are so many inspiring and women in computer science and I hope to one day be one myself.⁣⁣    
+    description2: Hello everyone, I am the new WICS outreach director for the academic year as I am entering my third year of computer science. I am excited to work and collaborate with you all on outreach volunteer opportunities. WICS has been prevalent in my university experience as an encouragement to stay in the computer science field through eliminating the isolation and barriers I felt as a woman. There are so many inspiring and women in computer science and I hope to one day be one myself.⁣⁣
     funfacts: false
     facts:
     emails: false
     email:
     contactlinks: false
     link:
-    image: /assets/img/members/skyla.jpg
+    image: img/members/skyla.jpg
     width: 100px
     modal: true
 
   - title: Katharine King
     identification: katk
     description: Co-President (Founder)<br>2018-2019
-    image: /assets/img/members/kat.jpg
+    image: img/members/kat.jpg
     width: 100px
     modal: false
 
   - title: Julia Stoyko
     identification: julias
     description: Co-President<br>2018-2019
-    image: /assets/img/members/julia.jpg
+    image: img/members/julia.jpg
     width: 100px
     modal: false
 
   - title: Diljot Garcha
     identification: diljot
     description: Co-Vice President<br>2018-2019
-    image: /assets/img/members/diljot.png
+    image: img/members/diljot.png
     width: 100px
     modal: false
 
   - title: Laura Stoyko
     identification: lauras
     description: Director of Outreach<br>2018-2019
-    image: /assets/img/members/laura.jpg
+    image: img/members/laura.jpg
     width: 100px
     modal: false
 
   - title: Danika Passler-Bates
     identification: danika
     description: Treasurer<br>2018-2019
-    image: /assets/img/members/danika.jpg
+    image: img/members/danika.jpg
     width: 100px
     modal: false

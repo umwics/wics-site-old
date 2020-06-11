@@ -1,15 +1,21 @@
 <header>
     <h1><b>{{ item.title }}</b></h1>
 </header>
-<h5>{{ item.date }} <br><i class="fa fa-map-marker" style="color: black"></i> {{ item.location }}</h5>
-<p> {{ item.description }}<br><br></p> 
-<h6> {{ item.photocredit }}<br></h6>
+<h5>
+    {{ item.date }} <br /><i class="fa fa-map-marker" style="color: black;"></i> {{ item.location }}
+</h5>
+<p>{{ item.description }}<br /><br /></p>
+<h6>{{ item.photocredit }}<br /></h6>
 
-{% for image in site.static_files %}
-{% if image.path contains item.imgurl %}
- <div class="gallery" id="gallery">
-     <a target="_blank" href="{{ site.baseurl }}{{ image.path }}">
-    <img src="{{ site.baseurl }}{{ image.path }}" alt="Cinque Terre">
-    </a></div>
-{% endif %}
-{% endfor %}
+{% for a in assets %} {% if a[0] contains item.imgurl %}
+<div class="gallery" id="gallery">
+    <a target="_blank" href="{% asset "{{ a[0] }}" @path %}">
+        <img
+            src="{% asset "{{ a[0] }}" magick:strip magick:resize=50x50 magick:units=PixelsPerInch magick:density=72x72 magick:quality=75 @path %}"
+            alt="Cinque Terre"
+            data-src="{% asset "{{ a[0] }}" @path %}"
+            class="lazyload"
+        />
+    </a>
+</div>
+{% endif %} {% endfor %}

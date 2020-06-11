@@ -1,34 +1,55 @@
 {% if item.major == true %}
-<button onclick="{{ item.id }}()" class="button button-red tree-tooltip" id="{{ item.id }}">{{ item.name }}
-<span class="tree-tooltiptext"><h6>{{ item.title }}</h6>
-    {{ item.desc }}
-    {% if item.lab == true %}<br><span style="color:burlywood;">Lab required</span>{% endif %}
-    {% if item.equi == true %}<br><span style="color: aquamarine;">Equivalent:</span> {{ item.equivalent }}{% endif %}
-    {% if item.presbool == true %}<br><span style="color:lightgreen">Prerequisite:</span> {% for prerequisite in item.pres %} {{ prerequisite.pre }} {% endfor %}{% endif %}
-    {% if item.postsbool == true %}<br><span style="color:lightcoral">This course is a prerequisite for:</span> {% for furthercourse in item.posts %} {{ furthercourse.post }} {% endfor %}{% endif %}
-</span>
-</button> 
+<button
+    onclick="{{ item.id }}()"
+    class="button button-red"
+    id="{{ item.id }}"
+    data-toggle="tooltip"
+    data-trigger="hover"
+    data-html="true"
+    title='<h4>{{ item.title }}</h4>
+        {{ item.desc }}
+        {% if item.lab == true %}<br><span style="color:burlywood;">Lab required</span>{% endif %}
+        {% if item.equi == true %}<br><span style="color: aquamarine;">Equivalent:</span> {{ item.equivalent }}{% endif %}
+        {% if item.presbool == true %}<br><span style="color:lightgreen">Prerequisite:</span> {% for prerequisite in item.pres %} {{ prerequisite.pre }} {% endfor %}{% endif %}
+        {% if item.postsbool == true %}<br><span style="color:lightcoral">This course is a prerequisite for:</span> {% for furthercourse in item.posts %} {{ furthercourse.post }} {% endfor %}{% endif %}'
+>
+    {{ item.name }}
+</button>
 
 {% elsif item.honours == true %}
-<button onclick="{{ item.id }}()" class="button button-blue tree-tooltip" id="{{ item.id }}">{{ item.name }}
-    <span class="tree-tooltiptext"><h6>{{ item.title }}</h6>
+<button
+    onclick="{{ item.id }}()"
+    class="button button-blue"
+    id="{{ item.id }}"
+    data-toggle="tooltip"
+    data-trigger="hover"
+    data-html="true"
+    title='<h4>{{ item.title }}</h4>
         {{ item.desc }}
         {% if item.lab == true %}<br><span style="color:burlywood;">Lab required</span>{% endif %}
         {% if item.equi == true %}<br><span style="color: aquamarine;">Equivalent:</span> {{ item.equivalent }}{% endif %}
         {% if item.presbool == true %}<br><span style="color:lightgreen">Prerequisite:</span> {% for prerequisite in item.pres %} {{ prerequisite.pre }} {% endfor %}{% endif %}
-        {% if item.postsbool == true %}<br><span style="color:lightcoral">This course is a prerequisite for:</span> {% for furthercourse in item.posts %} {{ furthercourse.post }} {% endfor %}{% endif %}
-    </span>
-    </button> 
+        {% if item.postsbool == true %}<br><span style="color:lightcoral">This course is a prerequisite for:</span> {% for furthercourse in item.posts %} {{ furthercourse.post }} {% endfor %}{% endif %}'
+>
+    {{ item.name }}
+</button>
 
 {% else %}
-<button onclick="{{ item.id }}()" class="button button-gray tree-tooltip" id="{{ item.id }}">{{ item.name }}
-    <span class="tree-tooltiptext"><h6>{{ item.title }}</h6>
+<button
+    onclick="{{ item.id }}()"
+    class="button button-gray"
+    id="{{ item.id }}"
+    data-toggle="tooltip"
+    data-trigger="hover"
+    data-html="true"
+    title='<h4>{{ item.title }}</h4>
         {{ item.desc }}
         {% if item.lab == true %}<br><span style="color:burlywood;">Lab required</span>{% endif %}
         {% if item.equi == true %}<br><span style="color: aquamarine;">Equivalent:</span> {{ item.equivalent }}{% endif %}
         {% if item.presbool == true %}<br><span style="color:lightgreen">Prerequisite:</span> {% for prerequisite in item.pres %} {{ prerequisite.pre }} {% endfor %}{% endif %}
-        {% if item.postsbool == true %}<br><span style="color:lightcoral">This course is a prerequisite for:</span> {% for furthercourse in item.posts %} {{ furthercourse.post }} {% endfor %}{% endif %}
-    </span>
-    </button> 
+        {% if item.postsbool == true %}<br><span style="color:lightcoral">This course is a prerequisite for:</span> {% for furthercourse in item.posts %} {{ furthercourse.post }} {% endfor %}{% endif %}'
+>
+    {{ item.name }}
+</button>
 
 {% endif %}

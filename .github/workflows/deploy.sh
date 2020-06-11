@@ -7,7 +7,7 @@ fi
 
 chmod 777 "$GITHUB_WORKSPACE"
 
-node instagramLatest.js
+node _build/index.js
 jekyll build
 
 KEY_FILE="$HOME/key"
