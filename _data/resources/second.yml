@@ -3,6 +3,8 @@ docs1:
   - id: comp2140
     name: COMP 2140
     title: 'Data Structures and Algorithms'
+    desc: 'Introduction to the representation and manipulation of data structures. Topics will include lists, stacks, queues, trees and graphs'
+    lab: true
     presbool: true
     pres: 
       - pre: comp1020
@@ -11,6 +13,19 @@ docs1:
       - post: comp2150
       - post: comp2280
       - post: comp2080
+      - post: comp3010
+      - post: comp3020
+      - post: comp3030
+      - post: comp3170
+      - post: comp3190
+      - post: comp3290
+      - post: comp3380
+      - post: comp3430
+      - post: comp3440
+      - post: comp3620
+      - post: comp3720
+      - post: comp4530
+    equi: false
     equivalent:
     honours: true
     major: true
@@ -22,6 +37,8 @@ docs1:
   - id: comp2160
     name: COMP 2160
     title: 'Programming Practices'
+    desc: 'Introduction to issues involved in "real-world" computing. Topics will include memory management, debugging, compilation, performance, and good programming practices'
+    lab: true
     presbool: true
     pres: 
       - pre: comp1020
@@ -29,7 +46,9 @@ docs1:
     posts: 
       - post: comp2150
       - post: comp2280
-    equivalent: COMP 2130
+      - post: comp4430
+    equi: false
+    equivalent:
     honours: true
     major: true
     comp: true
@@ -40,6 +59,8 @@ docs1:
   - id: math1240
     name: MATH 1240
     title: 'Elementary Discrete Mathematics'
+    desc: ''
+    lab: true
     presbool: false
     pres: 
       - pre: 
@@ -47,7 +68,8 @@ docs1:
     posts: 
       - post: comp2280
       - post: comp2080
-    equivalent: COMP 2130 (No longer available)
+    equi: true
+    equivalent: comp2130
     honours: true
     major: true
     comp: false
@@ -59,12 +81,15 @@ docs1:
   - id: stat1000
     name: STAT 1000
     title: 'Basic Statistical Analysis'
+    desc: ''
+    lab: true
     presbool: false
     pres: 
       - pre: 
     presbool: true
     posts: 
       - post: comp4420
+    equi: false
     equivalent: 
     honours: true
     major: true
@@ -77,6 +102,8 @@ docs2:
   - id: comp2150
     name: COMP 2150
     title: "Object Orientation"
+    desc: 'Design and development of object-oriented software. Topics will include inheritance, polymorphism, data abstraction and encapsulation. Examples will be drawn from several programming languages'
+    lab: false
     presbool: true
     pres: 
       - pre: comp2140
@@ -86,6 +113,7 @@ docs2:
       - post: comp3010
       - post: comp3350
       - post: comp4290
+    equi: false
     equivalent:
     honours: true
     major: true
@@ -97,6 +125,8 @@ docs2:
   - id: comp2280
     name: COMP 2280
     title: 'Introduction to Computer Systems'
+    desc: 'Data representation and manipulation, machine-level representation of programs, assembly language programming, and basic computer architecture. '
+    lab: true
     presbool: true
     pres: 
       - pre: comp2140
@@ -108,6 +138,7 @@ docs2:
       - post: comp3290
       - post: comp3370
       - post: comp3720
+    equi: false
     equivalent:
     honours: true
     major: true
@@ -119,6 +150,8 @@ docs2:
   - id: comp2080
     name: COMP 2080
     title: 'Analysis of Algorithms'
+    desc: 'Methods of analyzing the time and space requirements of algorithms. Average case and worst case analysis. Models of computation. '
+    lab: false
     presbool: true
     pres: 
       - pre: comp2140
@@ -128,6 +161,7 @@ docs2:
       - post: comp3030
       - post: comp3170
       - post: comp4310
+    equi: false
     equivalent:
     honours: true
     major: true
@@ -142,12 +176,15 @@ docs2:
   - id: comp2980
     name: COMP 2980
     title: "Workterm 1"
+    desc: ''
+    lab: false
     presbool: false
     pres: 
       - pre: 
-    postsbool: true
+    postsbool: false
     posts: 
       - post: 
+    equi: false
     equivalent: 
     honours: false
     major: false
