@@ -3,105 +3,52 @@
     <button class="button button-red" id="major">Required Major Program Courses</button> 
     <button class="button button-blue" id="honours">Required Honours Program Courses</button> 
     <button class="button button-gray" id="other">Other CS courses</button>
+
+    
     </div>
     <div class="tree-row" style="margin-bottom: 1em;">
     <input type="button" value="Reload page" onclick="reloadPage()" />
 </div>
 
+
 <div class="container" style="background-color: #f5f5f5;">
     <div class="tree-row" style="padding-top: 2em;">
         {% for item in site.data.resources.first.docs1 %}
-        {% if item.major == true %}
-        <button onclick="{{ item.id }}()" class="button button-red" id="{{ item.id }}">{{ item.name }}</button> 
-        {% elsif item.honours == true %}
-        <button onclick="{{ item.id }}()" class="button button-blue" id="{{ item.id }}">{{ item.name }}</button>
-        {% else %}
-        <button onclick="{{ item.id }}()" class="button button-gray" id="{{ item.id }}">{{ item.name }}</button> 
-        {% endif %}
+        {% include course-tree-detail.html %}
         {% endfor %}
-        
         <br>
-
         {% for item in site.data.resources.first.docs2 %}
-        {% if item.major == true %}
-        <button onclick="{{ item.id }}()" class="button button-red" id="{{ item.id }}">{{ item.name }}</button> 
-        {% elsif item.honours == true %}
-        <button onclick="{{ item.id }}()" class="button button-blue" id="{{ item.id }}">{{ item.name }}</button>
-        {% else %}
-        <button onclick="{{ item.id }}()" class="button button-gray" id="{{ item.id }}">{{ item.name }}</button> 
-        {% endif %}
+        {% include course-tree-detail.html %}
         {% endfor %}
     </div>
 
     <div class="tree-row">
         {% for item in site.data.resources.second.docs1 %}
-        {% if item.major == true %}
-        <button onclick="{{ item.id }}()" class="button button-red" id="{{ item.id }}">{{ item.name }}</button> 
-        {% elsif item.honours == true %}
-        <button onclick="{{ item.id }}()" class="button button-blue" id="{{ item.id }}">{{ item.name }}</button>
-        {% else %}
-        <button onclick="{{ item.id }}()" class="button button-gray" id="{{ item.id }}">{{ item.name }}</button> 
-        {% endif %}
+        {% include course-tree-detail.html %}
         {% endfor %}
-        
         <br>
-        
         {% for item in site.data.resources.second.docs2 %}
-        {% if item.major == true %}
-        <button onclick="{{ item.id }}()" class="button button-red" id="{{ item.id }}">{{ item.name }}</button> 
-        {% elsif item.honours == true %}
-        <button onclick="{{ item.id }}()" class="button button-blue" id="{{ item.id }}">{{ item.name }}</button>
-        {% else %}
-        <button onclick="{{ item.id }}()" class="button button-gray" id="{{ item.id }}">{{ item.name }}</button> 
-        {% endif %}
+        {% include course-tree-detail.html %}
         {% endfor %}
     </div>
 
     <div class="tree-row">
         {% for item in site.data.resources.third.docs1 %}
-        {% if item.major == true %}
-        <button onclick="{{ item.id }}()" class="button button-red" id="{{ item.id }}">{{ item.name }}</button> 
-        {% elsif item.honours == true %}
-        <button onclick="{{ item.id }}()" class="button button-blue" id="{{ item.id }}">{{ item.name }}</button>
-        {% else %}
-        <button onclick="{{ item.id }}()" class="button button-gray" id="{{ item.id }}">{{ item.name }}</button> 
-        {% endif %}
+        {% include course-tree-detail.html %}
         {% endfor %}
-        
         <br>
-        
         {% for item in site.data.resources.third.docs2 %}
-        {% if item.major == true %}
-        <button onclick="{{ item.id }}()" class="button button-red" id="{{ item.id }}">{{ item.name }}</button> 
-        {% elsif item.honours == true %}
-        <button onclick="{{ item.id }}()" class="button button-blue" id="{{ item.id }}">{{ item.name }}</button>
-        {% else %}
-        <button onclick="{{ item.id }}()" class="button button-gray" id="{{ item.id }}">{{ item.name }}</button> 
-        {% endif %}
+        {% include course-tree-detail.html %}
         {% endfor %}
     </div>
 
     <div class="tree-row">
         {% for item in site.data.resources.fourth.docs1 %}
-        {% if item.major == true %}
-        <button onclick="{{ item.id }}()" class="button button-red" id="{{ item.id }}">{{ item.name }}</button> 
-        {% elsif item.honours == true %}
-        <button onclick="{{ item.id }}()" class="button button-blue" id="{{ item.id }}">{{ item.name }}</button>
-        {% else %}
-        <button onclick="{{ item.id }}()" class="button button-gray" id="{{ item.id }}">{{ item.name }}</button> 
-        {% endif %}
+        {% include course-tree-detail.html %}
         {% endfor %}
-        
         <br>
-        
         {% for item in site.data.resources.fourth.docs2 %}
-        {% if item.major == true %}
-        <button onclick="{{ item.id }}()" class="button button-red" id="{{ item.id }}">{{ item.name }}</button> 
-        {% elsif item.honours == true %}
-        <button onclick="{{ item.id }}()" class="button button-blue" id="{{ item.id }}">{{ item.name }}</button>
-        {% else %}
-        <button onclick="{{ item.id }}()" class="button button-gray" id="{{ item.id }}">{{ item.name }}</button> 
-        {% endif %}
+        {% include course-tree-detail.html %}
         {% endfor %}
     </div>
 </div>
@@ -118,6 +65,7 @@
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
+        document.getElementById("{{ item.id }}").style.outline = "none";
         {% if item.presbool == true %}
         {% for prerequisite in item.pres %}
         document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
@@ -137,6 +85,7 @@
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
+        document.getElementById("{{ item.id }}").style.outline = "none";
         {% if item.presbool == true %}
         {% for prerequisite in item.pres %}
         document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
@@ -158,6 +107,7 @@
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
+        document.getElementById("{{ item.id }}").style.outline = "none";
         {% if item.presbool == true %}
         {% for prerequisite in item.pres %}
         document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
@@ -177,6 +127,7 @@
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
+        document.getElementById("{{ item.id }}").style.outline = "none";
         {% if item.presbool == true %}
         {% for prerequisite in item.pres %}
         document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
@@ -202,6 +153,8 @@
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
+        document.getElementById("{{ item.id }}").style.outline = "none";
+        
         {% if item.presbool == true %}
         {% for prerequisite in item.pres %}
         document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
@@ -221,6 +174,7 @@
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
+        document.getElementById("{{ item.id }}").style.outline = "none";
         {% if item.presbool == true %}
         {% for prerequisite in item.pres %}
         document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
@@ -235,12 +189,13 @@
         {% endif %}
     } {% endfor %}
 
-// third year courses
+// fourth year courses
 {% for item in site.data.resources.fourth.docs1 %}
     function {{ item.id }}() {
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
+        document.getElementById("{{ item.id }}").style.outline = "none";
         {% if item.presbool == true %}
         {% for prerequisite in item.pres %}
         document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
@@ -260,6 +215,7 @@
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
+        document.getElementById("{{ item.id }}").style.outline = "none";
         {% if item.presbool == true %}
         {% for prerequisite in item.pres %}
         document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
