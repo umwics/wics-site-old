@@ -1,7 +1,9 @@
 baseurl: "/~wics"
 sitename: "UM WICS"
+url: "https://cs.umanitoba.ca/~wics/"
 locale: "en-US"
 permalink: pretty
+github: [metadata]
 
 # Generates a sitemap.xml file
 plugins:
