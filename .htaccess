@@ -1,0 +1,9 @@
+---
+layout: none
+---
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}{{ site.baseurl }}/$1 [R,L]
+
+ErrorDocument 404 {{ site.baseurl }}/404.html

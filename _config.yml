@@ -1,6 +1,6 @@
+url: "https://cs.umanitoba.ca"
 baseurl: "/~wics"
 sitename: "UM WICS"
-url: "https://cs.umanitoba.ca/~wics/"
 locale: "en-US"
 permalink: pretty
 github: [metadata]
@@ -23,3 +23,6 @@ collections:
         output: true
         permalink: /:path/
     co-op-companies:
+
+exclude:
+    - README.md
