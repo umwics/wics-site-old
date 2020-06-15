@@ -1,0 +1,71 @@
+- coursenumber: '1300'
+  credit: '3.0'
+  dept: MATH
+  desc: ""
+  desc-full: ""
+  honours: true
+  id: MATH1300
+  lab: true
+  major: true
+  name: MATH 1300
+  prerequisite-full: ""
+  title: "Vector Geometry and Linear Algebra"
+  year: 1000
+
+- coursenumber: '1500'
+  credit: '3.0'
+  dept: MATH
+  desc: ""
+  desc-full: ""
+  honours: true
+  id: MATH1500
+  lab: true
+  major: true
+  name: MATH 1500
+  prerequisite-full: ""
+  title: "Introduction to Calculus"
+  year: 1000
+
+- coursenumber: '1700'
+  credit: '3.0'
+  dept: MATH
+  desc: ""
+  desc-full: ""
+  honours: true
+  id: MATH1700
+  lab: true
+  major: true
+  name: MATH 1700
+  prerequisite-full: ""
+  prerequisite:
+  - MATH1500
+  title: "Calculus II"
+  year: 1000
+
+- coursenumber: '1240'
+  credit: '3.0'
+  dept: MATH
+  desc: ""
+  desc-full: ""
+  honours: true
+  id: MATH1240
+  lab: true
+  major: true
+  name: MATH 1240
+  prerequisite-full: ""
+  title: "Elementary Discrete Mathematics"
+  year: 1000
+
+- coursenumber: '1000'
+  credit: '3.0'
+  dept: STAT
+  desc: ""
+  desc-full: ""
+  honours: true
+  id: STAT1000
+  lab: true
+  major: true
+  name: STAT 1000
+  prerequisite-full: ""
+  title: "Basic Statistical Analysis"
+  year: 1000

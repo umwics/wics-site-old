@@ -230,6 +230,8 @@ html {
     opacity: 0;
     transition: opacity 0.3s;
     font-size: x-small;
+
+    top: 100%;
 }
 
 .tree-tooltip .tree-tooltiptext::after {

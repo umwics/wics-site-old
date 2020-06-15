@@ -1,0 +1,66 @@
+[
+    {
+        "name": "COMP 1010",
+        "title": "Introductory Computer Science I"
+    },
+    {
+        "name": "COMP 1020",
+        "title": "Introductory Computer Science II"
+    },
+    {
+        "name": "MATH 1300",
+        "title": "Vector Geometry and Linear Algebra"
+    },
+    {
+        "name": "MATH 1500",
+        "title": "Introduction to Calculus"
+    },
+    {
+        "name": "MATH 1700",
+        "title": "Calculus II"
+    },
+    {
+        "name": "COMP 2080",
+        "title": "Analysis of Algorithms"
+    },
+    {
+        "name": "COMP 2140",
+        "title": "Data Structures and Algorithms"
+    },
+    {
+        "name": "COMP 2150",
+        "title": "Object Orientation"
+    },
+    {
+        "name": "COMP 2160",
+        "title": "Programming Practices"
+    },
+    {
+        "name": "COMP 2280",
+        "title": "Introduction to Computer Systems"
+    },
+    {
+        "name": "STAT 1000",
+        "title": "Basic Statistical Analysis"
+    },
+    {
+        "name": "MATH 1240",
+        "title": "Elementary Discrete Mathematics"
+    },
+    {
+        "name": "COMP 3430",
+        "title": "Operating Systems"
+    },
+    {
+        "name": "COMP 3370",
+        "title": "Computer Organization"
+    },
+    {
+        "name": "COMP 3350",
+        "title": "Software Engineering"
+    },
+    {
+        "name": "COMP 4620",
+        "title": "Professional Practice in Computer Science"
+    }
+]

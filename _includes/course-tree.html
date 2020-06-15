@@ -1,229 +1,145 @@
 <div class="tree">
     <div class="tree-row" style="margin-bottom: 2em;">
-        <button class="button button-red" id="major">Required Major Program Courses</button>
-        <button class="button button-blue" id="honours">Required Honours Program Courses</button>
-        <button class="button button-gray" id="other">Other CS courses</button>
+        <button class="button button-red" id="major" onclick="major()">Required Major Program Courses</button>
+        <button class="button button-blue" id="honours" onclick="honours()">Required Honours Program Courses</button>
+        <button class="button button-gray" id="other" onclick="other()">Other CS courses</button>
+    </div>
+    <div class="tree-row" id="descriptionProgram" style="text-align: left;">
     </div>
     <div class="tree-row" style="margin-bottom: 1em;">
         <input type="button" value="Reload page" onclick="reloadPage()" />
     </div>
 
-    <div class="container" style="background-color: #f5f5f5;">
-        <div class="tree-row" style="padding-top: 2em;">
-            {% for item in site.data.resources.first.docs1 %} {% include course-tree-detail.html %}
+    <div class="container" style="background-color: #f5f5f5; padding-bottom: 20em;">
+        
+        <div class="tree-row" id="1000" style="padding-top: 2em;">
+            {% for item in site.data.resources.courses %} {% if item.year == 1000 %} {% include course-tree-detail.html %} {% endif %}
             {% endfor %}
-
-            <br />
-
-            {% for item in site.data.resources.first.docs2 %} {% include course-tree-detail.html %}
+            {% for item in site.data.resources.non-comp-courses %} {% include course-tree-detail.html %}
             {% endfor %}
         </div>
 
-        <div class="tree-row">
-            {% for item in site.data.resources.second.docs1 %} {% include course-tree-detail.html %}
-            {% endfor %}
-
-            <br />
-
-            {% for item in site.data.resources.second.docs2 %} {% include course-tree-detail.html %}
+        <div class="tree-row" id="2000">
+            {% for item in site.data.resources.courses %} {% if item.year == 2000 %} {% include course-tree-detail.html %} {% endif %}
             {% endfor %}
         </div>
 
-        <div class="tree-row">
-            {% for item in site.data.resources.third.docs1 %} {% include course-tree-detail.html %}
-            {% endfor %}
-
-            <br />
-
-            {% for item in site.data.resources.third.docs2 %} {% include course-tree-detail.html %}
+        <div class="tree-row" id="3000">
+            {% for item in site.data.resources.courses %} {% if item.year == 3000 %} {% include course-tree-detail.html %} {% endif %}
             {% endfor %}
         </div>
 
-        <div class="tree-row">
-            {% for item in site.data.resources.fourth.docs1 %} {% include course-tree-detail.html %}
+        <div class="tree-row" id="4000">
+            {% for item in site.data.resources.courses %} {% if item.year == 4000 %} {% include course-tree-detail.html %} {% endif %}
             {% endfor %}
+        </div>
 
-            <br />
+        <div class="tree-row" id="descriptionFull" style="text-align: left;">
+        </div>
 
-            {% for item in site.data.resources.fourth.docs2 %} {% include course-tree-detail.html %}
-            {% endfor %}
+        <div class="tree-row" id="source" style="text-align: left;">
+            <p>Source:</p>
+            <h5>University of Manitoba  <a href="https://aurora.umanitoba.ca/" target="_blank">Aurora</a> - Course Catalog</h5>
+            <h5>University of Manitoba  <a href="https://www.sci.umanitoba.ca/cs/courses-2/" target="_blank">https://www.sci.umanitoba.ca/cs/courses-2/</a></h5>
+            <h5>University of Manitoba  <a href="https://www.sci.umanitoba.ca/cs/undergraduate-programs/" target="_blank">https://www.sci.umanitoba.ca/cs/undergraduate-programs/</a></h5>
         </div>
     </div>
 </div>
 
 <script>
-    // first year courses
-    {% for item in site.data.resources.first.docs1 %}
-    function {{ item.id }}() {
+    function major() {
         const randomColor = randDarkColor();
+        document.getElementById("major").style.backgroundColor = randomColor;
+        document.getElementById("major").style.color = "white";
+        document.getElementById("major").style.outline = "none";
+
+        {% for item in site.data.resources.courses %}
+        {% if item.major == true %}
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
-        document.getElementById("{{ item.id }}").style.outline = "none";
-        {% if item.presbool == true %}
-        {% for prerequisite in item.pres %}
-        document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ prerequisite.pre }}").style.color = "white";
-        {% endfor %}
         {% endif %}
-        {% if item.postsbool == true %}
-        {% for furthercourse in item.posts %}
-        document.getElementById("{{ furthercourse.post }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
-        {% endif %}
-    }
-    {% endfor %}
 
-    {% for item in site.data.resources.first.docs2 %}
-    function {{ item.id }}() {
-        const randomColor = randDarkColor();
+        {% for item in site.data.resources.non-comp-courses %}
+        {% if item.major == true %}
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
-        document.getElementById("{{ item.id }}").style.outline = "none";
-        {% if item.presbool == true %}
-        {% for prerequisite in item.pres %}
-        document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ prerequisite.pre }}").style.color = "white";
-        {% endfor %}
         {% endif %}
-        {% if item.postsbool == true %}
-        {% for furthercourse in item.posts %}
-        document.getElementById("{{ furthercourse.post }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
-        {% endif %}
-    }
-    {% endfor %}
 
-    // second year courses
-    {% for item in site.data.resources.second.docs1 %}
-    function {{ item.id }}() {
+        document.getElementById("descriptionProgram").innerHTML = "To enter the program students must have completed 24 credit hours with a minimum 2.0 GPA, a minimum grade of C+ in COMP 1020, a C+ in both MATH 1300 and MATH 1500 as well as a C in MATH 1700. A minimum GPA of 2.0 must be maintained to remain in the program.";
+    }
+
+    function honours() {
         const randomColor = randDarkColor();
+        document.getElementById("honours").style.backgroundColor = randomColor;
+        document.getElementById("honours").style.color = "white";
+        document.getElementById("honours").style.outline = "none";
+
+        {% for item in site.data.resources.courses %}
+        {% if item.honours == true or item.major == true %}
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
-        document.getElementById("{{ item.id }}").style.outline = "none";
-        {% if item.presbool == true %}
-        {% for prerequisite in item.pres %}
-        document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ prerequisite.pre }}").style.color = "white";
-        {% endfor %}
         {% endif %}
-        {% if item.postsbool == true %}
-        {% for furthercourse in item.posts %}
-        document.getElementById("{{ furthercourse.post }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
-        {% endif %}
-    }
-    {% endfor %}
 
-    {% for item in site.data.resources.second.docs2 %}
-    function {{ item.id }}() {
-        const randomColor = randDarkColor();
+        {% for item in site.data.resources.non-comp-courses %}
+        {% if item.honours == true or item.major == true %}
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
-        document.getElementById("{{ item.id }}").style.outline = "none";
-        {% if item.presbool == true %}
-        {% for prerequisite in item.pres %}
-        document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ prerequisite.pre }}").style.color = "white";
-        {% endfor %}
         {% endif %}
-        {% if item.postsbool == true %}
-        {% for furthercourse in item.posts %}
-        document.getElementById("{{ furthercourse.post }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ furthercourse.post }}").style.color = "white";
         {% endfor %}
-        {% endif %}
-    }
-    {% endfor %}
 
-    // third year courses
-    {% for item in site.data.resources.third.docs1 %}
+        document.getElementById("descriptionProgram").innerHTML = "To enter the program students must have completed 24 credit hours with a minimum 3.0 GPA, a minimum grade of B in COMP 1020, and  a C+ in both MATH 1300 and MATH 1500, as well as a C in MATH 1700. A minimum GPA of 3.0, and 9 credit hours each Fall and Winter term, must be maintained to remain in the program.";
+    }
+
+    function other() {
+        const randomColor = randDarkColor();
+        document.getElementById("other").style.backgroundColor = randomColor;
+        document.getElementById("other").style.color = "white";
+        document.getElementById("other").style.outline = "none";
+
+        {% for item in site.data.resources.courses %}
+        {% if item.honours == false and item.major == false %}
+        document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
+        document.getElementById("{{ item.id }}").style.color = "white";
+        {% endif %}
+        {% endfor %}
+
+        document.getElementById("descriptionProgram").innerHTML = "";
+    }
+
+
+    {% for item in site.data.resources.non-comp-courses %}
     function {{ item.id }}() {
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
         document.getElementById("{{ item.id }}").style.outline = "none";
 
-        {% if item.presbool == true %}
-        {% for prerequisite in item.pres %}
-        document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ prerequisite.pre }}").style.color = "white";
+        {% for pre in item.prerequisite %}
+        document.getElementById("{{ pre }}").style.backgroundColor = randomColor;
+        document.getElementById("{{ pre }}").style.color = "white";
         {% endfor %}
-        {% endif %}
-        {% if item.postsbool == true %}
-        {% for furthercourse in item.posts %}
-        document.getElementById("{{ furthercourse.post }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ furthercourse.post }}").style.color = "white";
-        {% endfor %}
-        {% endif %}
     }
     {% endfor %}
 
-    {% for item in site.data.resources.third.docs2 %}
+    {% for item in site.data.resources.courses %}
     function {{ item.id }}() {
         const randomColor = randDarkColor();
         document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
         document.getElementById("{{ item.id }}").style.color = "white";
         document.getElementById("{{ item.id }}").style.outline = "none";
-        {% if item.presbool == true %}
-        {% for prerequisite in item.pres %}
-        document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ prerequisite.pre }}").style.color = "white";
+
+        {% for pre in item.prerequisite %}
+        document.getElementById("{{ pre }}").style.backgroundColor = randomColor;
+        document.getElementById("{{ pre }}").style.color = "white";
         {% endfor %}
-        {% endif %}
-        {% if item.postsbool == true %}
-        {% for furthercourse in item.posts %}
-        document.getElementById("{{ furthercourse.post }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ furthercourse.post }}").style.color = "white";
-        {% endfor %}
-        {% endif %}
+        document.getElementById("descriptionFull").innerHTML = "<p>{{ item.name }}</p> Prerequisite: {{ item.prerequisite-full }}";
     }
     {% endfor %}
 
-    // fourth year courses
-    {% for item in site.data.resources.fourth.docs1 %}
-    function {{ item.id }}() {
-        const randomColor = randDarkColor();
-        document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ item.id }}").style.color = "white";
-        document.getElementById("{{ item.id }}").style.outline = "none";
-        {% if item.presbool == true %}
-        {% for prerequisite in item.pres %}
-        document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ prerequisite.pre }}").style.color = "white";
-        {% endfor %}
-        {% endif %}
-        {% if item.postsbool == true %}
-        {% for furthercourse in item.posts %}
-        document.getElementById("{{ furthercourse.post }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ furthercourse.post }}").style.color = "white";
-        {% endfor %}
-        {% endif %}
-    }
-    {% endfor %}
-
-    {% for item in site.data.resources.fourth.docs2 %}
-    function {{ item.id }}() {
-        const randomColor = randDarkColor();
-        document.getElementById("{{ item.id }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ item.id }}").style.color = "white";
-        document.getElementById("{{ item.id }}").style.outline = "none";
-        {% if item.presbool == true %}
-        {% for prerequisite in item.pres %}
-        document.getElementById("{{ prerequisite.pre }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ prerequisite.pre }}").style.color = "white";
-        {% endfor %}
-        {% endif %}
-        {% if item.postsbool == true %}
-        {% for furthercourse in item.posts %}
-        document.getElementById("{{ furthercourse.post }}").style.backgroundColor = randomColor;
-        document.getElementById("{{ furthercourse.post }}").style.color = "white";
-        {% endfor %}
-        {% endif %}
-    }
-    {% endfor %}
+    
 
     function randDarkColor() {
         var lum = -0.25;
