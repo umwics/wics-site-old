@@ -1,0 +1,1004 @@
+COMP 1004 - BU 16.170 (1000 Level)
+
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 1010 - Introductory Computer Science 1
+(Lab Required) An introduction to computer programming using a procedural high level language. May not be held with COMP 1011 or COMP 1012 or COMP 1013. Prerequisite: any grade 12 or 40S Mathematics, or equivalent.
+-
+3.0 Credit hours
+
+Science, Science lab
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science, Recommended Intro Courses
+
+COMP 1011 - Introduction à l'informatique I
+(Laboratoire requis) Introduction à la programmation par un langage procédural évolué. On ne peut se faire créditer COMP 1011 et COMP 1010, COMP 1013 ou COMP 1012. Préalable : n'importe quel cours de mathématiques de 12e année ou de niveau 40S, ou l'équivalent.
+-
+3.0 Credit hours
+
+Science, Science lab
+
+Computer Science Department
+
+Course Attributes:
+Université de Saint-Boniface, Science requirement for BA, Science, Recommended Intro Courses
+
+COMP 1012 - Computer Programming for Scientists and Engineers
+(Lab Required) An introduction to computer programming suitable for solving problems in science and engineering. Students will implement algorithms for numerical processing, statistical analysis and matrix operations. Not to be held with COMP 1010, COMP 1011 or COMP 1013. Prerequisite: Mathematics 40S or equivalent. Co-requisite: MATH 1230 or MATH 1500 or MATH 1501 (or equivalent).
+-
+3.0 Credit hours
+
+Science, Science lab
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 1013 - Programmation informatique pour scientifiques et ingénieurs
+(Laboratoire requis) Une introduction à la programmation informatique propre à la résolution de problèmes en science et en génie. Les étudiants développent des algorithmes pour le traitement numérique, l'analyse statistique et les opérations sur des matrices. On ne peut se faire créditer COMP 1013 et aucun des COMP 1012, COMP 1010, COMP 1011. Préalables : Mathématiques 40S (précalcul) ou l'ancien Mathématiques 40S (300). Concomitant : MATH 1500 ou MATH 1501 (ou équivalent).
+-
+3.0 Credit hours
+
+Science, Science lab
+
+Computer Science Department
+
+Course Attributes:
+Université de Saint-Boniface, Science requirement for BA
+
+COMP 1014 - UW ACS 1453 (1000 Level)
+
+-
+3.0 Credit hours
+
+Science
+
+COMP 1020 - Introductory Computer Science 2
+(Lab Required) More features of a procedural language, elements of programming. May not be held with COMP 1021. Prerequisite: COMP 1010 or COMP 1011 (C); or COMP 1012 or COMP 1013 (C); or High School Computer Science 40S (75%) and any grade 12 or 40S Mathematics, or equivalent.
+-
+3.0 Credit hours
+
+Science, Science lab
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science, Recommended Intro Courses
+
+COMP 1021 - Introduction à l'informatique II
+(Laboratoire requis) Introduction à la programmation orientée objet, aux structures de données informatiques et à l'algorithmique. On ne peut se faire créditer COMP 1021 et COMP 1020. Préalable : [Une note minimale de C dans un de COMP 1011, COMP 1010, COMP 1013 ou COMP 1012] ou [Informatique 40S (75%) et n'importe quel cours de mathématiques de 12e année ou de niveau 40S, ou l'équivalent].
+-
+3.0 Credit hours
+
+Science, Science lab, RO admin use only
+
+Computer Science Department
+
+Course Attributes:
+Université de Saint-Boniface, Science requirement for BA, Science, Recommended Intro Courses
+
+COMP 1261 - Introduction aux services informatiques modernes I
+Le traitement de texte, les chiffriers, les systèmes pour la gestion de données et le traitement graphique. Aucune connaissance préalable en informatique n'est nécessaire. On ne peut s'y inscrire si on est inscrit à un programme de majeure ou de spécialisation en informatique.
+-
+3.0 Credit hours
+
+Science, Science lab, RO admin use only
+
+Computer Science Department
+
+Course Attributes:
+Université de Saint-Boniface, Science requirement for BA, Science, Recommended Intro Courses
+
+COMP 1500 - Computing: Ideas and Innovation
+An introduction to the topics of Computer Science and problem solving. Students will learn concepts in computer programming. May not be used to fulfill computer science requirements in a Computer Science Honours, Major, General or Minor program. Not available to students who have previously obtained credit in, or are concurrently registered in any of COMP 2080, COMP 2130, COMP 2140, COMP 2150, COMP 2160 or COMP 2280.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science, Recommended Intro Courses
+
+COMP 1600 - Navigating Your Digital World
+Topics related to digital society such as security, encryption and data storage, issues of social and ethical importance, and current events. May not be used to fulfill computer science requirements in a Computer Science Honours, Major, General or Minor program. Not available to students who have previously obtained credit in, or are concurrently registered in any of COMP 2080, COMP 2130, COMP 2140, COMP 2150, COMP 2160 or COMP 2280. May not be held with the former COMP 1270.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science, Recommended Intro Courses
+
+COMP 2080 - Analysis of Algorithms
+Methods of analyzing the time and space requirements of algorithms. Average case and worst case analysis. Models of computation. Prerequisites: MATH 1240 (C), MATH 1241 (C) or COMP 2130 (C); and one of COMP 2140, or the former COMP 2061 (C). STAT 1000 or STAT 1001 or STAT 1150 is strongly recommended.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 2130 - Discrete Mathematics for Computer Science
+An introduction to the set theory, logic, integers, combinatorics and functions for today's computer scientists. Prerequisites: COMP 1020 or COMP 1021 (C), and a "C" in one of: MATH 1210, MATH 1211, MATH 1220, MATH 1300, MATH 1301, MATH 1310; and one of: MATH 1230, MATH 1500, MATH 1501, MATH 1510, MATH 1520, or MATH 1690.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 2140 - Data Structures and Algorithms
+(Lab Required) Introduction to the representation and manipulation of data structures. Topics will include lists, stacks, queues, trees, and graphs. May not be held with COMP 2061. Prerequisites: one of COMP 1020, COMP 1021 (C).
+-
+3.0 Credit hours
+
+Science, Science lab, RO admin use only
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 2150 - Object Orientation
+Design and development of object-oriented software. Topics will include inheritance, polymorphism, data abstraction and encapsulation. Examples will be drawn from several programming languages. Prerequisite: COMP 2160; and one of COMP 2140 or COMP 2061(C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 2160 - Programming Practices
+(Lab Required) Introduction to issues involved in real-world computing. Topics will include memory management, debugging, compilation, performance, and good programming practices. Prerequisite: COMP 1020 (C+) or COMP 1021 (C+).
+-
+3.0 Credit hours
+
+Science, Science lab, RO admin use only
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 2190 - Introduction to Scientific Computing
+An applied computational course introducing topics such as approximation by polynomials, solution of non-linear equations, linear systems, simulation and computational geometry. May not hold with COMP 2191. Prerequisites: One of COMP 1020 or COMP 1021, or COMP 1012 (C) or COMP 1013 (C); and one of MATH 1230, MATH 1500, MATH 1501 (C), MATH 1510 (C), MATH 1520 (C), or MATH 1690 (C). Prerequisite or concurrent registration: One of MATH 1220, MATH 1300, MATH 1301, or MATH 1310.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 2191 - Introduction au calcul scientifique
+Informatique appliquée présentant des concepts tels que l'approximation par polynômes, la résolution d'équations non linéaires, les systèmes linéaires, la simulation et la géométrie analytique. On ne peut se faire créditer COMP 2191 et COMP 2190. Préalables : [une note minimale de C dans un de COMP 1021, COMP 1020, COMP 1013 ou COMP 1012] et [une note minimale de C dans un de MATH 1230, MATH 1501, MATH 1500, MATH 1510, MATH 1520 ou MATH 1690]. Préalable ou concomitant : un de MATH 1220, MATH 1301, MATH 1300 ou MATH 1310.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Université de Saint-Boniface, Science requirement for BA, Science, Recommended Intro Courses
+
+COMP 2280 - Introduction to Computer Systems
+(Lab Required) Data representation and manipulation, machine-level representation of programs, assembly language programming, and basic computer architecture. Not available to students who have previously completed ECE 3610. Prerequisites: COMP 2140 (C), COMP 2160 (C), and one of MATH 1240 (C), MATH 1241 (C) or COMP 2130 (C).
+-
+3.0 Credit hours
+
+Science, Science lab
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 2980 - Workterm 1
+Work assignment in business, industry, or government for students registered in the Computer Science Cooperative Option. Requires submission of a written report covering the work completed during the four-month professional assignment. (Pass/Fail)
+-
+0.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3010 - Distributed Computing
+An introduction to the development of client server and peer-to-peer systems through web applications, distributed programming models, and distributed algorithms. Prerequisite: COMP 2150 (C) or ECE 3740 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3020 - Human-Computer Interaction 1
+Human-computer interaction: human factors and usability, user-centered design, prototyping, usability evaluation. Prerequisite: one of COMP 2140 or COMP 2061 (C). A course in cognitive psychology, such as PSYC 2480, is recommended.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3030 - Automata Theory and Formal Languages
+An introduction to automata theory, grammars, formal languages and their applications. Topics: finite automata, regular expressions and their properties; context-free grammars, pushdown automata and properties of context-free languages; Turing machines and their properties. Prerequisite: COMP 2080 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3040 - Technical Communication in Computer Science
+This course is designed to help students become more effective and confident writers in the context of the computing profession. Students will be introduced to a broad range of written and oral presentation styles used in the computing workplace. Prerequisite: Students must be enrolled in third year (or higher) of a majors or honours program in the Department of Computer Science.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3090 - Digital Logic 2
+Design and implementation of digital circuits. Minimization and state reduction, asynchronous circuits, arithmetic circuits, implementation using modern hardware techniques. May not to be held with ECE 2220. Prerequisite: COMP 2280 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3170 - Analysis of Algorithms and Data Structures
+Fundamental algorithms for sorting, searching, storage management, graphs, databases and computational geometry. Correctness and analysis of those algorithms using specific data structures. An introduction to lower bounds and intractability. Prerequisites: one of COMP 2140 or COMP 2061(C); and COMP 2080 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3190 - Introduction to Artificial Intelligence
+Principles of artificial intelligence: problem solving, knowledge representation and manipulation; the application of these principles to the solution of 'hard' problems. Prerequisite: one of COMP 2140 or COMP 2061(C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3290 - Introduction to Compiler Construction
+Introduction to the standard compiler phases: scanning, parsing, symbol-table management, code generation, and code optimization. The emphasis is on the simpler techniques for compiler construction such as recursive descent. Prerequisites: COMP 2140 (or COMP 2061)(C) and COMP 2280 (or ECE 3610)(C). COMP 2160 is recommended.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3350 - Software Engineering 1
+Introduction to software engineering. Software life cycle models, system and software requirements analysis, specifications, software design, testing and maintenance, software quality. Prerequisites: COMP 2150 (C) or ECE 3740 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3370 - Computer Organization
+Principles of computer systems architecture, organization and design. Performance, instruction sets, processors, input/output, memory hierarchies. Prerequisite: COMP 2280 (C) or ECE 3610 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3380 - Databases Concepts and Usage
+An introduction to database systems including the relational, hierarchical, network and entity-relationship models with emphasis on the relational model and SQL. Prerequisite: one of COMP 2140 or COMP 2061(C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3430 - Operating Systems
+(Lab Required) Operating systems, their design, implementation, and usage. Prerequisites: one of COMP 2140 or COMP 2061(C); and COMP 2280 (C) or ECE 3610 (C). COMP 2160 is recommended.
+-
+3.0 Credit hours
+
+Science, Science lab
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3440 - Programming Language Concepts
+An introduction to major concepts involved in the design of modern programming languages. The imperative, functional, and logical families and differences between them. Facilities for high level data and control structures, modular programming, data typing, and other topics will be covered. Prerequisite: one of COMP 2140 or COMP 2061(C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3490 - Computer Graphics 1
+An introductory course in computer graphics including topics such as raster graphics, two and three dimensional transforms, and simple rendering. Prerequisite: COMP 2140 (C); and either COMP 2190 (C), or a C in both: MATH 1300 (or MATH 1220, MATH 1310, MATH 1301, MATH 1210 or MATH 1211) and MATH 1500 (or MATH 1230, MATH 1501, MATH 1510 or MATH 1520).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3820 - Introduction to Bioinformatics Algorithms
+An introduction to problems in molecular biology and computational solutions. Focus on design and analysis of efficient algorithms. Prerequisites: COMP 2080. Suggested prerequisite: MBIO 1410. Suggested concurrent requirement: COMP 3170.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 3980 - Workterm 2
+Work assignment in business, industry, or government for students registered in the Computer Science Cooperative Option. Requires submission of a written report covering the work completed during the four-month professional assignment. (Pass/Fail). Prerequisite: COMP 2980 (P).
+-
+0.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4020 - Human-Computer Interaction 2
+Advanced issues in the field of human-computer interaction. Topics will be selected from current research and development issues in the field of HCI. Prerequisite: COMP 3020 (C). A course in cognitive psychology such as PSYC 2480 is recommended.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4050 - Project Management
+Introduction to the issues involved in managing large, complex software projects. Prerequisite: COMP 3350 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4060 - Topics in Computer Science
+This course will examine topics of interest at the fourth-year level. Specific topics will vary from year to year. Topics will be selected from current research in computer science. Prerequisite: Departmental permission.
+-
+3.0 Credit hours
+
+Science, Science lab, RO admin use only
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4140 - Introduction to Cryptography and Cryptosystems
+Description and analysis of cryptographic methods used in the authentication and protection of data. Classical cryptosystems and cryptoanalysis, the Advanced Data Encryption Standard (ADES) and Public-key cryptosystems. Prerequisite: one of MATH 1240 (C), MATH 1241 (C) or COMP 2130 (C). Students must be registered in Computer Engineering or fourth year of a Major or Honours program in the Department of Computer Science.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4180 - Intelligent Mobile Robotics
+Topics include artificial intelligence, computer vision, human-robot interaction, and multi-robot systems. These abstract components are grounded in the problem of developing a team of intelligent mobile robots. All topics are covered with specific emphasis on applied problems, e.g. real-time performance. Not to be held with the former COMP 4060 –“Mobile Robotics”. Prerequisites: COMP 2160 and COMP 3190 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4190 - Artificial Intelligence
+Reasoning with temporal knowledge; causal reasoning; plausible reasoning; nonmonotonic reasoning; abductive reasoning. Prerequisite: COMP 3190 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4200 - Expert Systems
+Organization of expert systems; knowledge representation in expert systems; inference; knowledge engineering; tools for building expert systems; limitations of expert systems. Prerequisite: COMP 3190 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4300 - Computer Networks
+(Lab required) This course examines the principles of computer networks, including network architectures, algorithms, protocols, and performance. May not be held with the former COMP 3720 or the former COMP 4720 or ECE 3700. Prerequisite: COMP 2280 (C) and COMP 3010 (C).
+-
+3.0 Credit hours
+
+Science, Science lab
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4340 - Graph Theory Algorithms 1
+Spanning trees, connectivity, planar graphs, directed graphs, networks, colouring problems and tours are studied and their applications to computer science will be highlighted. Prerequisite: COMP 3170 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4350 - Software Engineering 2
+Advanced treatment of software development methods. Topics will be selected from requirements gathering, design methodologies, prototyping, software verification and validation. Prerequisite: COMP 3350 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4360 - Machine Learning
+Learning strategies; evaluation of learning; learning in symbolic systems; neural networks, genetic algorithms. May not be held with ECE 4450. Prerequisite: COMP 3190.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4380 - Database Implementation
+Implementation of modern database systems including query modification/optimization, recovery, concurrency, integrity, and distribution. Prerequisite: COMP 3380 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4420 - Advanced Design and Analysis of Algorithms
+Algorithm design with emphasis on formal techniques in analysis and proof of correctness. Computational geometry, pattern matching, scheduling, numeric algorithms, probabilistic algorithms, approximation algorithms and other topics. Prerequisites: COMP 3170 (C) and (STAT 1000 (C) or STAT 1001 (C) or STAT 1150 (C)).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4430 - Operating Systems 2
+Design and implementation of modern operating systems. Detailed analysis of an open source modern operating system and hands-on experience with its kernel and major components. Prerequisites: COMP 2160 (C) and COMP 3430 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4490 - Computer Graphics 2
+Methods in computer graphics including topics such as representation of curves and surfaces, viewing in three dimensions, and colour models. Prerequisite: COMP 3490 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4510 - Introduction to Parallel Computation
+An overview of the architectures of current parallel processors and the techniques used to program them. Not to be held with ECE 4530. Prerequisites: COMP 3370 (C) and COMP 3430 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4520 - Undergraduate Honours Project
+A research based project on a specific area of computer science. Students must find a faculty supervisor and write a proposal in their penultimate term. If acceptable, the defined research is to be carried out in the student's final term. Permission to take the course is given on an individual basis. Available to 4th Year students only. Prerequisite: departmental permission.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4550 - Real-Time Systems
+An introduction to the theory and practice of real-time systems. Topics include the design of real-time systems, scheduling, event based processing, and real-time control. This course may not be held for credit if a student has previously completed both of ECE 4240 and ECE 3760. Prerequisites: COMP 3430 (C) and COMP 3370 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4560 - Industrial Project
+Students will work in teams on an industrial project. Projects are supplied by the Department. Prerequisites: COMP 3350 (C) and departmental permission.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4580 - Computer Security
+(Lab Required) Computer security and information management. This course will examine state-of-the-art knowledge about the issues relevant to data and computer security. Prerequisite: COMP 3430 (C) and COMP 3010 (C).
+-
+3.0 Credit hours
+
+Science, Science lab, RO admin use only
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4620 - Professional Practice in Computer Science
+Background and rationale to view Computer Science in a professional context. Examination of professional ethics, intellectual property, and privacy considerations important to Computer Scientists. May not be held with the former COMP 3620. Prerequisite: COMP 3350 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4690 - Computer Systems and Architecture
+Investigation of today's modern computer architecture and system design concepts, including requirements, specifications, and implementation. Instruction sets, instruction-level parallelism, speculative execution, multi-threaded architectures, memory hierarchy, multiprocessors, storage design and implementation, and interconnection networks. Prerequisite: COMP 3370 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4710 - Introduction to Data Mining
+Introduction to data mining concepts and their applications. Prerequisite: COMP 3380 or consent of department.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4740 - Advanced Databases
+Parallel, distributed, object-oriented, object-relational, and XML databases; other emerging database technologies. Prerequisite: COMP 3380 (C).
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4980 - Workterm 3
+Work assignment in business, industry, or government for students registered in the Computer Science Cooperative Option. Requires submission of a written report covering the work completed during the four-month professional assignment. (Pass/Fail). Prerequisite: COMP 3980 (P).
+-
+0.0 Credit hours
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 4990 - Workterm 4
+Work assignment in business, industry, or government for students registered in the Computer Science Cooperative Option. Requires submission of a written report covering the work completed during the four-month professional assignment (Pass/Fail). Prerequisite: COMP 4980 (P).
+
+
+Science
+
+Computer Science Department
+
+Course Attributes:
+Science requirement for BA, Science
+
+COMP 7210 - Research Methodologies
+This course explores the research process in general and the resources for research in computer science. Traditional research approaches and use of emerging technology will be discussed. Attendance at department seminars and classes is required.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7570 - Advanced Topics in Computer Science 1
+Topics of current research interest in areas of computer science, available on an occasional basis, subject to the interests and availability of faculty. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7600 - Graduate Workterm I
+Work assignment in business, industry, or government for students registered in the Computer Science Graduate Cooperative Option. Requires submission of a written report covering the work completed during the four-month professional assignment. Graded Pass/Fail.
+
+
+Science
+
+Computer Science Department
+
+COMP 7720 - Advanced Topics in Algorithms
+Topics of current research interest in advanced algorithms. Possible topics include string matching, data compression, computational geometry, probabilistic algorithms; subject to the interests and availability of faculty. Prerequisites: COMP 3170 or equivalent or written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7750 - Advanced Topics in Computation Theory
+Topics of current research interest in computation and complexity theory. Possible topics include decidability and complexity theoretic issues in parallel computation, cryptography, graph theory, or number theory, subject to the interests and availability of faculty. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7770 - Coding Theory
+Algebraic background of coding theory. Possible topics include theory of linear codes; Hamming, Golay, Reed-Miller, Macdonald, and Hadamard codes; structure of finite fields; application to cyclic and Bose Chaudhuri codes; and decoding algorithms and error-correcting bounds. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7780 - Queuing Theory and Performance Evaluation
+Theory and application of queuing systems applied to problems of computer systems performance. Possible topics include investigation of deterministic and stochastic models of single and multiple queuing systems using analytical, numerical, and simulation techniques; performance evaluation methods for computer systems and communications networks. Prerequisites: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7800 - Graduate Workterm II
+Work assignment in business, industry, or government for students registered in the Computer Science Graduate Cooperative Option. Requires submission of a written report covering the work completed during the four-month professional assignment. Graded Pass/Fail. Prerequisite: COMP 7600.
+
+
+Science
+
+Computer Science Department
+
+COMP 7810 - Computer Networks
+A selection of current research topics in computer networks, including advanced network architectures, protocols, and systems. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7850 - Advances in Parallel Computing
+This course introduces advanced research topics in parallel architectures, parallel programing, parallelizing compilers, runtime systems, and parallel I/O. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7860 - Advanced Topics in Computer Systems
+Topics of current research interest in database and operating systems. Possible topics include: operating systems, parallel systems, real-time systems, networks, and database systems; subject to the interests and availability of faculty. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7890 - Advanced Topics in Languages and Software
+Topics of current research interest in software engineering. Possible topics include requirement analysis, software architecture, software evolution, and software verification and validation. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7900 - Graduate Workterm III
+Work assignment in business, industry, or government for students registered in the Computer Science Graduate Cooperative Option. Requires submission of a written report covering the work completed during the four-month professional assignment. Graded Pass/ Fail. Prerequisite: COMP 7800.
+
+
+Science
+
+Computer Science Department
+
+COMP 7910 - Advanced Graphics
+Advanced topics in computer graphics. Possible topics include advanced lighting models and radiosity, ray tracing, computational photography, graphics architectures, procedural graphics, model and mesh processing, splines and curves, and advanced rendering techniques. Prerequisites: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7920 - Advanced Topics in Graphics and Human Interfaces
+Topics of interest in advanced Human-Computer Interaction (HCI). Possible topics include quantitative and qualitative evaluations, crowdsourcing methods and applications, personal informatics, persuasive technologies, technologies for special populations, and information visualization. Prerequisite: written consent of instructor. COMP 4020 is recommended
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7922 - Computational Geometry
+The design and analysis of efficient algorithms for geometric problems. Possible topics include convex hull algorithms; Voronoi diagrams and Delaunay triangulations; point location; range searching; geometric data structures; geometric intersection algorithms; guarding and visibility graphs; geometric packing, covering, and partitioning; geometric duality; arrangements of lines and circles; unit disc graphs and proximity graphs. Prerequisites: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7924 - Graph Drawing
+The design and analysis of efficient algorithms for drawing a given graph in the plane subject to given constraints and optimization criteria. Possible topics include drawing rooted trees, planarity testing, drawing planar graphs, straight-line drawings, point-set embeddings, visibility graphs, and contact graph representations. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7926 - Computational Finance
+Application of Computer Science to the field of Computational Finance. Possible topics include an overview of equity, fixed income, derivative markets; stochastic calculus, Black-Scholes model; volatility, risk and value-at-risk; binomial tree, Monte-Carlo, finite-difference, and other numerical methods, complex financial instruments such as swaps, collateral debt obligations; derivatives mishaps. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7928 - PROB GRAPH MDLS
+Probabilistic graphical models and their applications in advanced machine learning. Possible topics include directed model (Bayesian networks), undirected models 9Markov random fields), inference, and learning in various application domains, e.g., computer vision, natural language processing, bioinformatics, and speech processing. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7932 - Advanced Intelligent Interactive Systems
+Topics of interest at the intersection of Human-Computer Interaction (HCI) and applied Artificial Intelligence (AI). Possible topics include recommender systems, information extraction and summarization, intelligent learning environments, usability concerns, evaluation, and reasoning under uncertainty. Prerequisites: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7934 - Topics in Bioinformatics
+Topics of interest in Bioinformatics. Possible topics include genome assembly, protein structure prediction and sequence feature prediction. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7936 - Advanced Human- Robot Interaction
+A survey of fundamentals and current topics in Human-Robot Interaction, including tele-operation, collocated work, and social human-robot interaction. Students will read a range of research publications on Human-Robot Interaction, and develop an original research project relating to interaction with robots. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7938 - Software Testing and Quality Assurance
+Fundamental techniques and state-of-the-art research in software quality assurance. The primary focus is on software testing techniques, but other quality assurance approaches are also discussed, such as static analysis, code review, defect prediction, and fault localization. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7942 - Real-Time Embedded Systems
+Topics of interest in embedded systems, especially systems for real-time control and sensing. Extensions to distributed embedded systems are also discussed. Possible topics include scheduling, schedulability, servo motors, constraints in embedded systems, advanced real-time scheduling, control theory, distributed systems, and related programming languages. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7944 - Advanced Data Mining
+Topics of interest in data mining, include advanced data mining concepts and their applications. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7946 - Wireless Sensor Networks
+Topics of interest in wireless sensor networks, including architectures, protocols, and applications. Case studies of previous work and open areas of research will also be discussed. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7948 - Combinatorial Optimization
+Classical and current techniques in combinatorial optimization. Topics include linear and integer programming, matching algorithms, graph algorithms, networks and flows, and matroids. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7950 - Advanced Topics in Artificial Intelligence
+Topics of current research interest in artificial intelligence chosen from such areas as: expert systems, knowledge representation, intelligent systems, planning systems, multi-agent systems, symbolic logic, knowledge engineering, and automated reasoning; subject to the interests and availability of faculty. Prerequisites: COMP 3190 or equivalent or written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7952 - Grid and Cloud Computing
+Distributed computing systems; commercial grid services; working with real grid networks; applications on grid networks; virtualization and cloud computing; grid and cloud architecture and execution models; MapReduce; resource management (brokering, allocation, scheduling); quality of service guarantee; pricing cloud resources; economic and finance models; case studies. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department
+
+COMP 7960 - Image Processing
+A detailed study of methods used in image processing. Major topics include image transformations, image enhancement, feature extraction, image analysis, and filtering. Prerequisite: written consent of instructor.
+-
+3.0 Credit hours
+
+Science
+
+Computer Science Department

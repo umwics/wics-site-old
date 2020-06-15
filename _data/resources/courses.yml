@@ -1,0 +1,1034 @@
+- coursenumber: '1010'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An introduction to computer programming using a procedural high level language.
+    May not be held with COMP 1011 or COMP 1012 or COMP 1013. '
+  desc-full: '(Lab Required) An introduction to computer programming using a procedural
+    high level language. May not be held with COMP 1011 or COMP 1012 or COMP 1013.
+    Prerequisite: any grade 12 or 40S Mathematics, or equivalent.
+
+    '
+  honours: true
+  id: COMP1010
+  lab: true
+  major: true
+  name: COMP 1010
+  prerequisite-full: any grade 12 or 40S Mathematics, or equivalent.
+  title: Introductory Computer Science 1
+  year: 1000
+- coursenumber: '1012'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An introduction to computer programming suitable for solving problems in
+    science and engineering. Students will implement algorithms for numerical processing,
+    statistical analysis and matrix operations. Not to be held with COMP 1010, COMP
+    1011 or COMP 1013. '
+  desc-full: '(Lab Required) An introduction to computer programming suitable for
+    solving problems in science and engineering. Students will implement algorithms
+    for numerical processing, statistical analysis and matrix operations. Not to be
+    held with COMP 1010, COMP 1011 or COMP 1013. Prerequisite: Mathematics 40S or
+    equivalent. Co-requisite: MATH 1230 or MATH 1500 or MATH 1501 (or equivalent).
+
+    '
+  honours: false
+  id: COMP1012
+  lab: true
+  major: false
+  name: COMP 1012
+  prerequisite-full: 'Mathematics 40S or equivalent. Co-requisite: MATH 1230 or MATH
+    1500 or MATH 1501 (or equivalent).'
+  title: Computer Programming for Scientists and Engineers
+  year: 1000
+- coursenumber: '1020'
+  credit: '3.0'
+  dept: COMP
+  desc: 'More features of a procedural language, elements of programming. May not
+    be held with COMP 1021. '
+  desc-full: '(Lab Required) More features of a procedural language, elements of programming.
+    May not be held with COMP 1021. Prerequisite: COMP 1010 or COMP 1011 (C); or COMP
+    1012 or COMP 1013 (C); or High School Computer Science 40S (75%) and any grade
+    12 or 40S Mathematics, or equivalent.
+
+    '
+  honours: true
+  id: COMP1020
+  lab: true
+  major: true
+  name: COMP 1020
+  prerequisite:
+  - COMP1010
+  prerequisite-full: COMP 1010 or COMP 1011 (C); or COMP 1012 or COMP 1013 (C); or
+    High School Computer Science 40S (75%) and any grade 12 or 40S Mathematics, or
+    equivalent.
+  title: Introductory Computer Science 2
+  year: 1000
+- coursenumber: '1500'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An introduction to the topics of Computer Science and problem solving. Students
+    will learn concepts in computer programming. May not be used to fulfill computer
+    science requirements in a Computer Science Honours, Major, General or Minor program.
+    Not available to students who have previously obtained credit in, or are concurrently
+    registered in any of COMP 2080, COMP 2130, COMP 2140, COMP 2150, COMP 2160 or
+    COMP 2280.
+
+    '
+  desc-full: 'An introduction to the topics of Computer Science and problem solving.
+    Students will learn concepts in computer programming. May not be used to fulfill
+    computer science requirements in a Computer Science Honours, Major, General or
+    Minor program. Not available to students who have previously obtained credit in,
+    or are concurrently registered in any of COMP 2080, COMP 2130, COMP 2140, COMP
+    2150, COMP 2160 or COMP 2280.
+
+    '
+  honours: false
+  id: COMP1500
+  lab: false
+  major: false
+  name: COMP 1500
+  prerequisite: null
+  prerequisite-full: null
+  title: 'Computing: Ideas and Innovation'
+  year: 1000
+- coursenumber: '1600'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Topics related to digital society such as security, encryption and data storage,
+    issues of social and ethical importance, and current events. May not be used to
+    fulfill computer science requirements in a Computer Science Honours, Major, General
+    or Minor program. Not available to students who have previously obtained credit
+    in, or are concurrently registered in any of COMP 2080, COMP 2130, COMP 2140,
+    COMP 2150, COMP 2160 or COMP 2280. May not be held with the former COMP 1270.
+
+    '
+  desc-full: 'Topics related to digital society such as security, encryption and data
+    storage, issues of social and ethical importance, and current events. May not
+    be used to fulfill computer science requirements in a Computer Science Honours,
+    Major, General or Minor program. Not available to students who have previously
+    obtained credit in, or are concurrently registered in any of COMP 2080, COMP 2130,
+    COMP 2140, COMP 2150, COMP 2160 or COMP 2280. May not be held with the former
+    COMP 1270.
+
+    '
+  honours: false
+  id: COMP1600
+  lab: false
+  major: false
+  name: COMP 1600
+  prerequisite: null
+  prerequisite-full: null
+  title: Navigating Your Digital World
+  year: 1000
+- coursenumber: '2080'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Methods of analyzing the time and space requirements of algorithms. Average
+    case and worst case analysis. Models of computation. '
+  desc-full: 'Methods of analyzing the time and space requirements of algorithms.
+    Average case and worst case analysis. Models of computation. Prerequisites: MATH
+    1240 (C), MATH 1241 (C) or COMP 2130 (C); and one of COMP 2140, or the former
+    COMP 2061 (C). STAT 1000 or STAT 1001 or STAT 1150 is strongly recommended.
+
+    '
+  honours: true
+  id: COMP2080
+  lab: false
+  major: true
+  name: COMP 2080
+  prerequisite:
+  - MATH1240
+  - COMP2140
+  prerequisite-full: MATH 1240 (C), MATH 1241 (C) or COMP 2130 (C); and one of COMP
+    2140, or the former COMP 2061 (C). STAT 1000 or STAT 1001 or STAT 1150 is strongly
+    recommended.
+  title: Analysis of Algorithms
+  year: 2000
+- coursenumber: '2140'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Introduction to the representation and manipulation of data structures. Topics
+    will include lists, stacks, queues, trees, and graphs. May not be held with COMP
+    2061. '
+  desc-full: '(Lab Required) Introduction to the representation and manipulation of
+    data structures. Topics will include lists, stacks, queues, trees, and graphs.
+    May not be held with COMP 2061. Prerequisites: one of COMP 1020, COMP 1021 (C).
+
+    '
+  honours: true
+  id: COMP2140
+  lab: true
+  major: true
+  name: COMP 2140
+  prerequisite:
+  - COMP1020
+  prerequisite-full: one of COMP 1020, COMP 1021 (C).
+  title: Data Structures and Algorithms
+  year: 2000
+- coursenumber: '2150'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Design and development of object-oriented software. Topics will include inheritance,
+    polymorphism, data abstraction and encapsulation. Examples will be drawn from
+    several programming languages. '
+  desc-full: 'Design and development of object-oriented software. Topics will include
+    inheritance, polymorphism, data abstraction and encapsulation. Examples will be
+    drawn from several programming languages. Prerequisite: COMP 2160; and one of
+    COMP 2140 or COMP 2061(C).
+
+    '
+  honours: true
+  id: COMP2150
+  lab: false
+  major: true
+  name: COMP 2150
+  prerequisite:
+  - COMP2160
+  - COMP2140
+  prerequisite-full: COMP 2160; and one of COMP 2140 or COMP 2061(C).
+  title: Object Orientation
+  year: 2000
+- coursenumber: '2160'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Introduction to issues involved in real-world computing. Topics will include
+    memory management, debugging, compilation, performance, and good programming practices. '
+  desc-full: '(Lab Required) Introduction to issues involved in real-world computing.
+    Topics will include memory management, debugging, compilation, performance, and
+    good programming practices. Prerequisite: COMP 1020 (C+) or COMP 1021 (C+).
+
+    '
+  honours: true
+  id: COMP2160
+  lab: true
+  major: true
+  name: COMP 2160
+  prerequisite:
+  - COMP1020
+  prerequisite-full: COMP 1020 (C+) or COMP 1021 (C+).
+  title: Programming Practices
+  year: 2000
+- coursenumber: '2280'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Data representation and manipulation, machine-level representation of programs,
+    assembly language programming, and basic computer architecture. Not available
+    to students who have previously completed ECE 3610. '
+  desc-full: '(Lab Required) Data representation and manipulation, machine-level representation
+    of programs, assembly language programming, and basic computer architecture. Not
+    available to students who have previously completed ECE 3610. Prerequisites: COMP
+    2140 (C), COMP 2160 (C), and one of MATH 1240 (C), MATH 1241 (C) or COMP 2130
+    (C).
+
+    '
+  honours: true
+  id: COMP2280
+  lab: true
+  major: true
+  name: COMP 2280
+  prerequisite:
+  - COMP2140
+  - MATH1240
+  prerequisite-full: COMP 2140 (C), COMP 2160 (C), and one of MATH 1240 (C), MATH
+    1241 (C) or COMP 2130 (C).
+  title: Introduction to Computer Systems
+  year: 2000
+- coursenumber: '2980'
+  credit: '0.0'
+  dept: COMP
+  desc: 'Work assignment in business, industry, or government for students registered
+    in the Computer Science Cooperative Option. Requires submission of a written report
+    covering the work completed during the four-month professional assignment. (Pass/Fail)
+
+    '
+  desc-full: 'Work assignment in business, industry, or government for students registered
+    in the Computer Science Cooperative Option. Requires submission of a written report
+    covering the work completed during the four-month professional assignment. (Pass/Fail)
+
+    '
+  honours: false
+  id: COMP2980
+  lab: false
+  major: false
+  name: COMP 2980
+  prerequisite: null
+  prerequisite-full: null
+  title: Workterm 1
+  year: 2000
+- coursenumber: '3010'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An introduction to the development of client server and peer-to-peer systems
+    through web applications, distributed programming models, and distributed algorithms. '
+  desc-full: 'An introduction to the development of client server and peer-to-peer
+    systems through web applications, distributed programming models, and distributed
+    algorithms. Prerequisite: COMP 2150 (C) or ECE 3740 (C).
+
+    '
+  honours: false
+  id: COMP3010
+  lab: false
+  major: false
+  name: COMP 3010
+  prerequisite:
+  - COMP2150
+  prerequisite-full: COMP 2150 (C) or ECE 3740 (C).
+  title: Distributed Computing
+  year: 3000
+- coursenumber: '3020'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Human-computer interaction: human factors and usability, user-centered design,
+    prototyping, usability evaluation. '
+  desc-full: 'Human-computer interaction: human factors and usability, user-centered
+    design, prototyping, usability evaluation. Prerequisite: one of COMP 2140 or COMP
+    2061 (C). A course in cognitive psychology, such as PSYC 2480, is recommended.
+
+    '
+  honours: false
+  id: COMP3020
+  lab: false
+  major: false
+  name: COMP 3020
+  prerequisite:
+  - COMP2140
+  prerequisite-full: one of COMP 2140 or COMP 2061 (C). A course in cognitive psychology,
+    such as PSYC 2480, is recommended.
+  title: Human-Computer Interaction 1
+  year: 3000
+- coursenumber: '3030'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An introduction to automata theory, grammars, formal languages and their
+    applications. Topics: finite automata, regular expressions and their properties;
+    context-free grammars, pushdown automata and properties of context-free languages;
+    Turing machines and their properties. '
+  desc-full: 'An introduction to automata theory, grammars, formal languages and their
+    applications. Topics: finite automata, regular expressions and their properties;
+    context-free grammars, pushdown automata and properties of context-free languages;
+    Turing machines and their properties. Prerequisite: COMP 2080 (C).
+
+    '
+  honours: true
+  id: COMP3030
+  lab: false
+  major: false
+  name: COMP 3030
+  prerequisite:
+  - COMP2080
+  prerequisite-full: COMP 2080 (C).
+  title: Automata Theory and Formal Languages
+  year: 3000
+- coursenumber: '3040'
+  credit: '3.0'
+  dept: COMP
+  desc: 'This course is designed to help students become more effective and confident
+    writers in the context of the computing profession. Students will be introduced
+    to a broad range of written and oral presentation styles used in the computing
+    workplace. '
+  desc-full: 'This course is designed to help students become more effective and confident
+    writers in the context of the computing profession. Students will be introduced
+    to a broad range of written and oral presentation styles used in the computing
+    workplace. Prerequisite: Students must be enrolled in third year (or higher) of
+    a majors or honours program in the Department of Computer Science.
+
+    '
+  honours: false
+  id: COMP3040
+  lab: false
+  major: false
+  name: COMP 3040
+  prerequisite-full: Students must be enrolled in third year (or higher) of a majors
+    or honours program in the Department of Computer Science.
+  title: Technical Communication in Computer Science
+  year: 3000
+- coursenumber: '3170'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Fundamental algorithms for sorting, searching, storage management, graphs,
+    databases and computational geometry. Correctness and analysis of those algorithms
+    using specific data structures. An introduction to lower bounds and intractability. '
+  desc-full: 'Fundamental algorithms for sorting, searching, storage management, graphs,
+    databases and computational geometry. Correctness and analysis of those algorithms
+    using specific data structures. An introduction to lower bounds and intractability.
+    Prerequisites: one of COMP 2140 or COMP 2061(C); and COMP 2080 (C).
+
+    '
+  honours: true
+  id: COMP3170
+  lab: false
+  major: false
+  name: COMP 3170
+  prerequisite:
+  - COMP2140
+  - COMP2080
+  prerequisite-full: one of COMP 2140 or COMP 2061(C); and COMP 2080 (C).
+  title: Analysis of Algorithms and Data Structures
+  year: 3000
+- coursenumber: '3190'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Principles of artificial intelligence: problem solving, knowledge representation
+    and manipulation; the application of these principles to the solution of hard
+    problems. '
+  desc-full: 'Principles of artificial intelligence: problem solving, knowledge representation
+    and manipulation; the application of these principles to the solution of hard
+    problems. Prerequisite: one of COMP 2140 or COMP 2061(C).
+
+    '
+  honours: false
+  id: COMP3190
+  lab: false
+  major: false
+  name: COMP 3190
+  prerequisite:
+  - COMP2140
+  prerequisite-full: one of COMP 2140 or COMP 2061(C).
+  title: Introduction to Artificial Intelligence
+  year: 3000
+- coursenumber: '3350'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Introduction to software engineering. Software life cycle models, system
+    and software requirements analysis, specifications, software design, testing and
+    maintenance, software quality. '
+  desc-full: 'Introduction to software engineering. Software life cycle models, system
+    and software requirements analysis, specifications, software design, testing and
+    maintenance, software quality. Prerequisites: COMP 2150 (C) or ECE 3740 (C).
+
+    '
+  honours: true
+  id: COMP3350
+  lab: false
+  major: true
+  name: COMP 3350
+  prerequisite:
+  - COMP2150
+  prerequisite-full: COMP 2150 (C) or ECE 3740 (C).
+  title: Software Engineering 1
+  year: 3000
+- coursenumber: '3370'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Principles of computer systems architecture, organization and design. Performance,
+    instruction sets, processors, input/output, memory hierarchies. '
+  desc-full: 'Principles of computer systems architecture, organization and design.
+    Performance, instruction sets, processors, input/output, memory hierarchies. Prerequisite:
+    COMP 2280 (C) or ECE 3610 (C).
+
+    '
+  honours: true
+  id: COMP3370
+  lab: false
+  major: true
+  name: COMP 3370
+  prerequisite:
+  - COMP2280
+  prerequisite-full: COMP 2280 (C) or ECE 3610 (C).
+  title: Computer Organization
+  year: 3000
+- coursenumber: '3380'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An introduction to database systems including the relational, hierarchical,
+    network and entity-relationship models with emphasis on the relational model and
+    SQL. '
+  desc-full: 'An introduction to database systems including the relational, hierarchical,
+    network and entity-relationship models with emphasis on the relational model and
+    SQL. Prerequisite: one of COMP 2140 or COMP 2061(C).
+
+    '
+  honours: false
+  id: COMP3380
+  lab: false
+  major: false
+  name: COMP 3380
+  prerequisite:
+  - COMP2140
+  prerequisite-full: one of COMP 2140 or COMP 2061(C).
+  title: Databases Concepts and Usage
+  year: 3000
+- coursenumber: '3430'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Operating systems, their design, implementation, and usage. '
+  desc-full: '(Lab Required) Operating systems, their design, implementation, and
+    usage. Prerequisites: one of COMP 2140 or COMP 2061(C); and COMP 2280 (C) or ECE
+    3610 (C). COMP 2160 is recommended.
+
+    '
+  honours: true
+  id: COMP3430
+  lab: true
+  major: true
+  name: COMP 3430
+  prerequisite:
+  - COMP2140
+  - COMP2280
+  prerequisite-full: one of COMP 2140 or COMP 2061(C); and COMP 2280 (C) or ECE 3610
+    (C). COMP 2160 is recommended.
+  title: Operating Systems
+  year: 3000
+- coursenumber: '3490'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An introductory course in computer graphics including topics such as raster
+    graphics, two and three dimensional transforms, and simple rendering. '
+  desc-full: 'An introductory course in computer graphics including topics such as
+    raster graphics, two and three dimensional transforms, and simple rendering. Prerequisite:
+    COMP 2140 (C); and either COMP 2190 (C), or a C in both: MATH 1300 (or MATH 1220,
+    MATH 1310, MATH 1301, MATH 1210 or MATH 1211) and MATH 1500 (or MATH 1230, MATH
+    1501, MATH 1510 or MATH 1520).
+
+    '
+  honours: false
+  id: COMP3490
+  lab: false
+  major: false
+  name: COMP 3490
+  prerequisite:
+  - COMP2140
+  - MATH1500
+  prerequisite-full: 'COMP 2140 (C); and either COMP 2190 (C), or a C in both: MATH
+    1300 (or MATH 1220, MATH 1310, MATH 1301, MATH 1210 or MATH 1211) and MATH 1500
+    (or MATH 1230, MATH 1501, MATH 1510 or MATH 1520).'
+  title: Computer Graphics 1
+  year: 3000
+- coursenumber: '3820'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An introduction to problems in molecular biology and computational solutions.
+    Focus on design and analysis of efficient algorithms. '
+  desc-full: 'An introduction to problems in molecular biology and computational solutions.
+    Focus on design and analysis of efficient algorithms. Prerequisites: COMP 2080.
+    Suggested prerequisite: MBIO 1410. Suggested concurrent requirement: COMP 3170.
+
+    '
+  honours: false
+  id: COMP3820
+  lab: false
+  major: false
+  name: COMP 3820
+  prerequisite:
+  - COMP2080
+  prerequisite-full: 'COMP 2080. Suggested prerequisite: MBIO 1410. Suggested concurrent
+    requirement: COMP 3170.'
+  title: Introduction to Bioinformatics Algorithms
+  year: 3000
+- coursenumber: '3980'
+  credit: '0.0'
+  dept: COMP
+  desc: 'Work assignment in business, industry, or government for students registered
+    in the Computer Science Cooperative Option. Requires submission of a written report
+    covering the work completed during the four-month professional assignment. (Pass/Fail). '
+  desc-full: 'Work assignment in business, industry, or government for students registered
+    in the Computer Science Cooperative Option. Requires submission of a written report
+    covering the work completed during the four-month professional assignment. (Pass/Fail).
+    Prerequisite: COMP 2980 (P).
+
+    '
+  honours: false
+  id: COMP3980
+  lab: false
+  major: false
+  name: COMP 3980
+  prerequisite:
+  - COMP2980
+  prerequisite-full: COMP 2980 (P).
+  title: Workterm 2
+  year: 3000
+- coursenumber: '4020'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Advanced issues in the field of human-computer interaction. Topics will be
+    selected from current research and development issues in the field of HCI. '
+  desc-full: 'Advanced issues in the field of human-computer interaction. Topics will
+    be selected from current research and development issues in the field of HCI.
+    Prerequisite: COMP 3020 (C). A course in cognitive psychology such as PSYC 2480
+    is recommended.
+
+    '
+  honours: false
+  id: COMP4020
+  lab: false
+  major: false
+  name: COMP 4020
+  prerequisite:
+  - COMP3020
+  prerequisite-full: COMP 3020 (C). A course in cognitive psychology such as PSYC
+    2480 is recommended.
+  title: Human-Computer Interaction 2
+  year: 4000
+- coursenumber: '4050'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Introduction to the issues involved in managing large, complex software projects. '
+  desc-full: 'Introduction to the issues involved in managing large, complex software
+    projects. Prerequisite: COMP 3350 (C).
+
+    '
+  honours: false
+  id: COMP4050
+  lab: false
+  major: false
+  name: COMP 4050
+  prerequisite:
+  - COMP3350
+  prerequisite-full: COMP 3350 (C).
+  title: Project Management
+  year: 4000
+- coursenumber: '4060'
+  credit: '3.0'
+  dept: COMP
+  desc: 'This course will examine topics of interest at the fourth-year level. Specific
+    topics will vary from year to year. Topics will be selected from current research
+    in computer science. '
+  desc-full: 'This course will examine topics of interest at the fourth-year level.
+    Specific topics will vary from year to year. Topics will be selected from current
+    research in computer science. Prerequisite: Departmental permission.
+
+    '
+  honours: false
+  id: COMP4060
+  lab: false
+  major: false
+  name: COMP 4060
+  prerequisite-full: Departmental permission.
+  title: Topics in Computer Science
+  year: 4000
+- coursenumber: '4140'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Description and analysis of cryptographic methods used in the authentication
+    and protection of data. Classical cryptosystems and cryptoanalysis, the Advanced
+    Data Encryption Standard (ADES) and Public-key cryptosystems. '
+  desc-full: 'Description and analysis of cryptographic methods used in the authentication
+    and protection of data. Classical cryptosystems and cryptoanalysis, the Advanced
+    Data Encryption Standard (ADES) and Public-key cryptosystems. Prerequisite: one
+    of MATH 1240 (C), MATH 1241 (C) or COMP 2130 (C). Students must be registered
+    in Computer Engineering or fourth year of a Major or Honours program in the Department
+    of Computer Science.
+
+    '
+  honours: false
+  id: COMP4140
+  lab: false
+  major: false
+  name: COMP 4140
+  prerequisite:
+  - MATH1240
+  prerequisite-full: one of MATH 1240 (C), MATH 1241 (C) or COMP 2130 (C). Students
+    must be registered in Computer Engineering or fourth year of a Major or Honours
+    program in the Department of Computer Science.
+  title: Introduction to Cryptography and Cryptosystems
+  year: 4000
+- coursenumber: '4180'
+  credit: '3.0'
+  dept: COMP
+  desc: "Topics include artificial intelligence, computer vision, human-robot interaction,\
+    \ and multi-robot systems. These abstract components are grounded in the problem\
+    \ of developing a team of intelligent mobile robots. All topics are covered with\
+    \ specific emphasis on applied problems, e.g. real-time performance. Not to be\
+    \ held with the former COMP 4060 \u2013\u201CMobile Robotics\u201D. "
+  desc-full: "Topics include artificial intelligence, computer vision, human-robot\
+    \ interaction, and multi-robot systems. These abstract components are grounded\
+    \ in the problem of developing a team of intelligent mobile robots. All topics\
+    \ are covered with specific emphasis on applied problems, e.g. real-time performance.\
+    \ Not to be held with the former COMP 4060 \u2013\u201CMobile Robotics\u201D.\
+    \ Prerequisites: COMP 2160 and COMP 3190 (C).\n"
+  honours: false
+  id: COMP4180
+  lab: false
+  major: false
+  name: COMP 4180
+  prerequisite:
+  - COMP2160
+  - COMP3190
+  prerequisite-full: COMP 2160 and COMP 3190 (C).
+  title: Intelligent Mobile Robotics
+  year: 4000
+- coursenumber: '4190'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Reasoning with temporal knowledge; causal reasoning; plausible reasoning;
+    nonmonotonic reasoning; abductive reasoning. '
+  desc-full: 'Reasoning with temporal knowledge; causal reasoning; plausible reasoning;
+    nonmonotonic reasoning; abductive reasoning. Prerequisite: COMP 3190 (C).
+
+    '
+  honours: false
+  id: COMP4190
+  lab: false
+  major: false
+  name: COMP 4190
+  prerequisite:
+  - COMP3190
+  prerequisite-full: COMP 3190 (C).
+  title: Artificial Intelligence
+  year: 4000
+- coursenumber: '4300'
+  credit: '3.0'
+  dept: COMP
+  desc: 'This course examines the principles of computer networks, including network
+    architectures, algorithms, protocols, and performance. May not be held with the
+    former COMP 3720 or the former COMP 4720 or ECE 3700. '
+  desc-full: '(Lab required) This course examines the principles of computer networks,
+    including network architectures, algorithms, protocols, and performance. May not
+    be held with the former COMP 3720 or the former COMP 4720 or ECE 3700. Prerequisite:
+    COMP 2280 (C) and COMP 3010 (C).
+
+    '
+  honours: false
+  id: COMP4300
+  lab: true
+  major: false
+  name: COMP 4300
+  prerequisite:
+  - COMP2280
+  - COMP3010
+  prerequisite-full: COMP 2280 (C) and COMP 3010 (C).
+  title: Computer Networks
+  year: 4000
+- coursenumber: '4350'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Advanced treatment of software development methods. Topics will be selected
+    from requirements gathering, design methodologies, prototyping, software verification
+    and validation. '
+  desc-full: 'Advanced treatment of software development methods. Topics will be selected
+    from requirements gathering, design methodologies, prototyping, software verification
+    and validation. Prerequisite: COMP 3350 (C).
+
+    '
+  honours: false
+  id: COMP4350
+  lab: false
+  major: false
+  name: COMP 4350
+  prerequisite:
+  - COMP3350
+  prerequisite-full: COMP 3350 (C).
+  title: Software Engineering 2
+  year: 4000
+- coursenumber: '4360'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Learning strategies; evaluation of learning; learning in symbolic systems;
+    neural networks, genetic algorithms. May not be held with ECE 4450. '
+  desc-full: 'Learning strategies; evaluation of learning; learning in symbolic systems;
+    neural networks, genetic algorithms. May not be held with ECE 4450. Prerequisite:
+    COMP 3190.
+
+    '
+  honours: false
+  id: COMP4360
+  lab: false
+  major: false
+  name: COMP 4360
+  prerequisite:
+  - COMP3190
+  prerequisite-full: COMP 3190.
+  title: Machine Learning
+  year: 4000
+- coursenumber: '4380'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Implementation of modern database systems including query modification/optimization,
+    recovery, concurrency, integrity, and distribution. '
+  desc-full: 'Implementation of modern database systems including query modification/optimization,
+    recovery, concurrency, integrity, and distribution. Prerequisite: COMP 3380 (C).
+
+    '
+  honours: false
+  id: COMP4380
+  lab: false
+  major: false
+  name: COMP 4380
+  prerequisite:
+  - COMP3380
+  prerequisite-full: COMP 3380 (C).
+  title: Database Implementation
+  year: 4000
+- coursenumber: '4420'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Algorithm design with emphasis on formal techniques in analysis and proof
+    of correctness. Computational geometry, pattern matching, scheduling, numeric
+    algorithms, probabilistic algorithms, approximation algorithms and other topics. '
+  desc-full: 'Algorithm design with emphasis on formal techniques in analysis and
+    proof of correctness. Computational geometry, pattern matching, scheduling, numeric
+    algorithms, probabilistic algorithms, approximation algorithms and other topics.
+    Prerequisites: COMP 3170 (C) and (STAT 1000 (C) or STAT 1001 (C) or STAT 1150
+    (C)).
+
+    '
+  honours: false
+  id: COMP4420
+  lab: false
+  major: false
+  name: COMP 4420
+  prerequisite:
+  - COMP3170
+  - STAT1001
+  prerequisite-full: COMP 3170 (C) and (STAT 1000 (C) or STAT 1001 (C) or STAT 1150
+    (C)).
+  title: Advanced Design and Analysis of Algorithms
+  year: 4000
+- coursenumber: '4430'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Design and implementation of modern operating systems. Detailed analysis
+    of an open source modern operating system and hands-on experience with its kernel
+    and major components. '
+  desc-full: 'Design and implementation of modern operating systems. Detailed analysis
+    of an open source modern operating system and hands-on experience with its kernel
+    and major components. Prerequisites: COMP 2160 (C) and COMP 3430 (C).
+
+    '
+  honours: false
+  id: COMP4430
+  lab: false
+  major: false
+  name: COMP 4430
+  prerequisite:
+  - COMP2160
+  - COMP3430
+  prerequisite-full: COMP 2160 (C) and COMP 3430 (C).
+  title: Operating Systems 2
+  year: 4000
+- coursenumber: '4490'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Methods in computer graphics including topics such as representation of curves
+    and surfaces, viewing in three dimensions, and colour models. '
+  desc-full: 'Methods in computer graphics including topics such as representation
+    of curves and surfaces, viewing in three dimensions, and colour models. Prerequisite:
+    COMP 3490 (C).
+
+    '
+  honours: false
+  id: COMP4490
+  lab: false
+  major: false
+  name: COMP 4490
+  prerequisite:
+  - COMP3490
+  prerequisite-full: COMP 3490 (C).
+  title: Computer Graphics 2
+  year: 4000
+- coursenumber: '4510'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An overview of the architectures of current parallel processors and the techniques
+    used to program them. Not to be held with ECE 4530. '
+  desc-full: 'An overview of the architectures of current parallel processors and
+    the techniques used to program them. Not to be held with ECE 4530. Prerequisites:
+    COMP 3370 (C) and COMP 3430 (C).
+
+    '
+  honours: false
+  id: COMP4510
+  lab: false
+  major: false
+  name: COMP 4510
+  prerequisite:
+  - COMP3370
+  - COMP3430
+  prerequisite-full: COMP 3370 (C) and COMP 3430 (C).
+  title: Introduction to Parallel Computation
+  year: 4000
+- coursenumber: '4520'
+  credit: '3.0'
+  dept: COMP
+  desc: 'A research based project on a specific area of computer science. Students
+    must find a faculty supervisor and write a proposal in their penultimate term.
+    If acceptable, the defined research is to be carried out in the student&#39;s final
+    term. Permission to take the course is given on an individual basis. Available
+    to 4th Year students only. '
+  desc-full: 'A research based project on a specific area of computer science. Students
+    must find a faculty supervisor and write a proposal in their penultimate term.
+    If acceptable, the defined research is to be carried out in the student&#39;s final
+    term. Permission to take the course is given on an individual basis. Available
+    to 4th Year students only. Prerequisite: departmental permission.
+
+    '
+  honours: false
+  id: COMP4520
+  lab: false
+  major: false
+  name: COMP 4520
+  prerequisite-full: departmental permission.
+  title: Undergraduate Honours Project
+  year: 4000
+- coursenumber: '4550'
+  credit: '3.0'
+  dept: COMP
+  desc: 'An introduction to the theory and practice of real-time systems. Topics include
+    the design of real-time systems, scheduling, event based processing, and real-time
+    control. This course may not be held for credit if a student has previously completed
+    both of ECE 4240 and ECE 3760. '
+  desc-full: 'An introduction to the theory and practice of real-time systems. Topics
+    include the design of real-time systems, scheduling, event based processing, and
+    real-time control. This course may not be held for credit if a student has previously
+    completed both of ECE 4240 and ECE 3760. Prerequisites: COMP 3430 (C) and COMP
+    3370 (C).
+
+    '
+  honours: false
+  id: COMP4550
+  lab: false
+  major: false
+  name: COMP 4550
+  prerequisite:
+  - COMP3430
+  - COMP3370
+  prerequisite-full: COMP 3430 (C) and COMP 3370 (C).
+  title: Real-Time Systems
+  year: 4000
+- coursenumber: '4560'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Students will work in teams on an industrial project. Projects are supplied
+    by the Department. '
+  desc-full: 'Students will work in teams on an industrial project. Projects are supplied
+    by the Department. Prerequisites: COMP 3350 (C) and departmental permission.
+
+    '
+  honours: false
+  id: COMP4560
+  lab: false
+  major: false
+  name: COMP 4560
+  prerequisite:
+  - COMP3350
+  prerequisite-full: COMP 3350 (C) and departmental permission.
+  title: Industrial Project
+  year: 4000
+- coursenumber: '4580'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Computer security and information management. This course will examine state-of-the-art
+    knowledge about the issues relevant to data and computer security. '
+  desc-full: '(Lab Required) Computer security and information management. This course
+    will examine state-of-the-art knowledge about the issues relevant to data and
+    computer security. Prerequisite: COMP 3430 (C) and COMP 3010 (C).
+
+    '
+  honours: false
+  id: COMP4580
+  lab: true
+  major: false
+  name: COMP 4580
+  prerequisite:
+  - COMP3430
+  - COMP3010
+  prerequisite-full: COMP 3430 (C) and COMP 3010 (C).
+  title: Computer Security
+  year: 4000
+- coursenumber: '4620'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Background and rationale to view Computer Science in a professional context.
+    Examination of professional ethics, intellectual property, and privacy considerations
+    important to Computer Scientists. May not be held with the former COMP 3620. '
+  desc-full: 'Background and rationale to view Computer Science in a professional
+    context. Examination of professional ethics, intellectual property, and privacy
+    considerations important to Computer Scientists. May not be held with the former
+    COMP 3620. Prerequisite: COMP 3350 (C).
+
+    '
+  honours: true
+  id: COMP4620
+  lab: false
+  major: true
+  name: COMP 4620
+  prerequisite:
+  - COMP3350
+  prerequisite-full: COMP 3350 (C).
+  title: Professional Practice in Computer Science
+  year: 4000
+- coursenumber: '4690'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Investigation of today&#39;s modern computer architecture and system design
+    concepts, including requirements, specifications, and implementation. Instruction
+    sets, instruction-level parallelism, speculative execution, multi-threaded architectures,
+    memory hierarchy, multiprocessors, storage design and implementation, and interconnection
+    networks. '
+  desc-full: 'Investigation of today&#39;s modern computer architecture and system design
+    concepts, including requirements, specifications, and implementation. Instruction
+    sets, instruction-level parallelism, speculative execution, multi-threaded architectures,
+    memory hierarchy, multiprocessors, storage design and implementation, and interconnection
+    networks. Prerequisite: COMP 3370 (C).
+
+    '
+  honours: false
+  id: COMP4690
+  lab: false
+  major: false
+  name: COMP 4690
+  prerequisite:
+  - COMP3370
+  prerequisite-full: COMP 3370 (C).
+  title: Computer Systems and Architecture
+  year: 4000
+- coursenumber: '4710'
+  credit: '3.0'
+  dept: COMP
+  desc: 'Introduction to data mining concepts and their applications. '
+  desc-full: 'Introduction to data mining concepts and their applications. Prerequisite:
+    COMP 3380 or consent of department.
+
+    '
+  honours: false
+  id: COMP4710
+  lab: false
+  major: false
+  name: COMP 4710
+  prerequisite:
+  - COMP3380
+  prerequisite-full: COMP 3380 or consent of department.
+  title: Introduction to Data Mining
+  year: 4000
+- coursenumber: '4980'
+  credit: '0.0'
+  dept: COMP
+  desc: 'Work assignment in business, industry, or government for students registered
+    in the Computer Science Cooperative Option. Requires submission of a written report
+    covering the work completed during the four-month professional assignment. (Pass/Fail). '
+  desc-full: 'Work assignment in business, industry, or government for students registered
+    in the Computer Science Cooperative Option. Requires submission of a written report
+    covering the work completed during the four-month professional assignment. (Pass/Fail).
+    Prerequisite: COMP 3980 (P).
+
+    '
+  honours: false
+  id: COMP4980
+  lab: false
+  major: false
+  name: COMP 4980
+  prerequisite:
+  - COMP3980
+  prerequisite-full: COMP 3980 (P).
+  title: Workterm 3
+  year: 4000
+- coursenumber: '4990'
+  dept: COMP
+  desc: 'Work assignment in business, industry, or government for students registered
+    in the Computer Science Cooperative Option. Requires submission of a written report
+    covering the work completed during the four-month professional assignment (Pass/Fail). '
+  desc-full: 'Work assignment in business, industry, or government for students registered
+    in the Computer Science Cooperative Option. Requires submission of a written report
+    covering the work completed during the four-month professional assignment (Pass/Fail).
+    Prerequisite: COMP 4980 (P).
+
+    '
+  honours: false
+  id: COMP4990
+  lab: false
+  major: false
+  name: COMP 4990
+  prerequisite:
+  - COMP4980
+  prerequisite-full: COMP 4980 (P).
+  title: Workterm 4
+  year: 4000
