@@ -12,6 +12,7 @@ node_modules/
 ### Bundler ###
 .bundle/
 vendor/
+Gemfile.lock
 
 ### Jekyll ###
 _site/
