@@ -1,30 +1,30 @@
 <header class="header">
-  <nav class="navbar navbar-default navbar-custom">
-    <div class="container">
-      <div class="navbar-header">
-        <a href="{{ site.baseurl }}/">
-          {% asset img/favicon/favicon-310.png class="img-fluid" style="max-width: 100%; height:
-          50px;" %}
-        </a>
-        <!-- Dropdown menu button for smaller screens -->
-        <button
-          type="button"
-          data-target="#navbarCollapse"
-          data-toggle="collapse"
-          class="navbar-toggle collapsed"
-        >
-          <span class="sr-only">Toggle Navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- Navigation Links -->
-      <div id="navbarCollapse" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          {% include nav-links.html %}
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-default navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="{{ site.baseurl }}/" aria-label="Wics">
+                    {% asset img/favicon/favicon-310.png class="img-fluid" style="max-width: 100%;
+                    height: 50px;" alt="wics logo" %}
+                </a>
+                <!-- Dropdown menu button for smaller screens -->
+                <button
+                    type="button"
+                    data-target="#navbarCollapse"
+                    data-toggle="collapse"
+                    class="navbar-toggle collapsed"
+                >
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Navigation Links -->
+            <div id="navbarCollapse" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    {% include nav-links.html %}
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>

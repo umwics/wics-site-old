@@ -7,7 +7,7 @@ fi
 
 chmod 777 "$GITHUB_WORKSPACE"
 
-node _build/index.js
+node scripts/index.js
 jekyll build
 
 KEY_FILE="$HOME/key"
