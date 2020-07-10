@@ -2,6 +2,10 @@ h1 {
     font-size: 30px;
 }
 
+.col-md-1 {
+    text-align: center;
+}
+
 .col-md-2 {
     text-align: center;
 }
@@ -63,7 +67,7 @@ h2 {
 }
 
 .background a {
-    font-size: 2.5vh;
+    font-size: 2vh;
     color: #4c4c4c;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
