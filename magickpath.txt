@@ -1,3 +1,0 @@
-c:\\Program Files\\ImageMagick-7.0.10/config
-set path=%path%;C:\Program Files\Java\jdk1.8.0_201\bin
-set path=%path%;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI
