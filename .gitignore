@@ -1,9 +1,21 @@
-_site/
+### Intellij ###
 .idea/
-Gemfile
-Gemfile.lock
+*.iml
+*.ipr
+
+### Node ###
 node_modules/
+
+### macOS ###
+.DS_Store
+
+### Bundler ###
 .bundle/
 vendor/
-.DS_Store
-.jekyll-cache
+Gemfile.lock
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

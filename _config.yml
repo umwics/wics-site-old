@@ -12,11 +12,14 @@ plugins:
 # Used by jekyll-assets
 assets:
     compression: false # Uglify files
-    gzip: true
+    gzip: false
     caching:
         enabled: false
     sources:
         - _assets/
+    raw_precompile:
+        - src: dist/*
+          dst: dist
 
 collections:
     pages: # Keep the root clean organizing all pages into _pages
@@ -26,3 +29,4 @@ collections:
 
 exclude:
     - README.md
+    - scripts
