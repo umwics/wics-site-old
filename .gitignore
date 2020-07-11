@@ -19,3 +19,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+
+### imageMagick path ###
+magickpath.txt
