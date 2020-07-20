@@ -2,8 +2,32 @@
 layout: none
 ---
 
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^/?(.*) https://%{SERVER_NAME}{{ site.baseurl }}/$1 [R,L]
+#--------------------------------------------
+# Headers
+#--------------------------------------------
+
+Header unset X-powered-By
+Header set X-Frame-Options SAMEORIGIN
+Header set X-Content-Type-Options "nosniff"
+ServerSignature Off
+LimitRequestBody 2147483647
+
+# HSTS header
+Header always set Strict-Transport-Security "max-age=31536000" env=HTTPS
+
+#--------------------------------------------
+# Mod rewrites
+#--------------------------------------------
+
+<IfModule mod_rewrite.c>
+    # Redirect to https
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^/?(.*) https://%{SERVER_NAME}{{ site.baseurl }}/$1 [R,L]
+</IfModule>
+
+#--------------------------------------------
+# Error documents
+#--------------------------------------------
 
 ErrorDocument 404 {{ site.baseurl }}/404.html
