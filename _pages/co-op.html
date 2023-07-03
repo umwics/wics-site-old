@@ -5,7 +5,7 @@ title: Co-op
 description: Highlighting WICS members who have/had done a co-op
 ---
 
-{% asset css/co-op.css %}
+<link type="text/css" href="{{site.baseurl}}/assets/css/co-op.css" rel="stylesheet"/>
 
 <div class="container">
     <div class="row title">
@@ -25,7 +25,7 @@ description: Highlighting WICS members who have/had done a co-op
 <div
     class="parallax-window"
     data-parallax="scroll"
-    data-image-src="{% asset img/co-op/wics-0554.jpg @path %}"
+    data-image-src="{{site.baseurl}}/assets/img/co-op/wics-0554.jpg"
     data-speed="0.0"
 ></div>
 
@@ -56,12 +56,12 @@ description: Highlighting WICS members who have/had done a co-op
                 <div class="ui link cards">
                     <div class="card">
                         <div class="blurring dimmable image">
-                            {% if item.complete == true %} {% asset "{{ item.image }}" id="{{
-                            item.identification }}-img" %} {% endif %} {% if item.complete == false
+                            {% if item.complete == true %} <img src="{{site.baseurl}}/assets/{{ item.image }}" id="{{
+                            item.identification }}-img"/> {% endif %} {% if item.complete == false
                             %}
                             <a href="{{ item.link }}" target="_blank">
-                                {% asset "{{ item.image }}" id="{{ item.identification }}-img"
-                                width="100%" %}
+                                <img src="{{site.baseurl}}/assets/>{{ item.image }}" id="{{ item.identification }}-img"
+                                width="100%"/>
                             </a>
                             {% endif %}
                         </div>
@@ -76,7 +76,7 @@ description: Highlighting WICS members who have/had done a co-op
     </div>
 </div>
 
-{% asset js/parallax.js %}
+<script src="{{site.baseurl}}/assets/js/parallax.js>"></script>"
 
 <script>
     $(document).ready(function () {

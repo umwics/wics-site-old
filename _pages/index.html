@@ -29,21 +29,21 @@ description: WICS Homepage
     <div class="main-carousel" style="margin-bottom: 50px;">
         <div class="carousel-cell">
             <a href="https://www.youtube.com/watch?v=646jjiejsuA&feature=youtu.be" target="_blank">
-                {% asset img/home/carousel/execteam.jpg class="carousel-img" style="cursor:
-                pointer;" alt="wics exec team" %}</a
+                <img src="{{site.baseurl}}/assets/img/home/carousel/execteam.jpg" class="carousel-img" style="cursor:
+                pointer;" alt="wics exec team"/></a
             >
         </div>
         <div class="carousel-cell">
-            {% asset img/home/carousel/SkipTheDishes-95-01.jpeg class="carousel-img" alt="wics group
-            photo" %}
+            <img src="{{site.baseurl}}/assets/img/home/carousel/SkipTheDishes-95-01.jpeg" class="carousel-img" alt="wics group
+            photo"/>
         </div>
         <div class="carousel-cell">
-            {% asset img/home/carousel/mentormingle.jpg class="carousel-img" alt="wics group photo"
-            %}
+            <img src="{{site.baseurl}}/assets/img/home/carousel/mentormingle.jpg" class="carousel-img" alt="wics group photo"
+            />
         </div>
         <div class="carousel-cell">
-            {% asset img/home/carousel/skip.jpg class="carousel-img" alt="wics scholarship
-            recipient" %}
+            <img src="{{site.baseurl}}/assets/img/home/carousel/skip.jpg" class="carousel-img" alt="wics scholarship
+            recipient"/>
         </div>
     </div>
 </div>
@@ -184,8 +184,10 @@ description: WICS Homepage
     </div>
 </div>
 
-{% asset js/parallax.js %} {% asset js/blinkText.js %} {% asset js/carousel/flickity.pkgd.min.js %}
-{% asset js/home.js %}
+<script src="{{site.baseurl}}/assets/js/parallax.js"></script>
+<script src="{{site.baseurl}}/assets/js/blinkText.js"></script>
+<script src="{{site.baseurl}}/assets/js/carousel/flickity.pkgd.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/home.js"></script>
 
 <style>
     .navbar {

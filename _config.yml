@@ -9,18 +9,6 @@ github: [metadata]
 plugins:
     - jekyll-sitemap
 
-# Used by jekyll-assets
-assets:
-    compression: false # Uglify files
-    gzip: false
-    caching:
-        enabled: false
-    sources:
-        - _assets/
-    raw_precompile:
-        - src: dist/*
-          dst: dist
-
 collections:
     pages: # Keep the root clean organizing all pages into _pages
         output: true

@@ -9,7 +9,7 @@
 
     <div class="image content">
         <div class="ui small image">
-            {% asset "{{ item.image }}" class="img-rounded" %}
+            <img src="{{site.baseurl}}/assets/{{ item.image }}" class="img-rounded"/>
         </div>
         <div class="description">
             <div class="ui header">{{ item.description }}</div>
@@ -22,7 +22,7 @@
     {% for member in item.members %}
     <div class="image content">
         <div class="ui small image">
-            {% asset "{{ member.image }}" class="img-rounded" %}
+            <img src="{{site.baseurl}}/assets/{{ member.image }}" class="img-rounded"/>
         </div>
         <div class="description" style="width: 750px;">
             <div class="ui header">{{ member.name }}</div>

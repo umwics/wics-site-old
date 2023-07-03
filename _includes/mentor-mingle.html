@@ -8,11 +8,11 @@
 
 {% for a in assets %} {% if a[0] contains item.imgurl %}
 <div class="gallery" id="gallery">
-    <a target="_blank" href="{% asset "{{ a[0] }}" @path %}">
+    <a target="_blank" href="{{site.baseurl}}/assets/{{ a[0] }}">
         <img
-            src="{% asset "{{ a[0] }}" magick:strip magick:resize=50x50 magick:units=PixelsPerInch magick:density=72x72 magick:quality=75 @path %}"
+            src="{{site.baseurl}}/assets/{{ a[0] }}" magick:strip magick:resize=50x50 magick:units=PixelsPerInch magick:density=72x72 magick:quality=75
             alt="Cinque Terre"
-            data-src="{% asset "{{ a[0] }}" @path %}"
+            data-src="{{site.baseurl}}/assets/{{ a[0] }}"
             class="lazyload"
         />
     </a>

@@ -5,7 +5,7 @@ title: Members
 description: WICS Members
 ---
 
-{% asset css/members.css %}
+<link type="text/css" href="{{site.baseurl}}/assets/css/members.css" ref="stylesheet"/>
 
 <div class="container">
     <div class="row title">
@@ -34,7 +34,7 @@ description: WICS Members
                             CLICK HERE!<br />
                             <p>more about {{ item.name }}</p>
                         </div>
-                        {% endif %} {% asset "{{ item.image }}" %}
+                        {% endif %} <img src="{{site.baseurl}}/assets/{{ item.image }}"/>
                     </div>
 
                     <div class="container-card">
@@ -65,7 +65,7 @@ description: WICS Members
                             CLICK HERE!<br />
                             <p>more about {{ item.name }}</p>
                         </div>
-                        {% endif %} {% asset "{{ item.image }}" %}
+                        {% endif %} <img src="{{site.baseurl}}/assets/{{ item.image }}"/>
                     </div>
 
                     <div class="container-card">
@@ -97,7 +97,7 @@ description: WICS Members
                             CLICK HERE!<br />
                             <p>more about {{ item.name }}</p>
                         </div>
-                        {% endif %} {% asset "{{ item.image }}" %}
+                        {% endif %} <img src="{{site.baseurl}}/assets/{{ item.image }}"/>
                     </div>
 
                     <div class="container-card">
@@ -129,7 +129,7 @@ description: WICS Members
                             CLICK HERE!<br />
                             <p>more about {{ item.name }}</p>
                         </div>
-                        {% endif %} {% asset "{{ item.image }}" %}
+                        {% endif %} <img src="/assets/{{ item.image }}"/>
                     </div>
 
                     <div class="container-card">
@@ -161,7 +161,7 @@ description: WICS Members
                             CLICK HERE!<br />
                             <p>more about {{ item.name }}</p>
                         </div>
-                        {% endif %} {% asset "{{ item.image }}" %}
+                        {% endif %} <img src="{{site.baseurl}}/assets/{{ item.image }}"/>
                     </div>
 
                     <div class="container-card">
@@ -193,7 +193,7 @@ description: WICS Members
                             CLICK HERE!<br />
                             <p>more about {{ item.name }}</p>
                         </div>
-                        {% endif %} {% asset "{{ item.image }}" %}
+                        {% endif %} <img src="{{site.baseurl}}/assets/{{ item.image }}"/>
                     </div>
 
                     <div class="container-card">
@@ -218,7 +218,7 @@ description: WICS Members
     });
 </script>
 
-{% asset js/parallax.js %}
+<script src="{{site.baseurl}}/assets/js/parallax.js"></script>
 
 <script>
     $(document).ready(function () {

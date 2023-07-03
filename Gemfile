@@ -4,7 +4,7 @@ gem "wdm" if Gem.win_platform?
 
 group :jekyll_plugins do
     gem 'github-pages'
-    gem "jekyll-assets"
+    # gem "jekyll-assets"
 end
 
 group :jekyll_assets do
@@ -15,4 +15,5 @@ group :jekyll_assets do
     gem "autoprefixer-rails"
     gem "image_optim"
     gem "image_optim_pack"
+    gem "webrick"
 end

@@ -1,6 +1,6 @@
 @font-face {
     font-family: gilroy-medium;
-    src: asset_url("font/Gilroy-Medium.otf") format("opentype");
+    src: "{{site.baseurl}}/assets/font/Gilroy-Medium.otf" format("opentype");
 }
 
 html {

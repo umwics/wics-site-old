@@ -92,7 +92,7 @@ const fetchEmbed = (
     );
 };
 
-const instaEmbed = `{% asset dist/instagramEmbed.min.js async %}`;
+const instaEmbed = <script src="{{site.baseurl}}/assets/dist/instagramEmbed.min.js" async></script>;
 
 const saveInstagramEmbed = async user => {
     try {
