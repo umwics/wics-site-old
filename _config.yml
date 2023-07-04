@@ -1,5 +1,6 @@
 url: "https://cs.umanitoba.ca"
-baseurl: "/~wics"
+# baseurl: "/~wics"
+baseurl: ""
 sitename: "UM WICS"
 locale: "en-US"
 permalink: pretty
